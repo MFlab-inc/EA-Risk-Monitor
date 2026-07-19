@@ -1,0 +1,52 @@
+{
+  "_note": "公開してよい市場ロジックのみを定義する。EA名・配分・ロット・口座情報・どのEAがどのフラグに従うかの対応はここに書かない(VPS側で管理)。",
+  "GBPJPY": {
+    "symbol": "GBP/JPY",
+    "digits": 3,
+    "watch_currencies": ["JPY", "GBP", "USD"],
+    "watch_events": ["boj", "boe", "fomc", "uk_cpi", "uk_jobs", "us_jobs"],
+    "window_profile": "standard"
+  },
+  "AUDCAD": {
+    "symbol": "AUD/CAD",
+    "digits": 5,
+    "watch_currencies": ["AUD", "CAD", "CNY", "JPY"],
+    "watch_events": ["rba", "boc", "china_data", "boj"],
+    "window_profile": "standard"
+  },
+  "EURGBP": {
+    "symbol": "EUR/GBP",
+    "digits": 5,
+    "watch_currencies": ["EUR", "GBP"],
+    "watch_events": ["ecb", "boe"],
+    "window_profile": "short"
+  },
+  "EURUSD": {
+    "symbol": "EUR/USD",
+    "digits": 5,
+    "watch_currencies": ["USD", "EUR"],
+    "watch_events": ["fomc", "ecb", "us_cpi", "us_jobs"],
+    "window_profile": "standard"
+  },
+  "USDCAD": {
+    "symbol": "USD/CAD",
+    "digits": 5,
+    "watch_currencies": ["USD", "CAD"],
+    "watch_events": ["fomc", "boc", "us_jobs", "ca_jobs", "oil"],
+    "window_profile": "standard"
+  },
+  "USDJPY": {
+    "symbol": "USD/JPY",
+    "digits": 3,
+    "watch_currencies": ["JPY", "USD"],
+    "watch_events": ["boj"],
+    "window_profile": "hold_flag_only"
+  },
+  "XAUUSD": {
+    "symbol": "XAU/USD",
+    "digits": 2,
+    "watch_currencies": ["USD"],
+    "watch_events": ["fomc"],
+    "window_profile": "monitor_only"
+  }
+}

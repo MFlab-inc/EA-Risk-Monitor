@@ -1,0 +1,13 @@
+{
+  "name": "ea-risk-monitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "EAポートフォリオ運用専用のリスク計測・デリスクフィード生成(GitHub Actions + GitHub Pages)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "test": "node test/run-tests.js",
+    "init": "node scripts/init-history.js",
+    "daily": "node scripts/daily.js",
+    "intraday": "node scripts/intraday.js"
+  }
+}

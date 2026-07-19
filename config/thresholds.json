@@ -1,0 +1,47 @@
+{
+  "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
+  "regime_percentile": {
+    "caution": 50,
+    "highvol": 80,
+    "extreme": 95,
+    "_note": "平常 p<50 / 注意 50<=p<80 / 高ボラ 80<=p<95 / 異常 p>=95。境界値は上位側(保守側)に割当て"
+  },
+  "range_vs_adr_alert": 1.5,
+  "percentile_lookback": 250,
+  "history_keep_bars": 400,
+  "event_windows_hours": {
+    "standard": {
+      "central_bank_major": { "pre": 24, "post": 2 },
+      "central_bank": { "pre": 12, "post": 2 },
+      "indicator": { "pre": 12, "post": 1 }
+    },
+    "short": {
+      "central_bank_major": { "pre": 6, "post": 1 },
+      "central_bank": { "pre": 6, "post": 1 },
+      "indicator": { "pre": 6, "post": 1 }
+    }
+  },
+  "event_class_by_type": {
+    "boj": "central_bank_major",
+    "fomc": "central_bank_major",
+    "boe": "central_bank",
+    "ecb": "central_bank",
+    "rba": "central_bank",
+    "boc": "central_bank",
+    "us_cpi": "indicator",
+    "us_jobs": "indicator",
+    "uk_cpi": "indicator",
+    "uk_jobs": "indicator",
+    "ca_jobs": "indicator",
+    "china_data": "indicator",
+    "oil": "indicator"
+  },
+  "vr_hold_flag": {
+    "weekend_from_dow_jst": 5,
+    "weekend_from_hour_jst": 15,
+    "boj_pre_hours": 30,
+    "boj_post_hours": 2,
+    "_note": "週次ルール5(週末・日銀またぎ保有確認)の自動化。金曜15:00JST以降と土曜、および日銀会合ウィンドウ内にvr_hold_check=true"
+  },
+  "feed_staleness_warn_minutes": 120
+}
