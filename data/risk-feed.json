@@ -1,0 +1,397 @@
+{
+  "meta": {
+    "schema_version": "1.0",
+    "generated_daily": "2026-07-20T01:07:34+09:00",
+    "generated_intraday": null,
+    "generated_calendar": "2026-07-20T01:07:34+09:00",
+    "session_date": "2026-07-17",
+    "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
+    "thresholds": {
+      "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
+      "regime_percentile": {
+        "caution": 50,
+        "highvol": 80,
+        "extreme": 95,
+        "_note": "平常 p<50 / 注意 50<=p<80 / 高ボラ 80<=p<95 / 異常 p>=95。境界値は上位側(保守側)に割当て"
+      },
+      "range_vs_adr_alert": 1.5,
+      "percentile_lookback": 250,
+      "history_keep_bars": 400,
+      "event_windows_hours": {
+        "standard": {
+          "central_bank_major": {
+            "pre": 24,
+            "post": 2
+          },
+          "central_bank": {
+            "pre": 12,
+            "post": 2
+          },
+          "indicator": {
+            "pre": 12,
+            "post": 1
+          }
+        },
+        "short": {
+          "central_bank_major": {
+            "pre": 6,
+            "post": 1
+          },
+          "central_bank": {
+            "pre": 6,
+            "post": 1
+          },
+          "indicator": {
+            "pre": 6,
+            "post": 1
+          }
+        }
+      },
+      "event_class_by_type": {
+        "boj": "central_bank_major",
+        "fomc": "central_bank_major",
+        "boe": "central_bank",
+        "ecb": "central_bank",
+        "rba": "central_bank",
+        "boc": "central_bank",
+        "us_cpi": "indicator",
+        "us_jobs": "indicator",
+        "uk_cpi": "indicator",
+        "uk_jobs": "indicator",
+        "ca_jobs": "indicator",
+        "china_data": "indicator",
+        "oil": "indicator"
+      },
+      "vr_hold_flag": {
+        "weekend_from_dow_jst": 5,
+        "weekend_from_hour_jst": 15,
+        "boj_pre_hours": 30,
+        "boj_post_hours": 2,
+        "_note": "週次ルール5(週末・日銀またぎ保有確認)の自動化。金曜15:00JST以降と土曜、および日銀会合ウィンドウ内にvr_hold_check=true"
+      },
+      "feed_staleness_warn_minutes": 120
+    },
+    "note": "市場データと市場判定のみを配信する。口座・運用情報は含まない。事実データであり売買助言ではない。intraday値は最大1時間+実行遅延の古さを持ち得る。",
+    "errors": []
+  },
+  "market": {
+    "dxy": {
+      "value": 100.75,
+      "change": 0.02,
+      "change_pct": 0.02
+    },
+    "us10y": {
+      "value": 4.541,
+      "change": -0.028,
+      "change_pct": -0.61
+    },
+    "vix": {
+      "value": 18.77,
+      "change": 2.04,
+      "change_pct": 12.19
+    }
+  },
+  "pairs": {
+    "GBPJPY": {
+      "data_ok": true,
+      "session_date": "2026-07-17",
+      "close": 218.48,
+      "atr14": 1.108,
+      "atr_pct": 0.507,
+      "adr20": 1.113,
+      "rv20": 6.14,
+      "atr_pct_percentile_250": 31.2,
+      "percentile_window": 250,
+      "regime": "normal",
+      "intraday": {
+        "price": null,
+        "range_today": null,
+        "range_vs_adr": null,
+        "spike_flag": false,
+        "updated_at": null
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": [
+          {
+            "time_jst": "2026-07-21T15:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Claimant Count Change",
+            "types": [
+              "uk_jobs"
+            ],
+            "window_start_jst": "2026-07-21T03:00:00+09:00",
+            "window_end_jst": "2026-07-21T16:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-21T15:00:00+09:00",
+            "currency": "GBP",
+            "impact": "Medium",
+            "title": "Average Earnings Index 3m/y",
+            "types": [
+              "uk_jobs"
+            ],
+            "window_start_jst": "2026-07-21T03:00:00+09:00",
+            "window_end_jst": "2026-07-21T16:00:00+09:00",
+            "gating": true
+          }
+        ]
+      },
+      "flags": {
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
+      }
+    },
+    "AUDCAD": {
+      "data_ok": true,
+      "session_date": "2026-07-17",
+      "close": 0.9789,
+      "atr14": 0.00448,
+      "atr_pct": 0.457,
+      "adr20": 0.00435,
+      "rv20": 4.07,
+      "atr_pct_percentile_250": 18.8,
+      "percentile_window": 250,
+      "regime": "normal",
+      "intraday": {
+        "price": null,
+        "range_today": null,
+        "range_vs_adr": null,
+        "spike_flag": false,
+        "updated_at": null
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": [
+          {
+            "time_jst": "2026-07-20T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-07-20T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Median CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-07-20T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Trimmed CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
+      },
+      "flags": {
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
+      }
+    },
+    "EURGBP": {
+      "data_ok": true,
+      "session_date": "2026-07-17",
+      "close": 0.85028,
+      "atr14": 0.00319,
+      "atr_pct": 0.375,
+      "adr20": 0.00311,
+      "rv20": 3.54,
+      "atr_pct_percentile_250": 62,
+      "percentile_window": 250,
+      "regime": "caution",
+      "intraday": {
+        "price": null,
+        "range_today": null,
+        "range_vs_adr": null,
+        "spike_flag": false,
+        "updated_at": null
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": [
+          {
+            "time_jst": "2026-07-21T15:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Claimant Count Change",
+            "types": [
+              "uk_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
+      },
+      "flags": {
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
+      }
+    },
+    "EURUSD": {
+      "data_ok": true,
+      "session_date": "2026-07-17",
+      "close": 1.14377,
+      "atr14": 0.00483,
+      "atr_pct": 0.422,
+      "adr20": 0.00464,
+      "rv20": 3.48,
+      "atr_pct_percentile_250": 35.2,
+      "percentile_window": 250,
+      "regime": "normal",
+      "intraday": {
+        "price": null,
+        "range_today": null,
+        "range_vs_adr": null,
+        "spike_flag": false,
+        "updated_at": null
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
+      },
+      "flags": {
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
+      }
+    },
+    "USDCAD": {
+      "data_ok": true,
+      "session_date": "2026-07-17",
+      "close": 1.40213,
+      "atr14": 0.00481,
+      "atr_pct": 0.343,
+      "adr20": 0.0047,
+      "rv20": 2.82,
+      "atr_pct_percentile_250": 32.8,
+      "percentile_window": 250,
+      "regime": "normal",
+      "intraday": {
+        "price": null,
+        "range_today": null,
+        "range_vs_adr": null,
+        "spike_flag": false,
+        "updated_at": null
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": [
+          {
+            "time_jst": "2026-07-20T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-07-20T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Median CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-07-20T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Trimmed CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
+      },
+      "flags": {
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
+      }
+    },
+    "USDJPY": {
+      "data_ok": true,
+      "session_date": "2026-07-17",
+      "close": 162.411,
+      "atr14": 0.651,
+      "atr_pct": 0.401,
+      "adr20": 0.724,
+      "rv20": 4.89,
+      "atr_pct_percentile_250": 16,
+      "percentile_window": 250,
+      "regime": "normal",
+      "intraday": {
+        "price": null,
+        "range_today": null,
+        "range_vs_adr": null,
+        "spike_flag": false,
+        "updated_at": null
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
+      },
+      "flags": {
+        "vr_hold_check": false,
+        "reasons": []
+      }
+    },
+    "XAUUSD": {
+      "data_ok": true,
+      "session_date": "2026-07-17",
+      "close": 4016.98,
+      "atr14": 74.36,
+      "atr_pct": 1.851,
+      "adr20": 72.2,
+      "rv20": 19.19,
+      "atr_pct_percentile_250": 49.6,
+      "percentile_window": 250,
+      "regime": "normal",
+      "intraday": {
+        "price": null,
+        "range_today": null,
+        "range_vs_adr": null,
+        "spike_flag": false,
+        "updated_at": null
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
+      },
+      "flags": {
+        "monitor_only": true,
+        "reasons": []
+      }
+    }
+  }
+}
