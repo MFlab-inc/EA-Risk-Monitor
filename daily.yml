@@ -1,0 +1,37 @@
+name: Daily Risk Feed
+
+on:
+  schedule:
+    # 22:20 UTC 月〜金 = 火〜土 7:20 JST。
+    # NYクローズ(夏 21:00 / 冬 22:00 UTC)の後を通年カバーする。
+    # 既存FXDaily-Levels(23:13 UTC)とは時刻をずらしてAPIレート制限の衝突を回避。
+    - cron: "20 22 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run daily batch
+        env:
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
+        run: node scripts/daily.js
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || git commit -m "daily: $(TZ=Asia/Tokyo date +%Y-%m-%d)"
+          git push
