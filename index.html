@@ -142,6 +142,15 @@ const REGIME = {
 };
 const PAIR_ORDER = ["GBPJPY","AUDCAD","EURGBP","EURUSD","USDCAD","USDJPY","XAUUSD"];
 const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;" }[c]));
+// FX市場が開いているか(NY基準: 日曜17:00オープン〜金曜17:00クローズ)
+function fxMarketOpen(now = new Date()) {
+  const ny = new Date(now.toLocaleString("en-US", { timeZone: "America/New_York" }));
+  const d = ny.getDay(), h = ny.getHours();
+  if (d === 6) return false;
+  if (d === 0 && h < 17) return false;
+  if (d === 5 && h >= 17) return false;
+  return true;
+}
 const fmtT = (iso) => iso ? iso.replace("T"," ").slice(5,16) : "—";
 const fmtHM = (iso) => iso ? iso.slice(11,16) : "";
 const fmtMD = (iso) => iso ? iso.slice(5,10).replace("-","/") : "";
@@ -226,12 +235,14 @@ async function load() {
     `セッション日付: <b>${esc(m.session_date || "—")}</b> ｜ 日次更新: ${fmtT(m.generated_daily)} ｜ ` +
     `日中更新: ${fmtT(m.generated_intraday)} ｜ カレンダー: ${fmtT(m.generated_calendar)}(JST)`;
 
-  // 鮮度警告(最終更新から120分超)
+  // 鮮度警告(最終更新から120分超)。市場が閉じている間(NY基準 金曜17:00〜日曜17:00)は
+  // 更新が止まるのが正常なため警告しない。
   const latest = [m.generated_intraday, m.generated_daily].filter(Boolean).sort().pop();
   if (latest) {
     const age = (Date.now() - new Date(latest).getTime()) / 60000;
     const warnMin = m.thresholds?.feed_staleness_warn_minutes ?? 120;
-    document.getElementById("stale").style.display = age > warnMin ? "block" : "none";
+    document.getElementById("stale").style.display =
+      fxMarketOpen() && age > warnMin ? "block" : "none";
   }
 
   const errs = (m.errors || []);
