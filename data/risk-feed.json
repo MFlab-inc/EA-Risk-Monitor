@@ -1,9 +1,9 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-07-20T01:07:34+09:00",
+    "generated_daily": "2026-07-21T00:48:12+09:00",
     "generated_intraday": "2026-07-20T22:28:18+09:00",
-    "generated_calendar": "2026-07-20T22:28:18+09:00",
+    "generated_calendar": "2026-07-21T00:48:12+09:00",
     "session_date": "2026-07-17",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -76,19 +76,19 @@
   },
   "market": {
     "dxy": {
-      "value": 100.89,
-      "change": 0.14,
-      "change_pct": 0.14
+      "value": 101.01,
+      "change": 0.26,
+      "change_pct": 0.26
     },
     "us10y": {
-      "value": 4.566,
-      "change": 0.025,
-      "change_pct": 0.55
+      "value": 4.59,
+      "change": 0.049,
+      "change_pct": 1.08
     },
     "vix": {
-      "value": 18.1,
-      "change": -0.67,
-      "change_pct": -3.57
+      "value": 17.89,
+      "change": -0.88,
+      "change_pct": -4.69
     }
   },
   "pairs": {
@@ -179,38 +179,7 @@
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-07-20T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-20T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-20T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": true,
@@ -326,34 +295,16 @@
         "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-07-20T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-20T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-20T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "time_jst": "2026-07-22T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-07-22T11:30:00+09:00",
+            "window_end_jst": "2026-07-23T00:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -415,8 +366,10 @@
         "next_48h": []
       },
       "flags": {
-        "monitor_only": true,
-        "reasons": []
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": [],
+        "monitor_only": true
       }
     }
   }
