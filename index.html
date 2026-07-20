@@ -110,6 +110,14 @@
   .ev.inwin { border-left: 3px solid var(--serious); padding-left: 6px; }
   .noev { font-size: 12px; color: var(--ink-muted); }
 
+  .legend { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+            padding: 14px 16px; margin-top: 14px; }
+  .legend h3 { font-size: 12.5px; color: var(--ink-2); font-weight: 700; margin-bottom: 10px; }
+  .lgrid { display: grid; grid-template-columns: auto 1fr; gap: 8px 14px; align-items: start;
+           font-size: 12px; color: var(--ink-2); line-height: 1.55; }
+  .lgrid .flag { white-space: nowrap; }
+  .lnote { margin-top: 10px; font-size: 11.5px; color: var(--ink-muted); line-height: 1.6; }
+
   footer { margin-top: 22px; color: var(--ink-muted); font-size: 11.5px; line-height: 1.7; }
   .err { color: var(--critical); font-size: 12px; margin-top: 10px; white-space: pre-wrap; }
 </style>
@@ -125,6 +133,22 @@
     </header>
     <div class="market" id="market"></div>
     <div class="grid7" id="cards"></div>
+    <div class="legend">
+      <h3>表示の見方(エントリー判定)</h3>
+      <div class="lgrid">
+        <div><span class="flag flag-ok">✓ 新規可</span></div>
+        <div>制限なし。高ボラ帯・イベントウィンドウ・急変のいずれにも該当しない状態。</div>
+        <div><span class="flag flag-nogrid">◆ 新規グリッド禁止</span></div>
+        <div>新規グリッド開始・段数追加を止める水準。条件: レジームが高ボラ(パーセンタイル80–95) または 対象イベントの前後ウィンドウ内。</div>
+        <div><span class="flag flag-halt">■ 新規全停止</span></div>
+        <div>新規を全面停止する水準。条件: レジームが異常(≥95) または 急変フラグ(当日レンジ÷ADR20が150%超)。</div>
+        <div><span class="flag flag-hold">▲ 保有確認</span></div>
+        <div>USDJPY専用のリマインダー(停止指示ではない)。週末(金曜15:00 JST以降)または日銀会合の前後で点灯。通常時は「✓ 保有確認なし」。</div>
+        <div><span class="flag flag-monitor">◇ 参考(ゲート非接続)</span></div>
+        <div>XAUUSD専用。判定は他ペアと同じ規則で表示するが、停止機能の接続対象外(監視のみ)。</div>
+      </div>
+      <p class="lnote">共通: 既存ポジションの決済(TP)は常に許可。本表記は「新規」に関する判定のみ。カード内の「根拠」行に判定理由を表示する。レジーム(平常/注意)はそれだけでは判定を変えない(色表示のみ)。</p>
+    </div>
     <footer>
       本ページは市場データと市場判定のみを表示する(口座・運用情報は含まない)。事実データであり売買助言ではない。<br>
       レジーム: ATR%の過去250営業日パーセンタイル — ●平常&lt;50 / ▲注意50–80 / ◆高ボラ80–95 / ■異常≥95(仮置き閾値・Phase 3で実測確定)。<br>
@@ -163,8 +187,7 @@ function regimeBadge(r) {
 function flagBadges(p) {
   const f = p.flags || {};
   const out = [];
-  if (f.monitor_only) out.push('<span class="flag flag-monitor">◇ 監視のみ(ゲート対象外)</span>');
-  else if ("vr_hold_check" in f) {
+  if ("vr_hold_check" in f) {
     out.push(f.vr_hold_check
       ? '<span class="flag flag-hold">▲ 保有確認(週末・日銀またぎ)</span>'
       : '<span class="flag flag-ok">✓ 保有確認なし</span>');
@@ -172,6 +195,7 @@ function flagBadges(p) {
     if (f.halt_all_new) out.push('<span class="flag flag-halt">■ 新規全停止</span>');
     else if (f.no_new_grid) out.push('<span class="flag flag-nogrid">◆ 新規グリッド禁止</span>');
     else out.push('<span class="flag flag-ok">✓ 新規可</span>');
+    if (f.monitor_only) out.push('<span class="flag flag-monitor">◇ 参考(ゲート非接続)</span>');
   }
   return out.join(" ");
 }

@@ -218,9 +218,15 @@ t("フラグ合成: USDJPY(保有確認のみ)とXAUUSD(監視のみ)", () => {
   const fUJ = composeFlags(PAIRS_CFG.USDJPY, { regime: "extreme", spike_flag: true, in_event_window: true, vr_hold: { flag: true, reasons: ["weekend_approach"] } });
   assert.strictEqual(fUJ.vr_hold_check, true);
   assert.strictEqual(fUJ.no_new_grid, undefined); // ゲートフラグは出さない
-  const fXA = composeFlags(PAIRS_CFG.XAUUSD, { regime: "extreme", spike_flag: true, in_event_window: true });
+  // XAUUSD: 同じゲート判定を参考として算出しつつ monitor_only を併記(2026-07-20仕様変更)
+  const fXA = composeFlags(PAIRS_CFG.XAUUSD, { regime: "extreme", spike_flag: true, in_event_window: true, active_events: [] });
   assert.strictEqual(fXA.monitor_only, true);
-  assert.strictEqual(fXA.no_new_grid, undefined);
+  assert.strictEqual(fXA.no_new_grid, true);
+  assert.strictEqual(fXA.halt_all_new, true);
+  const fXA2 = composeFlags(PAIRS_CFG.XAUUSD, { regime: "normal", spike_flag: false, in_event_window: false });
+  assert.strictEqual(fXA2.monitor_only, true);
+  assert.strictEqual(fXA2.no_new_grid, false);
+  assert.strictEqual(fXA2.halt_all_new, false);
 });
 
 t("VR保有フラグ: 金曜15:00JST以降・日銀ウィンドウ", () => {

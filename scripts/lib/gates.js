@@ -113,15 +113,14 @@ function composeFlags(pairCfg, state) {
   const profile = pairCfg.window_profile;
   const reasons = [];
 
-  if (profile === "monitor_only") {
-    return { monitor_only: true, reasons: [] };
-  }
   if (profile === "hold_flag_only") {
     const vr = state.vr_hold || { flag: false, reasons: [] };
     return { vr_hold_check: vr.flag, reasons: vr.reasons };
   }
 
   // standard / short: ゲートフラグ
+  // monitor_only(XAUUSD): 同じ判定を「参考」として算出し monitor_only: true を併記
+  // (EA側ゲート接続の対象外である点は変わらない。2026-07-20仕様変更)
   const regime = state.regime;
   const spike = !!state.spike_flag;
   const inWin = !!state.in_event_window;
@@ -139,7 +138,9 @@ function composeFlags(pairCfg, state) {
     if ((state.active_events || []).length === 0) reasons.push("event:window");
   }
 
-  return { no_new_grid: noNewGrid, halt_all_new: haltAll, reasons };
+  const flags = { no_new_grid: noNewGrid, halt_all_new: haltAll, reasons };
+  if (profile === "monitor_only") flags.monitor_only = true;
+  return flags;
 }
 
 module.exports = { computeEventState, composeFlags, vrHoldCheck, windowHoursFor };
