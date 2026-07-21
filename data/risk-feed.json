@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-21T08:14:47+09:00",
-    "generated_intraday": "2026-07-21T13:21:48+09:00",
-    "generated_calendar": "2026-07-21T13:21:48+09:00",
+    "generated_intraday": "2026-07-21T16:13:06+09:00",
+    "generated_calendar": "2026-07-21T16:13:06+09:00",
     "session_date": "2026-07-20",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -76,9 +76,9 @@
   },
   "market": {
     "dxy": {
-      "value": 100.96,
-      "change": -0.03,
-      "change_pct": -0.03
+      "value": 100.88,
+      "change": -0.11,
+      "change_pct": -0.1
     },
     "us10y": {
       "value": 4.598,
@@ -104,38 +104,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 218.347,
-        "range_today": 0.293,
-        "range_vs_adr": 0.289,
+        "price": 218.648,
+        "range_today": 0.611,
+        "range_vs_adr": 0.604,
         "spike_flag": false,
-        "updated_at": "2026-07-21T13:21:48+09:00"
+        "updated_at": "2026-07-21T16:13:06+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-07-21T15:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Claimant Count Change",
-            "types": [
-              "uk_jobs"
-            ],
-            "window_start_jst": "2026-07-21T03:00:00+09:00",
-            "window_end_jst": "2026-07-21T16:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-21T15:00:00+09:00",
-            "currency": "GBP",
-            "impact": "Medium",
-            "title": "Average Earnings Index 3m/y",
-            "types": [
-              "uk_jobs"
-            ],
-            "window_start_jst": "2026-07-21T03:00:00+09:00",
-            "window_end_jst": "2026-07-21T16:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
             "time_jst": "2026-07-21T15:00:00+09:00",
@@ -176,12 +153,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Claimant Count Change",
-          "event:Average Earnings Index 3m/y"
-        ]
+        "reasons": []
       }
     },
     "AUDCAD": {
@@ -196,11 +170,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98614,
-        "range_today": 0.00215,
-        "range_vs_adr": 0.488,
+        "price": 0.98717,
+        "range_today": 0.00286,
+        "range_vs_adr": 0.649,
         "spike_flag": false,
-        "updated_at": "2026-07-21T13:21:48+09:00"
+        "updated_at": "2026-07-21T16:13:06+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -246,11 +220,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.84954,
-        "range_today": 0.00104,
-        "range_vs_adr": 0.332,
+        "price": 0.84936,
+        "range_today": 0.00131,
+        "range_vs_adr": 0.419,
         "spike_flag": false,
-        "updated_at": "2026-07-21T13:21:48+09:00"
+        "updated_at": "2026-07-21T16:13:06+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -300,11 +274,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.14162,
-        "range_today": 0.00092,
-        "range_vs_adr": 0.204,
+        "price": 1.14244,
+        "range_today": 0.00171,
+        "range_vs_adr": 0.38,
         "spike_flag": false,
-        "updated_at": "2026-07-21T13:21:48+09:00"
+        "updated_at": "2026-07-21T16:13:06+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -329,11 +303,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.40768,
-        "range_today": 0.00156,
-        "range_vs_adr": 0.343,
+        "price": 1.40614,
+        "range_today": 0.00269,
+        "range_vs_adr": 0.591,
         "spike_flag": false,
-        "updated_at": "2026-07-21T13:21:48+09:00"
+        "updated_at": "2026-07-21T16:13:06+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -371,11 +345,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 162.481,
-        "range_today": 0.09,
-        "range_vs_adr": 0.131,
+        "price": 162.556,
+        "range_today": 0.108,
+        "range_vs_adr": 0.157,
         "spike_flag": false,
-        "updated_at": "2026-07-21T13:21:48+09:00"
+        "updated_at": "2026-07-21T16:13:06+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -399,11 +373,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4043.57,
-        "range_today": 51.47,
-        "range_vs_adr": 0.789,
+        "price": 4074.35,
+        "range_today": 85.4,
+        "range_vs_adr": 1.309,
         "spike_flag": false,
-        "updated_at": "2026-07-21T13:21:48+09:00"
+        "updated_at": "2026-07-21T16:13:06+09:00"
       },
       "events": {
         "in_event_window": false,
