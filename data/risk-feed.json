@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-23T08:15:50+09:00",
-    "generated_intraday": "2026-07-23T09:08:11+09:00",
-    "generated_calendar": "2026-07-23T09:08:11+09:00",
+    "generated_intraday": "2026-07-23T11:18:45+09:00",
+    "generated_calendar": "2026-07-23T11:18:45+09:00",
     "session_date": "2026-07-22",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -72,13 +72,21 @@
       "feed_staleness_warn_minutes": 120
     },
     "note": "市場データと市場判定のみを配信する。口座・運用情報は含まない。事実データであり売買助言ではない。intraday値は最大1時間+実行遅延の古さを持ち得る。",
-    "errors": []
+    "errors": [
+      "intraday/GBPJPY: quote取得失敗(前回値保持)",
+      "intraday/AUDCAD: quote取得失敗(前回値保持)",
+      "intraday/EURGBP: quote取得失敗(前回値保持)",
+      "intraday/EURUSD: quote取得失敗(前回値保持)",
+      "intraday/USDCAD: quote取得失敗(前回値保持)",
+      "intraday/USDJPY: quote取得失敗(前回値保持)",
+      "intraday/XAUUSD: quote取得失敗(前回値保持)"
+    ]
   },
   "market": {
     "dxy": {
-      "value": 101.11,
-      "change": -0.07,
-      "change_pct": -0.06
+      "value": 101.06,
+      "change": -0.08,
+      "change_pct": -0.08
     },
     "us10y": {
       "value": 4.657,
@@ -256,8 +264,42 @@
         "updated_at": "2026-07-23T09:08:11+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-07-23T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-07-23T09:15:00+09:00",
+            "window_end_jst": "2026-07-23T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-07-23T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-07-23T09:15:00+09:00",
+            "window_end_jst": "2026-07-23T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-07-23T21:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-07-23T09:45:00+09:00",
+            "window_end_jst": "2026-07-23T23:45:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-07-23T21:15:00+09:00",
@@ -298,9 +340,13 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Main Refinancing Rate",
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
+        ]
       }
     },
     "USDCAD": {
