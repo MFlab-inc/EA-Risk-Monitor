@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-23T08:15:50+09:00",
-    "generated_intraday": "2026-07-23T11:47:38+09:00",
-    "generated_calendar": "2026-07-23T11:47:38+09:00",
+    "generated_intraday": "2026-07-23T12:56:30+09:00",
+    "generated_calendar": "2026-07-23T12:56:30+09:00",
     "session_date": "2026-07-22",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -76,9 +76,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.02,
-      "change": -0.12,
-      "change_pct": -0.12
+      "value": 100.97,
+      "change": -0.17,
+      "change_pct": -0.16
     },
     "us10y": {
       "value": 4.657,
@@ -104,11 +104,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 218.336,
-        "range_today": 0.3,
-        "range_vs_adr": 0.301,
+        "price": 218.318,
+        "range_today": 0.341,
+        "range_vs_adr": 0.341,
         "spike_flag": false,
-        "updated_at": "2026-07-23T11:47:38+09:00"
+        "updated_at": "2026-07-23T12:56:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -133,37 +133,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98712,
+        "price": 0.98704,
         "range_today": 0.00433,
         "range_vs_adr": 0.986,
         "spike_flag": false,
-        "updated_at": "2026-07-23T11:47:38+09:00"
+        "updated_at": "2026-07-23T12:56:30+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-07-23T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Employment Change",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-23T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -183,11 +162,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.85344,
-        "range_today": 0.0008,
-        "range_vs_adr": 0.273,
+        "price": 0.85367,
+        "range_today": 0.00094,
+        "range_vs_adr": 0.321,
         "spike_flag": false,
-        "updated_at": "2026-07-23T11:47:38+09:00"
+        "updated_at": "2026-07-23T12:56:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -249,11 +228,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.14265,
-        "range_today": 0.00208,
-        "range_vs_adr": 0.525,
+        "price": 1.14302,
+        "range_today": 0.00245,
+        "range_vs_adr": 0.619,
         "spike_flag": false,
-        "updated_at": "2026-07-23T11:47:38+09:00"
+        "updated_at": "2026-07-23T12:56:30+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -353,11 +332,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.40691,
-        "range_today": 0.00214,
-        "range_vs_adr": 0.482,
+        "price": 1.40645,
+        "range_today": 0.00279,
+        "range_vs_adr": 0.628,
         "spike_flag": false,
-        "updated_at": "2026-07-23T11:47:38+09:00"
+        "updated_at": "2026-07-23T12:56:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -382,11 +361,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 163.087,
+        "price": 163.052,
         "range_today": 0.181,
         "range_vs_adr": 0.289,
         "spike_flag": false,
-        "updated_at": "2026-07-23T11:47:38+09:00"
+        "updated_at": "2026-07-23T12:56:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -410,11 +389,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4124,
+        "price": 4125.91,
         "range_today": 28.33,
         "range_vs_adr": 0.467,
         "spike_flag": false,
-        "updated_at": "2026-07-23T11:47:38+09:00"
+        "updated_at": "2026-07-23T12:56:30+09:00"
       },
       "events": {
         "in_event_window": false,
