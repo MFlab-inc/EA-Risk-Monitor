@@ -8,7 +8,7 @@
  *
  * 実行分(:35)は既存FXDaily-Levels(:13/:43)とずらしてレート制限8クレジット/分の衝突を回避。
  */
-const { loadConfigs, jstIso } = require("./lib/util");
+const { loadConfigs, jstIso, sleep } = require("./lib/util");
 const { isMarketOpen } = require("./lib/session");
 const { fetchQuotes } = require("./lib/twelvedata");
 const { fetchSentiment } = require("./lib/yahoo");
@@ -27,10 +27,25 @@ async function run() {
   const feed = loadFeed(pairs, thresholds, pairKeys);
   feed.meta.errors = (feed.meta.errors || []).filter((e) => !e.startsWith("intraday/"));
 
-  // 当日クオート(バッチ)
+  // 当日クオート(バッチ)。失敗ペアは65秒待って1回だけ再取得
+  // (GitHub cron遅延で既存FXDaily-Levels実行と同じ分に重なり、
+  //  無料プランの8クレジット/分を取り合った場合のレート衝突対策)
   try {
     const symbolMap = Object.fromEntries(pairKeys.map((k) => [k, pairs[k].symbol]));
     const quotes = await fetchQuotes(symbolMap);
+    const missing = pairKeys.filter((k) => !quotes[k]);
+    if (missing.length > 0) {
+      console.warn(`quote失敗${missing.length}件 — 65秒待機してリトライ(レート制限衝突対策)`);
+      await sleep(65000);
+      try {
+        const retry = await fetchQuotes(
+          Object.fromEntries(missing.map((k) => [k, pairs[k].symbol]))
+        );
+        for (const k of missing) if (retry[k]) quotes[k] = retry[k];
+      } catch (e) {
+        console.error(`リトライも失敗: ${e.message}`);
+      }
+    }
     for (const key of pairKeys) {
       const ok = applyIntraday(feed, key, quotes[key], pairs[key].digits, thresholds, now);
       if (!ok) feed.meta.errors.push(`intraday/${key}: quote取得失敗(前回値保持)`);
