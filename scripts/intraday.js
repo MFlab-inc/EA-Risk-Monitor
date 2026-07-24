@@ -1,12 +1,14 @@
 /**
- * Phase 1: 日中バッチ(毎時35分・市場時間のみ)
+ * Phase 1: 日中バッチ(1時間8回・市場時間のみ)
  * 1. 市場時間外なら即終了(NY基準: 日曜17:00〜金曜17:00)
- * 2. バッチクオート(1リクエスト=7クレジット)で当日ここまでの高値・安値を取得
+ * 2. バッチクオート(1リクエスト=監視ペア数と同数のクレジット)で当日ここまでの高値・安値を取得
  * 3. 当日レンジ÷ADR20 と急変フラグ(150%超)を更新
  * 4. カレンダーを再取得し、イベントウィンドウ・全フラグを現在時刻で再合成
  * 5. DXY/US10Y/VIX(参考)も更新
  *
- * 実行分(:35)は既存FXDaily-Levels(:13/:43)とずらしてレート制限8クレジット/分の衝突を回避。
+ * 実行分は既存FXDaily-Levels(:13/:43)と常に7分以上ずらしている(分ずらし運用は継続。詳細は intraday.yml)。
+ * 2026-07-24: Twelve Data Grow 55プランへアップグレード済みでレート制限の実害は小さくなったが、
+ * FXDaily-Levels側の変更にも備え、しょうさんの意向によりこの運用を維持する。
  */
 const { loadConfigs, jstIso, sleep } = require("./lib/util");
 const { isMarketOpen } = require("./lib/session");
@@ -28,14 +30,14 @@ async function run() {
   feed.meta.errors = (feed.meta.errors || []).filter((e) => !e.startsWith("intraday/"));
 
   // 当日クオート(バッチ)。失敗ペアは65秒待って1回だけ再取得
-  // (GitHub cron遅延で既存FXDaily-Levels実行と同じ分に重なり、
-  //  無料プランの8クレジット/分を取り合った場合のレート衝突対策)
+  // (Grow 55プラン移行後もネットワーク一時障害等への保険として維持。
+  //  レート制限衝突は55クレジット/分の余裕により発生しにくくなった)
   try {
     const symbolMap = Object.fromEntries(pairKeys.map((k) => [k, pairs[k].symbol]));
     const quotes = await fetchQuotes(symbolMap);
     const missing = pairKeys.filter((k) => !quotes[k]);
     if (missing.length > 0) {
-      console.warn(`quote失敗${missing.length}件 — 65秒待機してリトライ(レート制限衝突対策)`);
+      console.warn(`quote失敗${missing.length}件 — 65秒待機してリトライ(一時的な取得失敗対策)`);
       await sleep(65000);
       try {
         const retry = await fetchQuotes(

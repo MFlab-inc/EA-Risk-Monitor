@@ -142,6 +142,7 @@ t("分類: 日銀・FOMC・CPI・雇用・原油", () => {
   assert.deepStrictEqual(c("CNY", "High", "GDP q/y"), ["china_data"]);
   assert.deepStrictEqual(c("GBP", "High", "Official Bank Rate"), ["boe"]);
   assert.deepStrictEqual(c("CAD", "High", "Employment Change"), ["ca_jobs"]);
+  assert.deepStrictEqual(c("NZD", "High", "RBNZ Official Cash Rate"), ["rbnz"]); // 2026-07-24 5ペア追加
 });
 
 t("normalizeEvents: 重複除去・Low維持条件・時刻順", () => {
@@ -171,6 +172,8 @@ t("ウィンドウ時間: 種別×プロファイル", () => {
   assert.strictEqual(w3, null); // 監視対象外
   const w4 = windowHoursFor(["us_jobs"], PAIRS_CFG.USDCAD, TH);
   assert.strictEqual(w4.pre, 12); assert.strictEqual(w4.post, 1); // 指標系
+  const w5 = windowHoursFor(["rbnz"], PAIRS_CFG.AUDNZD, TH);
+  assert.strictEqual(w5.pre, 12); assert.strictEqual(w5.post, 2); // RBNZ=central_bank(2026-07-24追加)
 });
 
 t("イベントウィンドウ判定: 前24h以内で点灯・発表後2h超で消灯", () => {

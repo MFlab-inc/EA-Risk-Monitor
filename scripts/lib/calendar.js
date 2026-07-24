@@ -12,7 +12,7 @@ const FF_URLS = [
   "https://nfs.faireconomy.media/ff_calendar_nextweek.json",
 ];
 
-const CAL_CURRENCIES = ["USD", "JPY", "EUR", "GBP", "AUD", "CAD", "CHF", "CNY"];
+const CAL_CURRENCIES = ["USD", "JPY", "EUR", "GBP", "AUD", "CAD", "CHF", "CNY", "NZD"];
 const CAL_IMPACTS = ["High", "Medium"];
 
 /**
@@ -27,6 +27,7 @@ const EVENT_RULES = [
   { type: "boe",        currency: "GBP", re: /BOE|Official Bank Rate|Monetary Policy|MPC/i },
   { type: "ecb",        currency: "EUR", re: /ECB|Main Refinancing Rate|Monetary Policy/i },
   { type: "rba",        currency: "AUD", re: /RBA|Cash Rate|Monetary Policy/i },
+  { type: "rbnz",       currency: "NZD", re: /RBNZ|Official Cash Rate|Monetary Policy/i },
   { type: "boc",        currency: "CAD", re: /BOC|Overnight Rate|Monetary Policy/i },
   { type: "us_cpi",     currency: "USD", re: /CPI/i },
   { type: "us_jobs",    currency: "USD", re: /Non-?Farm|Unemployment Rate|Average Hourly Earnings/i, exclude: /Claims/i },

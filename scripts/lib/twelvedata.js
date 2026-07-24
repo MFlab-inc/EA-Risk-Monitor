@@ -2,8 +2,8 @@
  * Twelve Data API クライアント(既存FXDaily-Levels fetch.js / intraday.jsから流用)
  * - 日足: /time_series (1シンボル=1クレジット)
  * - 当日クオート: /quote バッチ(7シンボル=7クレジット/1リクエスト)
- * レート制限: 無料プラン 8クレジット/分・800/日。取得間に1500ms待機。
- * 既存FXDaily-Levelsのcron(毎時:13/:43)と実行分をずらすこと(本リポジトリは:35)。
+ * レート制限: Grow 55プラン 55クレジット/分・日次上限なし(2026-07-24〜)。取得間に1500ms待機。
+ * 既存FXDaily-Levelsのcron(毎時:13/:43)と実行分をずらすこと(分ずらし運用は継続。詳細は intraday.yml)。
  */
 
 function apiKey() {

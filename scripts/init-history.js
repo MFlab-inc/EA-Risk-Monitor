@@ -36,7 +36,7 @@ async function main() {
         bars = parseCsv(fs.readFileSync(file, "utf8")).filter((b) => b.date <= cutoff);
       } else {
         bars = await fetchDailyBars(cfg.symbol, { outputsize: OUTPUTSIZE, cutoffDate: cutoff });
-        await sleep(1500); // レート制限対策(8クレジット/分)
+        await sleep(1500); // レート制限対策(取得間隔を空ける)
       }
       const v = validateBars(bars, { minBars: 270 });
       for (const w of v.warnings) console.warn(`  警告(${key}): ${w}`);

@@ -48,5 +48,40 @@
     "watch_currencies": ["USD"],
     "watch_events": ["fomc"],
     "window_profile": "monitor_only"
+  },
+  "AUDNZD": {
+    "symbol": "AUD/NZD",
+    "digits": 5,
+    "watch_currencies": ["AUD", "NZD", "CNY"],
+    "watch_events": ["rba", "rbnz", "china_data"],
+    "window_profile": "standard"
+  },
+  "AUDUSD": {
+    "symbol": "AUD/USD",
+    "digits": 5,
+    "watch_currencies": ["AUD", "USD", "CNY", "JPY"],
+    "watch_events": ["rba", "fomc", "us_cpi", "us_jobs", "china_data", "boj"],
+    "window_profile": "standard"
+  },
+  "EURAUD": {
+    "symbol": "EUR/AUD",
+    "digits": 5,
+    "watch_currencies": ["EUR", "AUD", "CNY"],
+    "watch_events": ["ecb", "rba", "china_data"],
+    "window_profile": "standard"
+  },
+  "EURNZD": {
+    "symbol": "EUR/NZD",
+    "digits": 5,
+    "watch_currencies": ["EUR", "NZD", "CNY"],
+    "watch_events": ["ecb", "rbnz", "china_data"],
+    "window_profile": "standard"
+  },
+  "EURCAD": {
+    "symbol": "EUR/CAD",
+    "digits": 5,
+    "watch_currencies": ["EUR", "CAD"],
+    "watch_events": ["ecb", "boc", "oil"],
+    "window_profile": "standard"
   }
 }
