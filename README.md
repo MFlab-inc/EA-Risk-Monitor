@@ -59,6 +59,7 @@ GitHub Actions が市場データを定期取得し、`data/risk-feed.json` と�
 2. Twelve Data の日足とブローカー(MT4/MT5)の日足は原則NYクローズ基準で一致するが、特にXAUUSDの休場処理で差異が生じ得る。厳密整合が必要な場合は `node scripts/init-history.js --csv <dir>` でMT4/MT5エクスポートCSVから初期化可能
 3. Forex Factoryのイベント分類(特に原油在庫・OPEC・中国指標)は実データでの捕捉確認が必要(稼働後の検証項目)
 4. Twelve Data Grow 55プラン(2026-07-24〜。日次上限なし・55クレジット/分)を既存FXDaily-Levelsと共有。レート制限の実害は小さくなったが、FXDaily-Levels側の変更にも備えるため実行時刻の分ずらし運用(日中バッチ・日次22:20 UTC vs 既存23:13)は引き続き維持する
+5. Twelve Dataのtime_seriesは取得タイミングによって**土日日付のバー**を返すことがある(2026-07-26に本番履歴で混入を確認。ADR20/ATR14を引き下げFXDaily-Levelsとの数値不整合の原因になった)。営業日ベースの定義を守るため、API取得時と日次バッチの履歴読込時に土日日付バーを除外する。なおATR14はWilder再帰のため、参照履歴の長さ(本システム約400本 vs FXDaily-Levels 45本)の違いにより、同一データでも末尾桁に微差が残り得る(定義は同一)
 
 ## テスト
 

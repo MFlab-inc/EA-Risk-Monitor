@@ -6,6 +6,18 @@
  * 既存FXDaily-Levelsのcron(毎時:13/:43)と実行分をずらすこと(分ずらし運用は継続。詳細は intraday.yml)。
  */
 
+/**
+ * 土日日付のバーか判定(dateは YYYY-MM-DD)。
+ * 2026-07-26修正: Twelve Dataのtime_seriesが取得タイミングによって土日日付の
+ * バーを返すことがあり(実データで確認)、営業日ベースの定義(ADR20=直近20営業日、
+ * パーセンタイル=250営業日)が崩れてFXDaily-Levelsとの数値不整合の原因になった。
+ * API取得時に除外する(日次バッチ側でも既存履歴から浄化する)。
+ */
+function isWeekdayDate(dateStr) {
+  const dow = new Date(dateStr + "T00:00:00Z").getUTCDay();
+  return dow !== 0 && dow !== 6;
+}
+
 function apiKey() {
   const k = process.env.TWELVE_DATA_API_KEY;
   if (!k) {
@@ -32,6 +44,7 @@ async function fetchDailyBars(tdSymbol, { outputsize = 45, cutoffDate = null } =
     low: parseFloat(v.low),
     close: parseFloat(v.close),
   }));
+  bars = bars.filter((b) => isWeekdayDate(b.date)); // 土日日付バーの除外(2026-07-26)
   if (cutoffDate) bars = bars.filter((b) => b.date <= cutoffDate);
   bars.sort((a, b) => a.date.localeCompare(b.date));
   return bars;
@@ -62,4 +75,4 @@ async function fetchQuotes(symbolMap) {
   return out;
 }
 
-module.exports = { fetchDailyBars, fetchQuotes };
+module.exports = { fetchDailyBars, fetchQuotes, isWeekdayDate };

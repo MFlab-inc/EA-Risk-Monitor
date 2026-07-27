@@ -9,6 +9,7 @@ const {
 const { classifyEvent, normalizeEvents } = require("../scripts/lib/calendar");
 const { computeEventState, composeFlags, vrHoldCheck, windowHoursFor } = require("../scripts/lib/gates");
 const { mergeBars, validateBars } = require("../scripts/lib/history");
+const { isWeekdayDate } = require("../scripts/lib/twelvedata");
 const { parseCsv } = require("../scripts/lib/csv");
 const { initFeedSkeleton, applyDaily, applyIntraday } = require("../scripts/lib/feed");
 const { loadConfigs } = require("../scripts/lib/util");
@@ -265,6 +266,29 @@ t("mergeBars: 追記・置換・冪等", () => {
   assert.strictEqual(r2.merged.length, 3);
   assert.strictEqual(r2.added, 0);
   assert.strictEqual(r2.replaced, 0);
+});
+
+t("isWeekdayDate: 土日日付バーの判定(2026-07-26混入対策)", () => {
+  // 2026-07-24=金, 07-25=土, 07-26=日, 07-27=月
+  assert.strictEqual(isWeekdayDate("2026-07-24"), true);
+  assert.strictEqual(isWeekdayDate("2026-07-25"), false);
+  assert.strictEqual(isWeekdayDate("2026-07-26"), false);
+  assert.strictEqual(isWeekdayDate("2026-07-27"), true);
+  // 実際に混入が確認された日付
+  assert.strictEqual(isWeekdayDate("2026-07-18"), false); // 土
+  assert.strictEqual(isWeekdayDate("2026-07-19"), false); // 日
+  // フィルタ適用でADRが正しく上がることの確認(小さい土曜バーが平均を引き下げる再現)
+  const bars = [
+    { date: "2026-07-17", open: 1, high: 2.0, low: 1.0, close: 1.5 },  // 金 range=1.0
+    { date: "2026-07-18", open: 1, high: 1.1, low: 1.0, close: 1.05 }, // 土 range=0.1(混入)
+    { date: "2026-07-20", open: 1, high: 2.0, low: 1.0, close: 1.5 },  // 月 range=1.0
+  ];
+  const cleaned = bars.filter((b) => isWeekdayDate(b.date));
+  assert.strictEqual(cleaned.length, 2);
+  const adrAll = bars.reduce((s, b) => s + (b.high - b.low), 0) / bars.length;
+  const adrClean = cleaned.reduce((s, b) => s + (b.high - b.low), 0) / cleaned.length;
+  assert.ok(adrClean > adrAll); // 混入除去でADRが上がる
+  approx(adrClean, 1.0);
 });
 
 t("validateBars: 重複・OHLC不整合・ギャップ検出", () => {

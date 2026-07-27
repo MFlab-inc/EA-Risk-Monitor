@@ -16,7 +16,9 @@ const { fetchDailyBars } = require("./lib/twelvedata");
 const { saveHistory, validateBars } = require("./lib/history");
 const { parseCsv } = require("./lib/csv");
 
-const OUTPUTSIZE = 400;
+// 2026-07-26: 400→560に増量。APIが土日日付バーを含む(週7本)応答を返した場合でも、
+// 除外後に平日400本前後を確保するため(560×5/7≒400)。保存時はhistory_keep_bars(400)に切詰め。
+const OUTPUTSIZE = 560;
 
 async function main() {
   const { pairs, thresholds, pairKeys } = loadConfigs();

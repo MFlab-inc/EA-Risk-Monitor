@@ -10,7 +10,7 @@
 const path = require("path");
 const { sleep, loadConfigs, jstIso, saveJSON, ARCHIVE_DIR } = require("./lib/util");
 const { lastCompletedSessionDate } = require("./lib/session");
-const { fetchDailyBars } = require("./lib/twelvedata");
+const { fetchDailyBars, isWeekdayDate } = require("./lib/twelvedata");
 const { fetchSentiment } = require("./lib/yahoo");
 const { fetchEvents } = require("./lib/calendar");
 const { loadHistory, saveHistory, mergeBars, validateBars } = require("./lib/history");
@@ -34,8 +34,15 @@ async function run({ skipFetch = false } = {}) {
         throw new Error("履歴がありません(先に init を実行してください)");
       }
       let bars = hist.bars;
+      // 週末日付バーの浄化(2026-07-26修正): 過去に混入した土日バーを読込時に除去する。
+      // 混入バーはADR20/ATR14/パーセンタイルを引き下げFXDaily-Levelsとの不整合の原因だった。
+      const cleaned = bars.filter((b) => isWeekdayDate(b.date));
+      if (cleaned.length !== bars.length) {
+        console.warn(`  浄化(${key}): 土日日付バー${bars.length - cleaned.length}本を除去`);
+        bars = cleaned;
+      }
       if (!skipFetch) {
-        const fresh = await fetchDailyBars(cfg.symbol, { outputsize: 10, cutoffDate: cutoff });
+        const fresh = await fetchDailyBars(cfg.symbol, { outputsize: 15, cutoffDate: cutoff });
         await sleep(1500);
         const { merged, added, replaced } = mergeBars(bars, fresh);
         const v = validateBars(merged, { minBars: Math.min(270, bars.length) });
