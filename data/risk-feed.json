@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-27T20:35:57+09:00",
-    "generated_intraday": "2026-07-27T21:33:27+09:00",
-    "generated_calendar": "2026-07-27T21:33:27+09:00",
+    "generated_intraday": "2026-07-28T00:26:28+09:00",
+    "generated_calendar": "2026-07-28T00:26:28+09:00",
     "session_date": "2026-07-24",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 101.38,
-      "change": -0.09,
-      "change_pct": -0.09
+      "value": 101.49,
+      "change": 0.01,
+      "change_pct": 0.01
     },
     "us10y": {
-      "value": 4.679,
-      "change": -0.024,
-      "change_pct": -0.51
+      "value": 4.657,
+      "change": -0.022,
+      "change_pct": -0.47
     },
     "vix": {
-      "value": 17.87,
-      "change": -0.71,
-      "change_pct": -3.82
+      "value": 18.97,
+      "change": 0.39,
+      "change_pct": 2.1
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 217.896,
-        "range_today": 0.736,
-        "range_vs_adr": 0.674,
+        "price": 217.787,
+        "range_today": 0.791,
+        "range_vs_adr": 0.724,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -134,15 +134,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98682,
+        "price": 0.98694,
         "range_today": 0.00335,
         "range_vs_adr": 0.647,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-07-28T12:05:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-07-28T00:05:00+09:00",
+            "window_end_jst": "2026-07-28T14:05:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-07-28T12:05:00+09:00",
@@ -189,9 +201,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:RBA Gov Bullock Speaks"
+        ]
       }
     },
     "EURGBP": {
@@ -206,11 +220,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85519,
+        "price": 0.85485,
         "range_today": 0.00336,
         "range_vs_adr": 1,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -235,11 +249,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13831,
+        "price": 1.13747,
         "range_today": 0.00511,
         "range_vs_adr": 1.008,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -264,16 +278,29 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41068,
-        "range_today": 0.00376,
-        "range_vs_adr": 0.712,
+        "price": 1.41096,
+        "range_today": 0.00464,
+        "range_vs_adr": 0.879,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-07-29T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-07-29T11:30:00+09:00",
+            "window_end_jst": "2026-07-30T00:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -293,11 +320,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 163.672,
-        "range_today": 0.406,
-        "range_vs_adr": 0.566,
+        "price": 163.669,
+        "range_today": 0.438,
+        "range_vs_adr": 0.612,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -321,11 +348,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4086.98,
+        "price": 4076.69,
         "range_today": 104.17,
         "range_vs_adr": 1.148,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -351,15 +378,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.20885,
-        "range_today": 0.00425,
-        "range_vs_adr": 0.704,
+        "price": 1.20954,
+        "range_today": 0.00488,
+        "range_vs_adr": 0.808,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-07-28T12:05:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-07-28T00:05:00+09:00",
+            "window_end_jst": "2026-07-28T14:05:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-07-28T12:05:00+09:00",
@@ -406,9 +445,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:RBA Gov Bullock Speaks"
+        ]
       }
     },
     "AUDUSD": {
@@ -423,15 +464,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69956,
-        "range_today": 0.00204,
-        "range_vs_adr": 0.487,
+        "price": 0.69947,
+        "range_today": 0.00247,
+        "range_vs_adr": 0.589,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-07-28T12:05:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-07-28T00:05:00+09:00",
+            "window_end_jst": "2026-07-28T14:05:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-07-28T12:05:00+09:00",
@@ -478,9 +531,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:RBA Gov Bullock Speaks"
+        ]
       }
     },
     "EURAUD": {
@@ -495,15 +550,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62725,
+        "price": 1.62634,
         "range_today": 0.0059,
         "range_vs_adr": 0.725,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-07-28T12:05:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-07-28T00:05:00+09:00",
+            "window_end_jst": "2026-07-28T14:05:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-07-28T12:05:00+09:00",
@@ -550,9 +617,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:RBA Gov Bullock Speaks"
+        ]
       }
     },
     "EURNZD": {
@@ -567,11 +636,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96711,
+        "price": 1.96706,
         "range_today": 0.01106,
         "range_vs_adr": 0.933,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -596,16 +665,29 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60582,
+        "price": 1.60495,
         "range_today": 0.00769,
         "range_vs_adr": 1.257,
         "spike_flag": false,
-        "updated_at": "2026-07-27T21:33:27+09:00"
+        "updated_at": "2026-07-28T00:26:28+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-07-29T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-07-29T11:30:00+09:00",
+            "window_end_jst": "2026-07-30T00:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
