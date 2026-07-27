@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-27T20:35:57+09:00",
-    "generated_intraday": "2026-07-28T02:19:07+09:00",
-    "generated_calendar": "2026-07-28T02:19:07+09:00",
+    "generated_intraday": "2026-07-28T03:57:59+09:00",
+    "generated_calendar": "2026-07-28T03:57:59+09:00",
     "session_date": "2026-07-24",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 101.48,
-      "change": 0.01,
-      "change_pct": 0.01
+      "value": 101.52,
+      "change": 0.05,
+      "change_pct": 0.05
     },
     "us10y": {
-      "value": 4.649,
-      "change": -0.03,
-      "change_pct": -0.64
+      "value": 4.641,
+      "change": -0.038,
+      "change_pct": -0.81
     },
     "vix": {
-      "value": 19.67,
-      "change": 1.09,
-      "change_pct": 5.87
+      "value": 19.35,
+      "change": 0.77,
+      "change_pct": 4.14
     }
   },
   "pairs": {
@@ -105,16 +105,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 217.56,
-        "range_today": 1.026,
-        "range_vs_adr": 0.938,
+        "price": 217.635,
+        "range_today": 1.05,
+        "range_vs_adr": 0.961,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:30:00+09:00",
+            "window_end_jst": "2026-07-30T05:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -134,11 +171,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98683,
+        "price": 0.98713,
         "range_today": 0.00335,
         "range_vs_adr": 0.647,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -220,11 +257,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.8558,
+        "price": 0.85548,
         "range_today": 0.00343,
         "range_vs_adr": 1.021,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -249,16 +286,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13735,
+        "price": 1.13697,
         "range_today": 0.00511,
         "range_vs_adr": 1.008,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:30:00+09:00",
+            "window_end_jst": "2026-07-30T05:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -278,11 +352,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41187,
-        "range_today": 0.00477,
-        "range_vs_adr": 0.903,
+        "price": 1.41247,
+        "range_today": 0.00546,
+        "range_vs_adr": 1.034,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -298,6 +372,42 @@
             ],
             "window_start_jst": "2026-07-29T11:30:00+09:00",
             "window_end_jst": "2026-07-30T00:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:30:00+09:00",
+            "window_end_jst": "2026-07-30T05:30:00+09:00",
             "gating": true
           }
         ]
@@ -320,16 +430,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 163.706,
+        "price": 163.755,
         "range_today": 0.438,
         "range_vs_adr": 0.612,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-07-30T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "vr_hold_check": false,
@@ -348,16 +495,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4074.6,
+        "price": 4079.21,
         "range_today": 104.17,
         "range_vs_adr": 1.148,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:30:00+09:00",
+            "window_end_jst": "2026-07-30T05:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -378,11 +562,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.21003,
-        "range_today": 0.0054,
-        "range_vs_adr": 0.894,
+        "price": 1.21033,
+        "range_today": 0.00564,
+        "range_vs_adr": 0.934,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -464,11 +648,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69898,
+        "price": 0.69888,
         "range_today": 0.00247,
         "range_vs_adr": 0.589,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -527,6 +711,42 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:00:00+09:00",
+            "window_end_jst": "2026-07-30T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-07-29T03:30:00+09:00",
+            "window_end_jst": "2026-07-30T05:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -550,11 +770,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62721,
+        "price": 1.62682,
         "range_today": 0.0059,
         "range_vs_adr": 0.725,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -636,11 +856,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96891,
+        "price": 1.96901,
         "range_today": 0.01106,
         "range_vs_adr": 0.933,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -665,11 +885,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60575,
+        "price": 1.60591,
         "range_today": 0.00769,
         "range_vs_adr": 1.257,
         "spike_flag": false,
-        "updated_at": "2026-07-28T02:19:07+09:00"
+        "updated_at": "2026-07-28T03:57:59+09:00"
       },
       "events": {
         "in_event_window": false,
