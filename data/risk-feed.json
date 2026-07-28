@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-28T08:20:04+09:00",
-    "generated_intraday": "2026-07-28T13:16:20+09:00",
-    "generated_calendar": "2026-07-28T13:16:20+09:00",
+    "generated_intraday": "2026-07-28T16:17:49+09:00",
+    "generated_calendar": "2026-07-28T16:17:49+09:00",
     "session_date": "2026-07-27",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.5,
-      "change": 0.03,
-      "change_pct": 0.03
+      "value": 101.52,
+      "change": 0.05,
+      "change_pct": 0.05
     },
     "us10y": {
       "value": 4.641,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 217.71,
-        "range_today": 0.26,
-        "range_vs_adr": 0.242,
+        "price": 217.813,
+        "range_today": 0.292,
+        "range_vs_adr": 0.272,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -171,40 +171,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98451,
-        "range_today": 0.00355,
-        "range_vs_adr": 0.688,
+        "price": 0.98453,
+        "range_today": 0.00469,
+        "range_vs_adr": 0.909,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-07-29T10:30:00+09:00",
             "currency": "AUD",
@@ -238,11 +214,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:RBA Gov Bullock Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURGBP": {
@@ -257,11 +231,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85541,
-        "range_today": 0.0011,
-        "range_vs_adr": 0.323,
+        "price": 0.85496,
+        "range_today": 0.00111,
+        "range_vs_adr": 0.326,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -286,11 +260,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13708,
-        "range_today": 0.00134,
-        "range_vs_adr": 0.264,
+        "price": 1.13737,
+        "range_today": 0.00185,
+        "range_vs_adr": 0.365,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -352,11 +326,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41165,
+        "price": 1.41155,
         "range_today": 0.0018,
         "range_vs_adr": 0.336,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -430,11 +404,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 163.77,
+        "price": 163.738,
         "range_today": 0.178,
         "range_vs_adr": 0.245,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -495,11 +469,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4044.24,
-        "range_today": 40.74,
-        "range_vs_adr": 0.445,
+        "price": 4049.72,
+        "range_today": 45.43,
+        "range_vs_adr": 0.497,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -562,40 +536,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.20911,
-        "range_today": 0.00379,
-        "range_vs_adr": 0.62,
+        "price": 1.20808,
+        "range_today": 0.00478,
+        "range_vs_adr": 0.782,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-07-29T10:30:00+09:00",
             "currency": "AUD",
@@ -629,11 +579,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:RBA Gov Bullock Speaks"
-        ]
+        "reasons": []
       }
     },
     "AUDUSD": {
@@ -648,40 +596,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69741,
-        "range_today": 0.00241,
-        "range_vs_adr": 0.575,
+        "price": 0.69746,
+        "range_today": 0.00336,
+        "range_vs_adr": 0.802,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-07-29T10:30:00+09:00",
             "currency": "AUD",
@@ -751,11 +675,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:RBA Gov Bullock Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURAUD": {
@@ -770,40 +692,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.63047,
-        "range_today": 0.00571,
-        "range_vs_adr": 0.718,
+        "price": 1.63066,
+        "range_today": 0.00704,
+        "range_vs_adr": 0.886,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-07-28T12:05:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Gov Bullock Speaks",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-07-28T00:05:00+09:00",
-            "window_end_jst": "2026-07-28T14:05:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-07-29T10:30:00+09:00",
             "currency": "AUD",
@@ -837,11 +735,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:RBA Gov Bullock Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURNZD": {
@@ -856,11 +752,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.97149,
+        "price": 1.96981,
         "range_today": 0.00515,
         "range_vs_adr": 0.43,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -885,11 +781,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60518,
-        "range_today": 0.00144,
-        "range_vs_adr": 0.238,
+        "price": 1.60535,
+        "range_today": 0.00218,
+        "range_vs_adr": 0.36,
         "spike_flag": false,
-        "updated_at": "2026-07-28T13:16:20+09:00"
+        "updated_at": "2026-07-28T16:17:49+09:00"
       },
       "events": {
         "in_event_window": false,
