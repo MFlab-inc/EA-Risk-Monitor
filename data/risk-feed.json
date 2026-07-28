@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-28T08:20:04+09:00",
-    "generated_intraday": "2026-07-28T19:10:14+09:00",
-    "generated_calendar": "2026-07-28T19:10:14+09:00",
+    "generated_intraday": "2026-07-28T21:23:12+09:00",
+    "generated_calendar": "2026-07-28T21:23:12+09:00",
     "session_date": "2026-07-27",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.62,
-      "change": 0.15,
-      "change_pct": 0.15
+      "value": 101.56,
+      "change": 0.09,
+      "change_pct": 0.09
     },
     "us10y": {
       "value": 4.641,
@@ -87,9 +87,9 @@
       "change_pct": -0.81
     },
     "vix": {
-      "value": 18.88,
-      "change": 0.21,
-      "change_pct": 1.12
+      "value": 18.75,
+      "change": 0.08,
+      "change_pct": 0.43
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 217.599,
+        "price": 217.815,
         "range_today": 0.416,
         "range_vs_adr": 0.387,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -150,6 +150,66 @@
             "window_start_jst": "2026-07-29T03:30:00+09:00",
             "window_end_jst": "2026-07-30T05:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "BOE Monetary Policy Report",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Monetary Policy Summary",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "MPC Official Bank Rate Votes",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Official Bank Rate",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:30:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "BOE Gov Bailey Speaks",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:30:00+09:00",
+            "window_end_jst": "2026-07-30T22:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -171,11 +231,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98324,
-        "range_today": 0.00479,
-        "range_vs_adr": 0.928,
+        "price": 0.98336,
+        "range_today": 0.00563,
+        "range_vs_adr": 1.091,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -231,16 +291,77 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85526,
-        "range_today": 0.00123,
-        "range_vs_adr": 0.361,
+        "price": 0.85541,
+        "range_today": 0.00157,
+        "range_vs_adr": 0.46,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "BOE Monetary Policy Report",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T14:00:00+09:00",
+            "window_end_jst": "2026-07-30T21:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Monetary Policy Summary",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T14:00:00+09:00",
+            "window_end_jst": "2026-07-30T21:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "MPC Official Bank Rate Votes",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T14:00:00+09:00",
+            "window_end_jst": "2026-07-30T21:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Official Bank Rate",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T14:00:00+09:00",
+            "window_end_jst": "2026-07-30T21:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-30T20:30:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "BOE Gov Bailey Speaks",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T14:30:00+09:00",
+            "window_end_jst": "2026-07-30T21:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -260,11 +381,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13554,
-        "range_today": 0.00259,
-        "range_vs_adr": 0.511,
+        "price": 1.13658,
+        "range_today": 0.00263,
+        "range_vs_adr": 0.519,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -326,11 +447,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41174,
-        "range_today": 0.00208,
-        "range_vs_adr": 0.389,
+        "price": 1.41129,
+        "range_today": 0.00266,
+        "range_vs_adr": 0.497,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -404,11 +525,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 163.892,
-        "range_today": 0.237,
-        "range_vs_adr": 0.326,
+        "price": 163.923,
+        "range_today": 0.297,
+        "range_vs_adr": 0.409,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -469,11 +590,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4026.2,
-        "range_today": 63.47,
-        "range_vs_adr": 0.694,
+        "price": 4031.52,
+        "range_today": 64.72,
+        "range_vs_adr": 0.707,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -536,11 +657,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.2081,
-        "range_today": 0.00514,
-        "range_vs_adr": 0.841,
+        "price": 1.20752,
+        "range_today": 0.00524,
+        "range_vs_adr": 0.858,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -596,11 +717,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69645,
-        "range_today": 0.00336,
-        "range_vs_adr": 0.802,
+        "price": 0.69679,
+        "range_today": 0.00338,
+        "range_vs_adr": 0.807,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -692,11 +813,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.63044,
+        "price": 1.63113,
         "range_today": 0.00704,
         "range_vs_adr": 0.886,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -752,11 +873,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96969,
+        "price": 1.96965,
         "range_today": 0.00515,
         "range_vs_adr": 0.43,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -781,11 +902,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60306,
-        "range_today": 0.00381,
-        "range_vs_adr": 0.629,
+        "price": 1.60402,
+        "range_today": 0.00395,
+        "range_vs_adr": 0.652,
         "spike_flag": false,
-        "updated_at": "2026-07-28T19:10:14+09:00"
+        "updated_at": "2026-07-28T21:23:12+09:00"
       },
       "events": {
         "in_event_window": false,
