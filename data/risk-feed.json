@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-29T08:15:44+09:00",
-    "generated_intraday": "2026-07-30T03:32:55+09:00",
-    "generated_calendar": "2026-07-30T03:32:55+09:00",
+    "generated_intraday": "2026-07-30T04:54:59+09:00",
+    "generated_calendar": "2026-07-30T04:54:59+09:00",
     "session_date": "2026-07-28",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 101.14,
-      "change": -0.24,
-      "change_pct": -0.24
+      "value": 100.87,
+      "change": -0.51,
+      "change_pct": -0.5
     },
     "us10y": {
-      "value": 4.639,
-      "change": 0.035,
-      "change_pct": 0.76
+      "value": 4.622,
+      "change": 0.018,
+      "change_pct": 0.39
     },
     "vix": {
-      "value": 18.75,
-      "change": 0.54,
-      "change_pct": 2.97
+      "value": 19.83,
+      "change": 1.62,
+      "change_pct": 8.9
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 218.068,
-        "range_today": 1.105,
-        "range_vs_adr": 1.069,
+        "price": 218.284,
+        "range_today": 1.422,
+        "range_vs_adr": 1.375,
         "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -337,11 +337,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.97853,
+        "price": 0.97641,
         "range_today": 0.00884,
         "range_vs_adr": 1.73,
         "spike_flag": true,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -427,11 +427,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85696,
+        "price": 0.85782,
         "range_today": 0.00311,
         "range_vs_adr": 0.904,
         "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -517,11 +517,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.14262,
-        "range_today": 0.00576,
-        "range_vs_adr": 1.136,
-        "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "price": 1.1456,
+        "range_today": 0.00913,
+        "range_vs_adr": 1.801,
+        "spike_flag": true,
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -621,8 +621,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
+          "spike:range_vs_adr",
           "event:Federal Funds Rate",
           "event:FOMC Statement",
           "event:FOMC Press Conference"
@@ -641,11 +642,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.4063,
-        "range_today": 0.00486,
-        "range_vs_adr": 0.929,
-        "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "price": 1.40464,
+        "range_today": 0.00859,
+        "range_vs_adr": 1.642,
+        "spike_flag": true,
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -755,8 +756,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
+          "spike:range_vs_adr",
           "event:Federal Funds Rate",
           "event:FOMC Statement",
           "event:FOMC Press Conference"
@@ -775,11 +777,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 163.508,
-        "range_today": 0.625,
-        "range_vs_adr": 0.893,
+        "price": 163.477,
+        "range_today": 0.686,
+        "range_vs_adr": 0.981,
         "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -908,11 +910,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4071.94,
-        "range_today": 90.15,
-        "range_vs_adr": 1.01,
+        "price": 4066.13,
+        "range_today": 117.72,
+        "range_vs_adr": 1.319,
         "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1033,11 +1035,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.20053,
+        "price": 1.19901,
         "range_today": 0.00897,
         "range_vs_adr": 1.419,
         "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1062,11 +1064,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69573,
-        "range_today": 0.0056,
-        "range_vs_adr": 1.39,
-        "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "price": 0.69513,
+        "range_today": 0.00659,
+        "range_vs_adr": 1.635,
+        "spike_flag": true,
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1214,8 +1216,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
+          "spike:range_vs_adr",
           "event:Federal Funds Rate",
           "event:FOMC Statement",
           "event:FOMC Press Conference"
@@ -1234,11 +1237,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.64211,
-        "range_today": 0.01798,
-        "range_vs_adr": 2.305,
+        "price": 1.64796,
+        "range_today": 0.01911,
+        "range_vs_adr": 2.45,
         "spike_flag": true,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1265,11 +1268,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.97155,
-        "range_today": 0.01003,
-        "range_vs_adr": 0.868,
+        "price": 1.97579,
+        "range_today": 0.01077,
+        "range_vs_adr": 0.932,
         "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1294,11 +1297,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60704,
+        "price": 1.60912,
         "range_today": 0.00653,
         "range_vs_adr": 1.07,
         "spike_flag": false,
-        "updated_at": "2026-07-30T03:32:55+09:00"
+        "updated_at": "2026-07-30T04:54:59+09:00"
       },
       "events": {
         "in_event_window": false,
