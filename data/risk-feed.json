@@ -1,10 +1,10 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-07-29T08:15:44+09:00",
+    "generated_daily": "2026-07-30T08:14:01+09:00",
     "generated_intraday": "2026-07-30T07:09:21+09:00",
-    "generated_calendar": "2026-07-30T07:09:21+09:00",
-    "session_date": "2026-07-28",
+    "generated_calendar": "2026-07-30T08:14:01+09:00",
+    "session_date": "2026-07-29",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
       "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 100.85,
-      "change": -0.53,
-      "change_pct": -0.52
+      "value": 100.8,
+      "change": -0.58,
+      "change_pct": -0.57
     },
     "us10y": {
       "value": 4.622,
@@ -95,13 +95,13 @@
   "pairs": {
     "GBPJPY": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 217.781,
-      "atr14": 1.014,
-      "atr_pct": 0.465,
-      "adr20": 1.034,
-      "rv20": 6,
-      "atr_pct_percentile_250": 0.4,
+      "session_date": "2026-07-29",
+      "close": 218.497,
+      "atr14": 1.043,
+      "atr_pct": 0.477,
+      "adr20": 1.064,
+      "rv20": 6.08,
+      "atr_pct_percentile_250": 0.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -112,8 +112,53 @@
         "updated_at": "2026-07-30T07:09:21+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "BOE Monetary Policy Report",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Monetary Policy Summary",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "MPC Official Bank Rate Votes",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-07-30T20:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Official Bank Rate",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-07-30T08:00:00+09:00",
+            "window_end_jst": "2026-07-30T22:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-07-30T20:00:00+09:00",
@@ -246,20 +291,25 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:BOE Monetary Policy Report",
+          "event:Monetary Policy Summary",
+          "event:MPC Official Bank Rate Votes",
+          "event:Official Bank Rate"
+        ]
       }
     },
     "AUDCAD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 0.98392,
-      "atr14": 0.00534,
-      "atr_pct": 0.542,
-      "adr20": 0.00511,
-      "rv20": 5.25,
-      "atr_pct_percentile_250": 20,
+      "session_date": "2026-07-29",
+      "close": 0.97706,
+      "atr14": 0.00559,
+      "atr_pct": 0.572,
+      "adr20": 0.00536,
+      "rv20": 5.76,
+      "atr_pct_percentile_250": 25.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -341,13 +391,13 @@
     },
     "EURGBP": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 0.85673,
+      "session_date": "2026-07-29",
+      "close": 0.85776,
       "atr14": 0.0032,
-      "atr_pct": 0.374,
-      "adr20": 0.00344,
-      "rv20": 3.98,
-      "atr_pct_percentile_250": 32.8,
+      "atr_pct": 0.373,
+      "adr20": 0.00332,
+      "rv20": 3.6,
+      "atr_pct_percentile_250": 32.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -431,13 +481,13 @@
     },
     "EURUSD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 1.13866,
-      "atr14": 0.0052,
-      "atr_pct": 0.457,
-      "adr20": 0.00507,
-      "rv20": 3.77,
-      "atr_pct_percentile_250": 14.4,
+      "session_date": "2026-07-29",
+      "close": 1.1467,
+      "atr14": 0.00551,
+      "atr_pct": 0.481,
+      "adr20": 0.00522,
+      "rv20": 4.31,
+      "atr_pct_percentile_250": 20.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -481,13 +531,13 @@
     },
     "USDCAD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 1.41084,
-      "atr14": 0.00526,
-      "atr_pct": 0.373,
-      "adr20": 0.00523,
-      "rv20": 3.49,
-      "atr_pct_percentile_250": 12.8,
+      "session_date": "2026-07-29",
+      "close": 1.4048,
+      "atr14": 0.0055,
+      "atr_pct": 0.392,
+      "adr20": 0.00545,
+      "rv20": 3.71,
+      "atr_pct_percentile_250": 27.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -541,13 +591,13 @@
     },
     "USDJPY": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 163.87,
-      "atr14": 0.617,
-      "atr_pct": 0.377,
-      "adr20": 0.7,
-      "rv20": 5.13,
-      "atr_pct_percentile_250": 2,
+      "session_date": "2026-07-29",
+      "close": 163.437,
+      "atr14": 0.622,
+      "atr_pct": 0.381,
+      "adr20": 0.707,
+      "rv20": 5.24,
+      "atr_pct_percentile_250": 2.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -642,13 +692,13 @@
     },
     "XAUUSD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 4028.58,
-      "atr14": 91.78,
-      "atr_pct": 2.278,
-      "adr20": 89.26,
-      "rv20": 22.05,
-      "atr_pct_percentile_250": 40.8,
+      "session_date": "2026-07-29",
+      "close": 4066.93,
+      "atr14": 93.64,
+      "atr_pct": 2.302,
+      "adr20": 87.34,
+      "rv20": 22.2,
+      "atr_pct_percentile_250": 43.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -693,13 +743,13 @@
     },
     "AUDNZD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 1.20524,
-      "atr14": 0.0062,
-      "atr_pct": 0.514,
-      "adr20": 0.00632,
-      "rv20": 4.91,
-      "atr_pct_percentile_250": 52,
+      "session_date": "2026-07-29",
+      "close": 1.20002,
+      "atr14": 0.0064,
+      "atr_pct": 0.533,
+      "adr20": 0.00645,
+      "rv20": 5.02,
+      "atr_pct_percentile_250": 68.4,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -722,13 +772,13 @@
     },
     "AUDUSD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 0.6974,
-      "atr14": 0.00425,
-      "atr_pct": 0.609,
-      "adr20": 0.00403,
-      "rv20": 5.41,
-      "atr_pct_percentile_250": 8,
+      "session_date": "2026-07-29",
+      "close": 0.6955,
+      "atr14": 0.00441,
+      "atr_pct": 0.635,
+      "adr20": 0.00416,
+      "rv20": 5.32,
+      "atr_pct_percentile_250": 15.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -820,13 +870,13 @@
     },
     "EURAUD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 1.63273,
-      "atr14": 0.00818,
-      "atr_pct": 0.501,
-      "adr20": 0.0078,
-      "rv20": 3.58,
-      "atr_pct_percentile_250": 2.4,
+      "session_date": "2026-07-29",
+      "close": 1.64871,
+      "atr14": 0.00909,
+      "atr_pct": 0.551,
+      "adr20": 0.00843,
+      "rv20": 5.12,
+      "atr_pct_percentile_250": 27.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -849,13 +899,13 @@
     },
     "EURNZD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 1.96778,
-      "atr14": 0.01139,
-      "atr_pct": 0.579,
-      "adr20": 0.01156,
-      "rv20": 5.11,
-      "atr_pct_percentile_250": 16,
+      "session_date": "2026-07-29",
+      "close": 1.97838,
+      "atr14": 0.01154,
+      "atr_pct": 0.583,
+      "adr20": 0.0117,
+      "rv20": 5.55,
+      "atr_pct_percentile_250": 19.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -878,13 +928,13 @@
     },
     "EURCAD": {
       "data_ok": true,
-      "session_date": "2026-07-28",
-      "close": 1.60644,
-      "atr14": 0.00607,
-      "atr_pct": 0.378,
-      "adr20": 0.0061,
-      "rv20": 3.22,
-      "atr_pct_percentile_250": 10.4,
+      "session_date": "2026-07-29",
+      "close": 1.61085,
+      "atr14": 0.00623,
+      "atr_pct": 0.387,
+      "adr20": 0.00624,
+      "rv20": 3.31,
+      "atr_pct_percentile_250": 14.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
