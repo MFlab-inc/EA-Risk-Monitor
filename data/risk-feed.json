@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-29T08:15:44+09:00",
-    "generated_intraday": "2026-07-29T09:03:55+09:00",
-    "generated_calendar": "2026-07-29T09:03:55+09:00",
+    "generated_intraday": "2026-07-29T12:30:56+09:00",
+    "generated_calendar": "2026-07-29T12:30:56+09:00",
     "session_date": "2026-07-28",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.43,
-      "change": -0.04,
-      "change_pct": -0.04
+      "value": 101.32,
+      "change": -0.06,
+      "change_pct": -0.06
     },
     "us10y": {
       "value": 4.604,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 217.674,
-        "range_today": 0.225,
-        "range_vs_adr": 0.218,
+        "price": 217.649,
+        "range_today": 0.322,
+        "range_vs_adr": 0.312,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -264,6 +264,42 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-31T11:31:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Outlook Report",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:31:00+09:00",
+            "window_end_jst": "2026-07-31T13:31:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -289,45 +325,51 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98369,
-        "range_today": 0.00128,
-        "range_vs_adr": 0.25,
+        "price": 0.979,
+        "range_today": 0.0058,
+        "range_vs_adr": 1.135,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
             "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
           },
           {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
             "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
           },
           {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
+            "time_jst": "2026-07-31T11:31:00+09:00",
+            "currency": "JPY",
             "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "title": "BOJ Outlook Report",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:31:00+09:00",
+            "window_end_jst": "2026-07-31T13:31:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -349,11 +391,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85704,
-        "range_today": 0.0008,
-        "range_vs_adr": 0.233,
+        "price": 0.85725,
+        "range_today": 0.0009,
+        "range_vs_adr": 0.262,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -439,11 +481,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13837,
-        "range_today": 0.00113,
-        "range_vs_adr": 0.223,
+        "price": 1.13993,
+        "range_today": 0.00174,
+        "range_vs_adr": 0.343,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -563,15 +605,26 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41093,
-        "range_today": 0.00067,
-        "range_vs_adr": 0.128,
+        "price": 1.40952,
+        "range_today": 0.00171,
+        "range_vs_adr": 0.327,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
+          {
+            "time_jst": "2026-07-29T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-07-29T11:30:00+09:00",
+            "window_end_jst": "2026-07-30T00:30:00+09:00"
+          },
           {
             "time_jst": "2026-07-30T03:00:00+09:00",
             "currency": "USD",
@@ -681,6 +734,7 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:Crude Oil Inventories",
           "event:Federal Funds Rate",
           "event:FOMC Statement",
           "event:FOMC Press Conference"
@@ -699,11 +753,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 163.863,
-        "range_today": 0.134,
-        "range_vs_adr": 0.192,
+        "price": 163.679,
+        "range_today": 0.219,
+        "range_vs_adr": 0.313,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -764,6 +818,42 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-31T11:31:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Outlook Report",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:31:00+09:00",
+            "window_end_jst": "2026-07-31T13:31:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -784,11 +874,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4018.43,
-        "range_today": 15.56,
-        "range_vs_adr": 0.174,
+        "price": 4026.95,
+        "range_today": 28.17,
+        "range_vs_adr": 0.316,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -909,47 +999,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.20617,
-        "range_today": 0.00254,
-        "range_vs_adr": 0.402,
+        "price": 1.2016,
+        "range_today": 0.00665,
+        "range_vs_adr": 1.052,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -969,11 +1028,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69722,
-        "range_today": 0.00079,
-        "range_vs_adr": 0.196,
+        "price": 0.69458,
+        "range_today": 0.00393,
+        "range_vs_adr": 0.975,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1013,36 +1072,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-07-30T03:00:00+09:00",
             "currency": "USD",
@@ -1098,6 +1127,42 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-31T11:30:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:30:00+09:00",
+            "window_end_jst": "2026-07-31T13:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-07-31T11:31:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Outlook Report",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-07-30T11:31:00+09:00",
+            "window_end_jst": "2026-07-31T13:31:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -1123,52 +1188,23 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.63283,
-        "range_today": 0.00202,
-        "range_vs_adr": 0.259,
-        "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "price": 1.64117,
+        "range_today": 0.0123,
+        "range_vs_adr": 1.577,
+        "spike_flag": true,
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-07-29T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     },
     "EURNZD": {
@@ -1183,11 +1219,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96928,
-        "range_today": 0.00304,
-        "range_vs_adr": 0.263,
+        "price": 1.9719,
+        "range_today": 0.00533,
+        "range_vs_adr": 0.461,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1212,15 +1248,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60608,
-        "range_today": 0.00161,
-        "range_vs_adr": 0.264,
+        "price": 1.60672,
+        "range_today": 0.00167,
+        "range_vs_adr": 0.274,
         "spike_flag": false,
-        "updated_at": "2026-07-29T09:03:55+09:00"
+        "updated_at": "2026-07-29T12:30:56+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-07-29T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-07-29T11:30:00+09:00",
+            "window_end_jst": "2026-07-30T00:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-07-29T23:30:00+09:00",
@@ -1237,9 +1285,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Crude Oil Inventories"
+        ]
       }
     }
   }
