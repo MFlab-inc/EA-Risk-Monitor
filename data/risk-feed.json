@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-07-30T22:58:19+09:00",
-    "generated_intraday": "2026-07-31T04:43:49+09:00",
-    "generated_calendar": "2026-07-31T04:43:49+09:00",
+    "generated_intraday": "2026-07-31T06:18:23+09:00",
+    "generated_calendar": "2026-07-31T06:18:23+09:00",
     "session_date": "2026-07-29",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 99.94,
-      "change": -0.86,
-      "change_pct": -0.86
+      "value": 100,
+      "change": -0.8,
+      "change_pct": -0.8
     },
     "us10y": {
       "value": 4.663,
@@ -87,9 +87,9 @@
       "change_pct": 0.89
     },
     "vix": {
-      "value": 17.52,
-      "change": -3.14,
-      "change_pct": -15.2
+      "value": 17.09,
+      "change": -3.57,
+      "change_pct": -17.28
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 214.768,
-        "range_today": 6.281,
-        "range_vs_adr": 5.903,
-        "spike_flag": true,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "price": 214.767,
+        "range_today": 0.193,
+        "range_vs_adr": 0.181,
+        "spike_flag": false,
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -212,9 +212,8 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
           "event:BOJ Outlook Report",
@@ -234,11 +233,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98457,
-        "range_today": 0.00894,
-        "range_vs_adr": 1.668,
-        "spike_flag": true,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "price": 0.98404,
+        "range_today": 0.0019,
+        "range_vs_adr": 0.354,
+        "spike_flag": false,
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -351,9 +350,8 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
           "event:BOJ Outlook Report",
@@ -373,11 +371,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85589,
-        "range_today": 0.00378,
-        "range_vs_adr": 1.139,
+        "price": 0.85613,
+        "range_today": 0.00099,
+        "range_vs_adr": 0.298,
         "spike_flag": false,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -402,11 +400,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15305,
-        "range_today": 0.01013,
-        "range_vs_adr": 1.941,
-        "spike_flag": true,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "price": 1.15253,
+        "range_today": 0.00049,
+        "range_vs_adr": 0.094,
+        "spike_flag": false,
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -414,11 +412,9 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "USDCAD": {
@@ -433,11 +429,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.40034,
-        "range_today": 0.00767,
-        "range_vs_adr": 1.407,
+        "price": 1.40126,
+        "range_today": 0.00065,
+        "range_vs_adr": 0.119,
         "spike_flag": false,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -473,11 +469,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.419,
-        "range_today": 5.794,
-        "range_vs_adr": 8.196,
-        "spike_flag": true,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "price": 159.521,
+        "range_today": 0.119,
+        "range_vs_adr": 0.168,
+        "spike_flag": false,
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -600,11 +596,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4113.87,
-        "range_today": 90.29,
-        "range_vs_adr": 1.034,
+        "price": 4103.74,
+        "range_today": 0.63,
+        "range_vs_adr": 0.007,
         "spike_flag": false,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -630,11 +626,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.19582,
-        "range_today": 0.00698,
-        "range_vs_adr": 1.082,
+        "price": 1.19563,
+        "range_today": 0.00266,
+        "range_vs_adr": 0.412,
         "spike_flag": false,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -659,11 +655,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.7031,
-        "range_today": 0.00866,
-        "range_vs_adr": 2.082,
-        "spike_flag": true,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "price": 0.70224,
+        "range_today": 0.00137,
+        "range_vs_adr": 0.329,
+        "spike_flag": false,
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -766,9 +762,8 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
           "event:BOJ Outlook Report",
@@ -788,11 +783,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.64003,
-        "range_today": 0.01113,
-        "range_vs_adr": 1.32,
+        "price": 1.64127,
+        "range_today": 0.0036,
+        "range_vs_adr": 0.427,
         "spike_flag": false,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -817,11 +812,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96138,
-        "range_today": 0.02146,
-        "range_vs_adr": 1.834,
-        "spike_flag": true,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "price": 1.96223,
+        "range_today": 0.0041,
+        "range_vs_adr": 0.35,
+        "spike_flag": false,
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -829,11 +824,9 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "EURCAD": {
@@ -848,11 +841,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61463,
-        "range_today": 0.00771,
-        "range_vs_adr": 1.236,
+        "price": 1.615,
+        "range_today": 0.00069,
+        "range_vs_adr": 0.111,
         "spike_flag": false,
-        "updated_at": "2026-07-31T04:43:49+09:00"
+        "updated_at": "2026-07-31T06:18:23+09:00"
       },
       "events": {
         "in_event_window": false,
