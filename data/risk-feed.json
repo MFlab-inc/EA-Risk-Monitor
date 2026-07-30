@@ -1,9 +1,9 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-07-30T08:14:01+09:00",
+    "generated_daily": "2026-07-30T22:58:19+09:00",
     "generated_intraday": "2026-07-30T20:57:04+09:00",
-    "generated_calendar": "2026-07-30T20:57:04+09:00",
+    "generated_calendar": "2026-07-30T22:58:19+09:00",
     "session_date": "2026-07-29",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 100.75,
-      "change": -0.05,
-      "change_pct": -0.04
+      "value": 100.27,
+      "change": -0.53,
+      "change_pct": -0.52
     },
     "us10y": {
-      "value": 4.622,
-      "change": 0.018,
-      "change_pct": 0.39
+      "value": 4.659,
+      "change": 0.037,
+      "change_pct": 0.8
     },
     "vix": {
-      "value": 19.2,
-      "change": -1.46,
-      "change_pct": -7.07
+      "value": 18.63,
+      "change": -2.03,
+      "change_pct": -9.83
     }
   },
   "pairs": {
@@ -114,50 +114,6 @@
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Monetary Policy Report",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00"
-          },
           {
             "time_jst": "2026-07-30T21:00:00+09:00",
             "currency": "GBP",
@@ -215,54 +171,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Monetary Policy Report",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T08:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-07-30T21:00:00+09:00",
             "currency": "GBP",
@@ -349,10 +257,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:BOE Monetary Policy Report",
-          "event:Monetary Policy Summary",
-          "event:MPC Official Bank Rate Votes",
-          "event:Official Bank Rate",
           "event:BOE Gov Bailey Speaks",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
@@ -518,113 +422,9 @@
         "updated_at": "2026-07-30T20:57:04+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Monetary Policy Report",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-07-30T21:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Gov Bailey Speaks",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T15:00:00+09:00",
-            "window_end_jst": "2026-07-30T22:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Monetary Policy Report",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-07-30T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-07-30T14:00:00+09:00",
-            "window_end_jst": "2026-07-30T21:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-07-30T21:00:00+09:00",
             "currency": "GBP",
@@ -640,15 +440,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOE Monetary Policy Report",
-          "event:Monetary Policy Summary",
-          "event:MPC Official Bank Rate Votes",
-          "event:Official Bank Rate",
-          "event:BOE Gov Bailey Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURUSD": {
