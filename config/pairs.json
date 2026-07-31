@@ -39,15 +39,16 @@
     "symbol": "USD/JPY",
     "digits": 3,
     "watch_currencies": ["JPY", "USD"],
-    "watch_events": ["boj"],
-    "window_profile": "hold_flag_only"
+    "watch_events": ["boj", "fomc", "us_cpi", "us_jobs"],
+    "window_profile": "standard",
+    "hold_check": true
   },
   "XAUUSD": {
     "symbol": "XAU/USD",
     "digits": 2,
     "watch_currencies": ["USD"],
-    "watch_events": ["fomc"],
-    "window_profile": "monitor_only"
+    "watch_events": ["fomc", "us_cpi", "us_jobs"],
+    "window_profile": "standard"
   },
   "AUDNZD": {
     "symbol": "AUD/NZD",

@@ -7,8 +7,10 @@
  * - 既存バスケットのTP決済は常時許可 = フィードは「新規」の判定のみを配信
  * - window_profile:
  *     standard / short   … 上記ゲートフラグを出力
- *     hold_flag_only     … ゲートなし。vr_hold_check(週次ルール5の自動化)のみ
- *     monitor_only       … ゲートなし。監視のみ(monitor_only: true)
+ *     hold_flag_only     … ゲートなし。vr_hold_check(週次ルール5の自動化)のみ(2026-07-31以降未使用・後方互換で残置)
+ *     monitor_only       … ゲート判定を参考算出し monitor_only: true を併記(同・未使用・後方互換で残置)
+ * - pairCfg.hold_check: true … ゲートフラグに vr_hold_check(保有確認リマインダー)を併記
+ *   (2026-07-31仕様変更: USDJPYをゲート算出対象に変更しつつ保有確認も残すための設定)
  */
 const { jstIso } = require("./util");
 
@@ -140,6 +142,12 @@ function composeFlags(pairCfg, state) {
 
   const flags = { no_new_grid: noNewGrid, halt_all_new: haltAll, reasons };
   if (profile === "monitor_only") flags.monitor_only = true;
+  // hold_check: ゲートフラグに保有確認リマインダーを併記(USDJPY・2026-07-31仕様変更)
+  if (pairCfg.hold_check) {
+    const vr = state.vr_hold || { flag: false, reasons: [] };
+    flags.vr_hold_check = vr.flag;
+    for (const r of vr.reasons) reasons.push(`hold:${r}`);
+  }
   return flags;
 }
 

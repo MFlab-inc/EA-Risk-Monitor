@@ -175,6 +175,10 @@ t("ウィンドウ時間: 種別×プロファイル", () => {
   assert.strictEqual(w4.pre, 12); assert.strictEqual(w4.post, 1); // 指標系
   const w5 = windowHoursFor(["rbnz"], PAIRS_CFG.AUDNZD, TH);
   assert.strictEqual(w5.pre, 12); assert.strictEqual(w5.post, 2); // RBNZ=central_bank(2026-07-24追加)
+  const w6 = windowHoursFor(["fomc"], PAIRS_CFG.USDJPY, TH);
+  assert.strictEqual(w6.pre, 24); assert.strictEqual(w6.post, 2); // USDJPYゲート化に伴うFOMC監視追加(2026-07-31)
+  const w7 = windowHoursFor(["us_cpi"], PAIRS_CFG.XAUUSD, TH);
+  assert.strictEqual(w7.pre, 12); assert.strictEqual(w7.post, 1); // XAUUSD正式ゲート化に伴う指標監視追加(2026-07-31)
 });
 
 t("イベントウィンドウ判定: 前24h以内で点灯・発表後2h超で消灯", () => {
@@ -218,19 +222,29 @@ t("フラグ合成: レジーム・急変・イベントの組合せ", () => {
   assert.ok(f.reasons.includes("event:FOMC"));
 });
 
-t("フラグ合成: USDJPY(保有確認のみ)とXAUUSD(監視のみ)", () => {
-  const fUJ = composeFlags(PAIRS_CFG.USDJPY, { regime: "extreme", spike_flag: true, in_event_window: true, vr_hold: { flag: true, reasons: ["weekend_approach"] } });
+t("フラグ合成: USDJPY(ゲート+保有確認併記)とXAUUSD(正式ゲート対象)", () => {
+  // USDJPY: ゲートフラグと保有確認を併記(2026-07-31仕様変更・hold_check: true)
+  const fUJ = composeFlags(PAIRS_CFG.USDJPY, { regime: "extreme", spike_flag: true, in_event_window: false, vr_hold: { flag: true, reasons: ["weekend_approach"] } });
+  assert.strictEqual(fUJ.no_new_grid, true);
+  assert.strictEqual(fUJ.halt_all_new, true);
   assert.strictEqual(fUJ.vr_hold_check, true);
-  assert.strictEqual(fUJ.no_new_grid, undefined); // ゲートフラグは出さない
-  // XAUUSD: 同じゲート判定を参考として算出しつつ monitor_only を併記(2026-07-20仕様変更)
+  assert.ok(fUJ.reasons.includes("hold:weekend_approach"));
+  const fUJ2 = composeFlags(PAIRS_CFG.USDJPY, { regime: "normal", spike_flag: false, in_event_window: false, vr_hold: { flag: false, reasons: [] } });
+  assert.strictEqual(fUJ2.no_new_grid, false);
+  assert.strictEqual(fUJ2.halt_all_new, false);
+  assert.strictEqual(fUJ2.vr_hold_check, false);
+  // XAUUSD: monitor_onlyマーカーなしの正式ゲート対象(2026-07-31仕様変更)
   const fXA = composeFlags(PAIRS_CFG.XAUUSD, { regime: "extreme", spike_flag: true, in_event_window: true, active_events: [] });
-  assert.strictEqual(fXA.monitor_only, true);
+  assert.strictEqual(fXA.monitor_only, undefined);
   assert.strictEqual(fXA.no_new_grid, true);
   assert.strictEqual(fXA.halt_all_new, true);
-  const fXA2 = composeFlags(PAIRS_CFG.XAUUSD, { regime: "normal", spike_flag: false, in_event_window: false });
-  assert.strictEqual(fXA2.monitor_only, true);
-  assert.strictEqual(fXA2.no_new_grid, false);
-  assert.strictEqual(fXA2.halt_all_new, false);
+  // 旧プロファイルの後方互換(hold_flag_only / monitor_only)
+  const legacyHold = composeFlags({ window_profile: "hold_flag_only" }, { vr_hold: { flag: true, reasons: ["weekend_approach"] } });
+  assert.strictEqual(legacyHold.vr_hold_check, true);
+  assert.strictEqual(legacyHold.no_new_grid, undefined);
+  const legacyMon = composeFlags({ window_profile: "monitor_only" }, { regime: "normal", spike_flag: false, in_event_window: false });
+  assert.strictEqual(legacyMon.monitor_only, true);
+  assert.strictEqual(legacyMon.no_new_grid, false);
 });
 
 t("VR保有フラグ: 金曜15:00JST以降・日銀ウィンドウ", () => {
