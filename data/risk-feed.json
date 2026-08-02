@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-01T08:15:55+09:00",
-    "generated_intraday": "2026-08-01T05:18:37+09:00",
-    "generated_calendar": "2026-08-01T08:15:55+09:00",
+    "generated_intraday": "2026-08-03T06:07:53+09:00",
+    "generated_calendar": "2026-08-03T06:07:53+09:00",
     "session_date": "2026-07-31",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -105,22 +105,32 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 213.604,
-        "range_today": 3.265,
-        "range_vs_adr": 2.493,
-        "spike_flag": true,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "price": 212.08,
+        "range_today": 0.3,
+        "range_vs_adr": 0.202,
+        "spike_flag": false,
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-08-03T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "ISM Manufacturing PMI",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
           "regime:highvol"
         ]
       }
@@ -137,11 +147,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98651,
-        "range_today": 0.00428,
-        "range_vs_adr": 0.773,
+        "price": 0.9872,
+        "range_today": 0.00081,
+        "range_vs_adr": 0.147,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -166,11 +176,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85542,
-        "range_today": 0.00291,
-        "range_vs_adr": 0.904,
+        "price": 0.85592,
+        "range_today": 0.00231,
+        "range_vs_adr": 0.702,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -195,23 +205,32 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15322,
-        "range_today": 0.00805,
-        "range_vs_adr": 1.536,
-        "spike_flag": true,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "price": 1.15477,
+        "range_today": 0.00262,
+        "range_vs_adr": 0.478,
+        "spike_flag": false,
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-08-03T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "ISM Manufacturing PMI",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "USDCAD": {
@@ -226,16 +245,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.40184,
-        "range_today": 0.00561,
-        "range_vs_adr": 1.024,
+        "price": 1.40135,
+        "range_today": 0.00077,
+        "range_vs_adr": 0.14,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-08-03T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "ISM Manufacturing PMI",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -255,25 +285,33 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 158.452,
-        "range_today": 3.106,
-        "range_vs_adr": 3.447,
-        "spike_flag": true,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "price": 157.198,
+        "range_today": 0.319,
+        "range_vs_adr": 0.31,
+        "spike_flag": false,
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-08-03T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "ISM Manufacturing PMI",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr",
-          "hold:weekend_approach"
-        ],
-        "vr_hold_check": true
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": [],
+        "vr_hold_check": false
       }
     },
     "XAUUSD": {
@@ -288,16 +326,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4046.57,
-        "range_today": 90.94,
-        "range_vs_adr": 1.055,
+        "price": 4042.68,
+        "range_today": 0.23,
+        "range_vs_adr": 0.003,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-08-03T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "ISM Manufacturing PMI",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -317,11 +366,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.19444,
-        "range_today": 0.00413,
-        "range_vs_adr": 0.631,
+        "price": 1.19472,
+        "range_today": 0.003,
+        "range_vs_adr": 0.452,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -346,16 +395,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70374,
-        "range_today": 0.00517,
-        "range_vs_adr": 1.202,
+        "price": 0.70443,
+        "range_today": 0.00071,
+        "range_vs_adr": 0.162,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-08-03T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "ISM Manufacturing PMI",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -375,11 +435,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.63876,
-        "range_today": 0.00977,
-        "range_vs_adr": 1.164,
+        "price": 1.63742,
+        "range_today": 0.00458,
+        "range_vs_adr": 0.533,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -404,11 +464,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.95734,
-        "range_today": 0.01025,
-        "range_vs_adr": 0.852,
+        "price": 1.95855,
+        "range_today": 0.00739,
+        "range_vs_adr": 0.609,
         "spike_flag": false,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -433,11 +493,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61659,
-        "range_today": 0.0102,
-        "range_vs_adr": 1.675,
-        "spike_flag": true,
-        "updated_at": "2026-08-01T05:18:37+09:00"
+        "price": 1.61636,
+        "range_today": 0.00399,
+        "range_vs_adr": 0.627,
+        "spike_flag": false,
+        "updated_at": "2026-08-03T06:07:53+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -445,11 +505,9 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     }
   }
