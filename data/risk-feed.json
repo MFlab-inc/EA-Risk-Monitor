@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-05T08:18:26+09:00",
-    "generated_intraday": "2026-08-05T21:09:58+09:00",
-    "generated_calendar": "2026-08-05T21:09:58+09:00",
+    "generated_intraday": "2026-08-05T23:40:54+09:00",
+    "generated_calendar": "2026-08-05T23:40:54+09:00",
     "session_date": "2026-08-04",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.7,
-      "change": -0.19,
-      "change_pct": -0.19
+      "value": 99.69,
+      "change": -0.2,
+      "change_pct": -0.2
     },
     "us10y": {
-      "value": 4.627,
-      "change": -0.059,
-      "change_pct": -1.26
+      "value": 4.623,
+      "change": -0.004,
+      "change_pct": -0.09
     },
     "vix": {
-      "value": 16.68,
-      "change": 0.18,
-      "change_pct": 1.09
+      "value": 16.93,
+      "change": 0.43,
+      "change_pct": 2.61
     }
   },
   "pairs": {
@@ -105,38 +105,50 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 212.398,
+        "price": 212.311,
         "range_today": 0.855,
         "range_vs_adr": 0.527,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-08-05T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-08-05T21:15:00+09:00",
+            "time_jst": "2026-08-07T21:30:00+09:00",
             "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
             "types": [
               "us_jobs"
             ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00",
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
             "gating": true
           }
         ]
@@ -145,8 +157,7 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "regime:highvol",
-          "event:ADP Non-Farm Employment Change"
+          "regime:highvol"
         ]
       }
     },
@@ -162,16 +173,41 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99055,
-        "range_today": 0.00235,
-        "range_vs_adr": 0.409,
+        "price": 0.99052,
+        "range_today": 0.00288,
+        "range_vs_adr": 0.501,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -191,11 +227,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85717,
+        "price": 0.85696,
         "range_today": 0.00094,
         "range_vs_adr": 0.287,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -220,48 +256,58 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15549,
-        "range_today": 0.00294,
-        "range_vs_adr": 0.531,
+        "price": 1.15495,
+        "range_today": 0.00309,
+        "range_vs_adr": 0.558,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-08-05T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-08-05T21:15:00+09:00",
+            "time_jst": "2026-08-07T21:30:00+09:00",
             "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
             "types": [
               "us_jobs"
             ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00",
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
             "gating": true
           }
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:ADP Non-Farm Employment Change"
-        ]
+        "reasons": []
       }
     },
     "USDCAD": {
@@ -276,26 +322,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.40469,
-        "range_today": 0.00337,
-        "range_vs_adr": 0.607,
+        "price": 1.40308,
+        "range_today": 0.00534,
+        "range_vs_adr": 0.962,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-08-05T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00"
-          },
           {
             "time_jst": "2026-08-05T23:30:00+09:00",
             "currency": "USD",
@@ -310,18 +345,6 @@
         ],
         "next_48h": [
           {
-            "time_jst": "2026-08-05T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00",
-            "gating": true
-          },
-          {
             "time_jst": "2026-08-05T23:30:00+09:00",
             "currency": "USD",
             "impact": "Low",
@@ -332,6 +355,66 @@
             "window_start_jst": "2026-08-05T11:30:00+09:00",
             "window_end_jst": "2026-08-06T00:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -339,7 +422,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ADP Non-Farm Employment Change",
           "event:Crude Oil Inventories"
         ]
       }
@@ -356,48 +438,58 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 157.569,
+        "price": 157.532,
         "range_today": 0.551,
         "range_vs_adr": 0.492,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-08-05T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-08-05T21:15:00+09:00",
+            "time_jst": "2026-08-07T21:30:00+09:00",
             "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
             "types": [
               "us_jobs"
             ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00",
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
             "gating": true
           }
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:ADP Non-Farm Employment Change"
-        ],
+        "reasons": [],
         "vr_hold_check": false
       }
     },
@@ -413,38 +505,50 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4197.69,
-        "range_today": 131.89,
-        "range_vs_adr": 1.541,
+        "price": 4230.89,
+        "range_today": 173.9,
+        "range_vs_adr": 2.032,
         "spike_flag": true,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-08-05T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-08-05T21:15:00+09:00",
+            "time_jst": "2026-08-07T21:30:00+09:00",
             "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
             "types": [
               "us_jobs"
             ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00",
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
             "gating": true
           }
         ]
@@ -453,8 +557,7 @@
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
-          "spike:range_vs_adr",
-          "event:ADP Non-Farm Employment Change"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -470,11 +573,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.20117,
+        "price": 1.20014,
         "range_today": 0.00745,
         "range_vs_adr": 1.114,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -499,48 +602,58 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70525,
-        "range_today": 0.00161,
-        "range_vs_adr": 0.351,
+        "price": 0.70597,
+        "range_today": 0.00238,
+        "range_vs_adr": 0.519,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-08-05T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-08-05T21:15:00+09:00",
+            "time_jst": "2026-08-07T21:30:00+09:00",
             "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
             "types": [
               "us_jobs"
             ],
-            "window_start_jst": "2026-08-05T09:15:00+09:00",
-            "window_end_jst": "2026-08-05T22:15:00+09:00",
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-08-07T09:30:00+09:00",
+            "window_end_jst": "2026-08-07T22:30:00+09:00",
             "gating": true
           }
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:ADP Non-Farm Employment Change"
-        ]
+        "reasons": []
       }
     },
     "EURAUD": {
@@ -555,11 +668,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.63836,
+        "price": 1.63599,
         "range_today": 0.0039,
         "range_vs_adr": 0.423,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -584,11 +697,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96794,
+        "price": 1.96336,
         "range_today": 0.01357,
         "range_vs_adr": 1.09,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -613,11 +726,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62305,
-        "range_today": 0.00373,
-        "range_vs_adr": 0.577,
+        "price": 1.62044,
+        "range_today": 0.00466,
+        "range_vs_adr": 0.721,
         "spike_flag": false,
-        "updated_at": "2026-08-05T21:09:58+09:00"
+        "updated_at": "2026-08-05T23:40:54+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -646,6 +759,30 @@
             "window_start_jst": "2026-08-05T11:30:00+09:00",
             "window_end_jst": "2026-08-06T00:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-08-07T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
