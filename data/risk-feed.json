@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-15T07:41:20+09:00",
-    "generated_intraday": "2026-08-17T22:56:29+09:00",
-    "generated_calendar": "2026-08-17T22:56:29+09:00",
+    "generated_intraday": "2026-08-17T23:36:24+09:00",
+    "generated_calendar": "2026-08-17T23:36:24+09:00",
     "session_date": "2026-08-14",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.49,
-      "change": -0.18,
-      "change_pct": -0.18
+      "value": 99.42,
+      "change": -0.25,
+      "change_pct": -0.25
     },
     "us10y": {
-      "value": 4.706,
-      "change": 0.01,
-      "change_pct": 0.21
+      "value": 4.7,
+      "change": 0.004,
+      "change_pct": 0.09
     },
     "vix": {
-      "value": 15.04,
-      "change": 0.79,
-      "change_pct": 5.54
+      "value": 14.96,
+      "change": 0.71,
+      "change_pct": 4.98
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 216.003,
+        "price": 215.934,
         "range_today": 0.661,
         "range_vs_adr": 0.416,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -171,47 +171,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98575,
+        "price": 0.98647,
         "range_today": 0.00607,
         "range_vs_adr": 1.135,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -231,11 +200,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85519,
+        "price": 0.85493,
         "range_today": 0.00191,
         "range_vs_adr": 0.74,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -297,11 +266,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15937,
+        "price": 1.15925,
         "range_today": 0.00517,
         "range_vs_adr": 1.028,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -339,45 +308,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.38552,
-        "range_today": 0.00262,
-        "range_vs_adr": 0.478,
+        "price": 1.38524,
+        "range_today": 0.0032,
+        "range_vs_adr": 0.584,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "time_jst": "2026-08-19T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-08-19T11:30:00+09:00",
+            "window_end_jst": "2026-08-20T00:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -399,11 +350,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.321,
+        "price": 159.249,
         "range_today": 0.55,
         "range_vs_adr": 0.444,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -429,11 +380,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4403.91,
-        "range_today": 47.66,
-        "range_vs_adr": 0.516,
+        "price": 4424.99,
+        "range_today": 59.93,
+        "range_vs_adr": 0.649,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -458,11 +409,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.20278,
+        "price": 1.2032,
         "range_today": 0.00435,
         "range_vs_adr": 0.742,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -487,11 +438,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71148,
+        "price": 0.71215,
         "range_today": 0.00526,
         "range_vs_adr": 1.229,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -516,11 +467,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.6295,
+        "price": 1.62779,
         "range_today": 0.00849,
         "range_vs_adr": 1.055,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -558,11 +509,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.95989,
+        "price": 1.95861,
         "range_today": 0.00857,
         "range_vs_adr": 0.793,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -600,46 +551,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60642,
+        "price": 1.60578,
         "range_today": 0.00448,
         "range_vs_adr": 0.786,
         "spike_flag": false,
-        "updated_at": "2026-08-17T22:56:29+09:00"
+        "updated_at": "2026-08-17T23:36:24+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-17T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-19T16:10:00+09:00",
             "currency": "EUR",
@@ -650,6 +571,18 @@
             ],
             "window_start_jst": "2026-08-19T04:10:00+09:00",
             "window_end_jst": "2026-08-19T18:10:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-19T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-08-19T11:30:00+09:00",
+            "window_end_jst": "2026-08-20T00:30:00+09:00",
             "gating": true
           }
         ]
