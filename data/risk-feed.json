@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-18T07:41:40+09:00",
-    "generated_intraday": "2026-08-19T02:37:30+09:00",
-    "generated_calendar": "2026-08-19T02:37:30+09:00",
+    "generated_intraday": "2026-08-19T03:17:05+09:00",
+    "generated_calendar": "2026-08-19T03:17:05+09:00",
     "session_date": "2026-08-17",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.65,
-      "change": 0.01,
-      "change_pct": 0.01
+      "value": 99.66,
+      "change": 0.02,
+      "change_pct": 0.02
     },
     "us10y": {
-      "value": 4.71,
-      "change": -0.014,
-      "change_pct": -0.3
+      "value": 4.708,
+      "change": -0.016,
+      "change_pct": -0.34
     },
     "vix": {
-      "value": 15.69,
-      "change": 0.5,
-      "change_pct": 3.29
+      "value": 15.76,
+      "change": 0.57,
+      "change_pct": 3.75
     }
   },
   "pairs": {
@@ -105,15 +105,38 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 216.036,
+        "price": 216.011,
         "range_today": 0.368,
         "range_vs_adr": 0.232,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-19T15:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "CPI y/y",
+            "types": [
+              "uk_cpi"
+            ],
+            "window_start_jst": "2026-08-19T03:00:00+09:00",
+            "window_end_jst": "2026-08-19T16:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-08-20T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Meeting Minutes",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-19T03:00:00+09:00",
+            "window_end_jst": "2026-08-20T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-19T15:00:00+09:00",
@@ -142,9 +165,12 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:CPI y/y",
+          "event:FOMC Meeting Minutes"
+        ]
       }
     },
     "AUDCAD": {
@@ -159,11 +185,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.9856,
+        "price": 0.9853,
         "range_today": 0.00317,
         "range_vs_adr": 0.61,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -209,11 +235,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85527,
+        "price": 0.85538,
         "range_today": 0.00142,
         "range_vs_adr": 0.561,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -242,6 +268,18 @@
             "window_start_jst": "2026-08-19T10:10:00+09:00",
             "window_end_jst": "2026-08-19T17:10:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-08-19T19:15:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-08-19T13:15:00+09:00",
+            "window_end_jst": "2026-08-19T20:15:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -263,15 +301,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15762,
+        "price": 1.15779,
         "range_today": 0.00212,
         "range_vs_adr": 0.419,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-20T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Meeting Minutes",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-19T03:00:00+09:00",
+            "window_end_jst": "2026-08-20T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-19T16:10:00+09:00",
@@ -283,6 +333,18 @@
             ],
             "window_start_jst": "2026-08-19T04:10:00+09:00",
             "window_end_jst": "2026-08-19T18:10:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-19T19:15:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-08-19T07:15:00+09:00",
+            "window_end_jst": "2026-08-19T21:15:00+09:00",
             "gating": true
           },
           {
@@ -300,9 +362,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:FOMC Meeting Minutes"
+        ]
       }
     },
     "USDCAD": {
@@ -317,15 +381,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.39038,
-        "range_today": 0.00424,
-        "range_vs_adr": 0.798,
+        "price": 1.39046,
+        "range_today": 0.00438,
+        "range_vs_adr": 0.825,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-20T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Meeting Minutes",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-19T03:00:00+09:00",
+            "window_end_jst": "2026-08-20T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-19T23:30:00+09:00",
@@ -354,9 +430,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:FOMC Meeting Minutes"
+        ]
       }
     },
     "USDJPY": {
@@ -371,15 +449,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.615,
+        "price": 159.592,
         "range_today": 0.476,
         "range_vs_adr": 0.378,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-20T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Meeting Minutes",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-19T03:00:00+09:00",
+            "window_end_jst": "2026-08-20T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-20T03:00:00+09:00",
@@ -396,9 +486,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": [],
+        "reasons": [
+          "event:FOMC Meeting Minutes"
+        ],
         "vr_hold_check": false
       }
     },
@@ -414,15 +506,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4364.79,
-        "range_today": 82.62,
-        "range_vs_adr": 0.893,
+        "price": 4358.35,
+        "range_today": 82.83,
+        "range_vs_adr": 0.895,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-20T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Meeting Minutes",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-19T03:00:00+09:00",
+            "window_end_jst": "2026-08-20T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-20T03:00:00+09:00",
@@ -439,9 +543,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:FOMC Meeting Minutes"
+        ]
       }
     },
     "AUDNZD": {
@@ -456,11 +562,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.20677,
+        "price": 1.20604,
         "range_today": 0.0062,
         "range_vs_adr": 1.067,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -506,15 +612,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70886,
-        "range_today": 0.00326,
-        "range_vs_adr": 0.76,
+        "price": 0.70861,
+        "range_today": 0.00357,
+        "range_vs_adr": 0.832,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-20T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Meeting Minutes",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-19T03:00:00+09:00",
+            "window_end_jst": "2026-08-20T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-20T03:00:00+09:00",
@@ -551,9 +669,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:FOMC Meeting Minutes"
+        ]
       }
     },
     "EURAUD": {
@@ -568,11 +688,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.63305,
-        "range_today": 0.00649,
-        "range_vs_adr": 0.841,
+        "price": 1.63385,
+        "range_today": 0.00733,
+        "range_vs_adr": 0.949,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -588,6 +708,18 @@
             ],
             "window_start_jst": "2026-08-19T04:10:00+09:00",
             "window_end_jst": "2026-08-19T18:10:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-19T19:15:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-08-19T07:15:00+09:00",
+            "window_end_jst": "2026-08-19T21:15:00+09:00",
             "gating": true
           },
           {
@@ -630,11 +762,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.97068,
-        "range_today": 0.01057,
-        "range_vs_adr": 0.999,
+        "price": 1.97058,
+        "range_today": 0.01068,
+        "range_vs_adr": 1.009,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -650,6 +782,18 @@
             ],
             "window_start_jst": "2026-08-19T04:10:00+09:00",
             "window_end_jst": "2026-08-19T18:10:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-19T19:15:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-08-19T07:15:00+09:00",
+            "window_end_jst": "2026-08-19T21:15:00+09:00",
             "gating": true
           }
         ]
@@ -672,11 +816,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60951,
-        "range_today": 0.00517,
-        "range_vs_adr": 0.909,
+        "price": 1.60988,
+        "range_today": 0.00543,
+        "range_vs_adr": 0.954,
         "spike_flag": false,
-        "updated_at": "2026-08-19T02:37:30+09:00"
+        "updated_at": "2026-08-19T03:17:05+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -692,6 +836,18 @@
             ],
             "window_start_jst": "2026-08-19T04:10:00+09:00",
             "window_end_jst": "2026-08-19T18:10:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-08-19T19:15:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-08-19T07:15:00+09:00",
+            "window_end_jst": "2026-08-19T21:15:00+09:00",
             "gating": true
           },
           {
