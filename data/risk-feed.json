@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-20T07:41:44+09:00",
-    "generated_intraday": "2026-08-20T12:07:12+09:00",
-    "generated_calendar": "2026-08-20T12:07:12+09:00",
+    "generated_intraday": "2026-08-20T13:03:27+09:00",
+    "generated_calendar": "2026-08-20T13:03:27+09:00",
     "session_date": "2026-08-19",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 98.85,
-      "change": 0.02,
-      "change_pct": 0.02
+      "value": 98.83,
+      "change": -0.82,
+      "change_pct": -0.82
     },
     "us10y": {
       "value": 4.653,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 215.577,
+        "price": 215.687,
         "range_today": 0.723,
         "range_vs_adr": 0.462,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -134,37 +134,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98223,
+        "price": 0.98245,
         "range_today": 0.00347,
         "range_vs_adr": 0.674,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Employment Change",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -184,11 +163,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85806,
+        "price": 0.85793,
         "range_today": 0.00118,
         "range_vs_adr": 0.49,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -213,11 +192,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.16747,
+        "price": 1.16798,
         "range_today": 0.00126,
         "range_vs_adr": 0.232,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -242,11 +221,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.38067,
-        "range_today": 0.00125,
-        "range_vs_adr": 0.223,
+        "price": 1.37988,
+        "range_today": 0.00141,
+        "range_vs_adr": 0.251,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -271,11 +250,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.443,
+        "price": 158.433,
         "range_today": 0.528,
         "range_vs_adr": 0.406,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -301,11 +280,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4495.83,
+        "price": 4499.37,
         "range_today": 43.73,
         "range_vs_adr": 0.443,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -330,37 +309,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.19575,
-        "range_today": 0.00584,
-        "range_vs_adr": 0.997,
+        "price": 1.19616,
+        "range_today": 0.00625,
+        "range_vs_adr": 1.067,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Employment Change",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -380,37 +338,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71141,
+        "price": 0.71198,
         "range_today": 0.00299,
         "range_vs_adr": 0.67,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Employment Change",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -430,37 +367,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.64114,
+        "price": 1.64049,
         "range_today": 0.00775,
         "range_vs_adr": 0.99,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Employment Change",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-20T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -480,11 +396,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96244,
-        "range_today": 0.00808,
-        "range_vs_adr": 0.776,
+        "price": 1.96229,
+        "range_today": 0.00906,
+        "range_vs_adr": 0.87,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -509,11 +425,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61191,
-        "range_today": 0.00149,
-        "range_vs_adr": 0.248,
+        "price": 1.61169,
+        "range_today": 0.00153,
+        "range_vs_adr": 0.255,
         "spike_flag": false,
-        "updated_at": "2026-08-20T12:07:12+09:00"
+        "updated_at": "2026-08-20T13:03:27+09:00"
       },
       "events": {
         "in_event_window": false,
