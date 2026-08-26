@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-26T07:45:16+09:00",
-    "generated_intraday": "2026-08-26T23:22:25+09:00",
-    "generated_calendar": "2026-08-26T23:22:25+09:00",
+    "generated_intraday": "2026-08-27T00:58:32+09:00",
+    "generated_calendar": "2026-08-27T00:58:32+09:00",
     "session_date": "2026-08-25",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.16,
-      "change": 0.24,
-      "change_pct": 0.24
+      "value": 99.14,
+      "change": 0.22,
+      "change_pct": 0.22
     },
     "us10y": {
-      "value": 4.664,
-      "change": 0.025,
-      "change_pct": 0.54
+      "value": 4.654,
+      "change": 0.015,
+      "change_pct": 0.32
     },
     "vix": {
-      "value": 15.44,
-      "change": -0.01,
-      "change_pct": -0.06
+      "value": 15.47,
+      "change": 0.02,
+      "change_pct": 0.13
     }
   },
   "pairs": {
@@ -105,36 +105,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 216.739,
-        "range_today": 0.783,
-        "range_vs_adr": 0.479,
+        "price": 216.643,
+        "range_today": 0.85,
+        "range_vs_adr": 0.52,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PCE Price Index m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Prelim GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
             "currency": "USD",
@@ -177,11 +157,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99544,
+        "price": 0.99499,
         "range_today": 0.00543,
         "range_vs_adr": 1.05,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -217,11 +197,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85681,
-        "range_today": 0.0018,
-        "range_vs_adr": 0.793,
+        "price": 0.85712,
+        "range_today": 0.00232,
+        "range_vs_adr": 1.022,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -246,36 +226,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.1647,
-        "range_today": 0.00318,
-        "range_vs_adr": 0.622,
+        "price": 1.16505,
+        "range_today": 0.00362,
+        "range_vs_adr": 0.708,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PCE Price Index m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Prelim GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
             "currency": "USD",
@@ -318,48 +278,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.38794,
-        "range_today": 0.00458,
-        "range_vs_adr": 0.786,
+        "price": 1.38811,
+        "range_today": 0.00591,
+        "range_vs_adr": 1.014,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-08-26T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-08-26T11:30:00+09:00",
-            "window_end_jst": "2026-08-27T00:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PCE Price Index m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Prelim GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-26T23:30:00+09:00",
             "currency": "USD",
@@ -407,11 +335,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Crude Oil Inventories"
-        ]
+        "reasons": []
       }
     },
     "USDJPY": {
@@ -426,36 +352,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.439,
-        "range_today": 0.551,
-        "range_vs_adr": 0.407,
+        "price": 159.382,
+        "range_today": 0.557,
+        "range_vs_adr": 0.412,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PCE Price Index m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Prelim GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
             "currency": "USD",
@@ -499,36 +405,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4623.29,
-        "range_today": 73.05,
-        "range_vs_adr": 0.718,
+        "price": 4600.96,
+        "range_today": 91.46,
+        "range_vs_adr": 0.9,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PCE Price Index m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Prelim GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
             "currency": "USD",
@@ -571,11 +457,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.20717,
-        "range_today": 0.00991,
-        "range_vs_adr": 1.782,
+        "price": 1.20746,
+        "range_today": 0.01025,
+        "range_vs_adr": 1.844,
         "spike_flag": true,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -602,36 +488,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71715,
+        "price": 0.7168,
         "range_today": 0.00293,
         "range_vs_adr": 0.643,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PCE Price Index m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Prelim GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
             "currency": "USD",
@@ -674,11 +540,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62415,
+        "price": 1.6254,
         "range_today": 0.00773,
         "range_vs_adr": 0.969,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -703,11 +569,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96027,
-        "range_today": 0.01072,
-        "range_vs_adr": 1.031,
+        "price": 1.96257,
+        "range_today": 0.0116,
+        "range_vs_adr": 1.115,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -732,27 +598,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61665,
+        "price": 1.61716,
         "range_today": 0.00367,
         "range_vs_adr": 0.627,
         "spike_flag": false,
-        "updated_at": "2026-08-26T23:22:25+09:00"
+        "updated_at": "2026-08-27T00:58:32+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-08-26T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-08-26T11:30:00+09:00",
-            "window_end_jst": "2026-08-27T00:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
             "time_jst": "2026-08-26T23:30:00+09:00",
@@ -779,11 +633,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Crude Oil Inventories"
-        ]
+        "reasons": []
       }
     }
   }
