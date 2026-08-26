@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-26T07:45:16+09:00",
-    "generated_intraday": "2026-08-26T11:54:26+09:00",
-    "generated_calendar": "2026-08-26T11:54:26+09:00",
+    "generated_intraday": "2026-08-26T12:55:34+09:00",
+    "generated_calendar": "2026-08-26T12:55:34+09:00",
     "session_date": "2026-08-25",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 98.93,
-      "change": 0.01,
-      "change_pct": 0.01
+      "value": 98.97,
+      "change": 0.05,
+      "change_pct": 0.05
     },
     "us10y": {
       "value": 4.639,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 216.961,
-        "range_today": 0.534,
-        "range_vs_adr": 0.327,
+        "price": 216.784,
+        "range_today": 0.653,
+        "range_vs_adr": 0.399,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -155,47 +155,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99479,
-        "range_today": 0.00436,
-        "range_vs_adr": 0.843,
+        "price": 0.99565,
+        "range_today": 0.00506,
+        "range_vs_adr": 0.979,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -215,11 +184,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85541,
+        "price": 0.85533,
         "range_today": 0.00081,
         "range_vs_adr": 0.357,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -244,11 +213,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.16704,
-        "range_today": 0.00105,
-        "range_vs_adr": 0.205,
+        "price": 1.16647,
+        "range_today": 0.00147,
+        "range_vs_adr": 0.288,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -294,11 +263,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.38535,
-        "range_today": 0.0021,
-        "range_vs_adr": 0.36,
+        "price": 1.38588,
+        "range_today": 0.00266,
+        "range_vs_adr": 0.456,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -370,11 +339,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.028,
+        "price": 158.959,
         "range_today": 0.377,
         "range_vs_adr": 0.279,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -421,11 +390,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4664.42,
+        "price": 4645.28,
         "range_today": 39.47,
         "range_vs_adr": 0.388,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -471,52 +440,23 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.204,
-        "range_today": 0.00704,
-        "range_vs_adr": 1.266,
-        "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "price": 1.20593,
+        "range_today": 0.00879,
+        "range_vs_adr": 1.581,
+        "spike_flag": true,
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     },
     "AUDUSD": {
@@ -531,46 +471,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71811,
-        "range_today": 0.00261,
-        "range_vs_adr": 0.572,
+        "price": 0.71843,
+        "range_today": 0.00277,
+        "range_vs_adr": 0.607,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-08-26T21:30:00+09:00",
             "currency": "USD",
@@ -611,47 +521,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62519,
-        "range_today": 0.00685,
-        "range_vs_adr": 0.858,
+        "price": 1.62365,
+        "range_today": 0.00773,
+        "range_vs_adr": 0.969,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-08-26T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Trimmed Mean CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -671,11 +550,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.95669,
-        "range_today": 0.00674,
-        "range_vs_adr": 0.648,
+        "price": 1.95796,
+        "range_today": 0.00711,
+        "range_vs_adr": 0.684,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -700,11 +579,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61673,
-        "range_today": 0.00165,
-        "range_vs_adr": 0.282,
+        "price": 1.61658,
+        "range_today": 0.002,
+        "range_vs_adr": 0.342,
         "spike_flag": false,
-        "updated_at": "2026-08-26T11:54:26+09:00"
+        "updated_at": "2026-08-26T12:55:34+09:00"
       },
       "events": {
         "in_event_window": true,
