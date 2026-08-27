@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-27T12:19:05+09:00",
-    "generated_intraday": "2026-08-27T21:55:41+09:00",
-    "generated_calendar": "2026-08-27T21:55:41+09:00",
+    "generated_intraday": "2026-08-28T07:54:16+09:00",
+    "generated_calendar": "2026-08-28T07:54:16+09:00",
     "session_date": "2026-08-26",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.21,
-      "change": 0.04,
-      "change_pct": 0.04
+      "value": 99.13,
+      "change": -0.04,
+      "change_pct": -0.04
     },
     "us10y": {
-      "value": 4.668,
-      "change": 0.004,
-      "change_pct": 0.09
+      "value": 4.672,
+      "change": 0.008,
+      "change_pct": 0.17
     },
     "vix": {
-      "value": 15.03,
-      "change": -0.18,
-      "change_pct": -1.18
+      "value": 14.51,
+      "change": -0.7,
+      "change_pct": -4.6
     }
   },
   "pairs": {
@@ -105,15 +105,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 216.425,
-        "range_today": 0.347,
-        "range_vs_adr": 0.216,
+        "price": 216.666,
+        "range_today": 0.201,
+        "range_vs_adr": 0.125,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-28T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Fed Chairman Warsh Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-27T23:00:00+09:00",
+            "window_end_jst": "2026-08-29T01:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
@@ -140,9 +152,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Fed Chairman Warsh Speaks"
+        ]
       }
     },
     "AUDCAD": {
@@ -157,11 +171,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99675,
-        "range_today": 0.00355,
-        "range_vs_adr": 0.71,
+        "price": 0.99658,
+        "range_today": 0.00098,
+        "range_vs_adr": 0.196,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -197,11 +211,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85762,
-        "range_today": 0.00105,
-        "range_vs_adr": 0.471,
+        "price": 0.85716,
+        "range_today": 0.00053,
+        "range_vs_adr": 0.238,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -226,15 +240,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.16424,
-        "range_today": 0.00229,
-        "range_vs_adr": 0.476,
+        "price": 1.16528,
+        "range_today": 0.00074,
+        "range_vs_adr": 0.154,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-28T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Fed Chairman Warsh Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-27T23:00:00+09:00",
+            "window_end_jst": "2026-08-29T01:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
@@ -261,9 +287,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Fed Chairman Warsh Speaks"
+        ]
       }
     },
     "USDCAD": {
@@ -278,15 +306,27 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.38697,
-        "range_today": 0.00234,
-        "range_vs_adr": 0.411,
+        "price": 1.38527,
+        "range_today": 0.00069,
+        "range_vs_adr": 0.121,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-28T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Fed Chairman Warsh Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-27T23:00:00+09:00",
+            "window_end_jst": "2026-08-29T01:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-28T21:30:00+09:00",
@@ -323,9 +363,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Fed Chairman Warsh Speaks"
+        ]
       }
     },
     "USDJPY": {
@@ -340,15 +382,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.426,
-        "range_today": 0.397,
-        "range_vs_adr": 0.295,
+        "price": 159.373,
+        "range_today": 0.107,
+        "range_vs_adr": 0.08,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-28T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Fed Chairman Warsh Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-27T23:00:00+09:00",
+            "window_end_jst": "2026-08-29T01:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
@@ -375,9 +429,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": [],
+        "reasons": [
+          "event:Fed Chairman Warsh Speaks"
+        ],
         "vr_hold_check": false
       }
     },
@@ -393,15 +449,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4581.12,
-        "range_today": 73.81,
-        "range_vs_adr": 0.735,
+        "price": 4608.93,
+        "range_today": 10.82,
+        "range_vs_adr": 0.108,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-28T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Fed Chairman Warsh Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-27T23:00:00+09:00",
+            "window_end_jst": "2026-08-29T01:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
@@ -428,9 +496,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Fed Chairman Warsh Speaks"
+        ]
       }
     },
     "AUDNZD": {
@@ -445,11 +515,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.2084,
-        "range_today": 0.00348,
-        "range_vs_adr": 0.618,
+        "price": 1.2086,
+        "range_today": 0.00117,
+        "range_vs_adr": 0.208,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -474,15 +544,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71866,
-        "range_today": 0.00251,
-        "range_vs_adr": 0.574,
+        "price": 0.71942,
+        "range_today": 0.00064,
+        "range_vs_adr": 0.146,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-08-28T23:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Fed Chairman Warsh Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-08-27T23:00:00+09:00",
+            "window_end_jst": "2026-08-29T01:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-08-28T23:00:00+09:00",
@@ -509,9 +591,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Fed Chairman Warsh Speaks"
+        ]
       }
     },
     "EURAUD": {
@@ -526,11 +610,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62,
-        "range_today": 0.00684,
-        "range_vs_adr": 0.934,
+        "price": 1.61976,
+        "range_today": 0.00127,
+        "range_vs_adr": 0.173,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -555,11 +639,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.9576,
-        "range_today": 0.00597,
-        "range_vs_adr": 0.58,
+        "price": 1.95771,
+        "range_today": 0.0021,
+        "range_vs_adr": 0.204,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -584,11 +668,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61474,
-        "range_today": 0.00444,
-        "range_vs_adr": 0.79,
+        "price": 1.61425,
+        "range_today": 0.00104,
+        "range_vs_adr": 0.185,
         "spike_flag": false,
-        "updated_at": "2026-08-27T21:55:41+09:00"
+        "updated_at": "2026-08-28T07:54:16+09:00"
       },
       "events": {
         "in_event_window": false,
