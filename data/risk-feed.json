@@ -1,9 +1,9 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-08-28T14:00:38+09:00",
+    "generated_daily": "2026-08-28T15:07:28+09:00",
     "generated_intraday": "2026-08-28T11:49:52+09:00",
-    "generated_calendar": "2026-08-28T14:00:38+09:00",
+    "generated_calendar": "2026-08-28T15:07:28+09:00",
     "session_date": "2026-08-27",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -432,9 +432,10 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:Fed Chairman Warsh Speaks"
+          "event:Fed Chairman Warsh Speaks",
+          "hold:weekend_approach"
         ],
-        "vr_hold_check": false
+        "vr_hold_check": true
       }
     },
     "XAUUSD": {
