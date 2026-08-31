@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-08-29T12:42:59+09:00",
-    "generated_intraday": "2026-08-31T08:56:57+09:00",
-    "generated_calendar": "2026-08-31T08:56:57+09:00",
+    "generated_intraday": "2026-08-31T14:19:36+09:00",
+    "generated_calendar": "2026-08-31T14:19:36+09:00",
     "session_date": "2026-08-28",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 99.65,
-      "change": -0.04,
-      "change_pct": -0.05
+      "value": 99.61,
+      "change": -0.09,
+      "change_pct": -0.09
     },
     "us10y": {
       "value": 4.72,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 216.816,
-        "range_today": 0.283,
-        "range_vs_adr": 0.247,
+        "price": 216.437,
+        "range_today": 0.514,
+        "range_vs_adr": 0.449,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -145,16 +145,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.9954,
-        "range_today": 0.00125,
-        "range_vs_adr": 0.269,
+        "price": 0.99547,
+        "range_today": 0.00139,
+        "range_vs_adr": 0.3,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-02T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -174,11 +185,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85593,
-        "range_today": 0.00064,
-        "range_vs_adr": 0.306,
+        "price": 0.85577,
+        "range_today": 0.00078,
+        "range_vs_adr": 0.373,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -203,11 +214,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15889,
-        "range_today": 0.00109,
-        "range_vs_adr": 0.25,
+        "price": 1.15907,
+        "range_today": 0.00164,
+        "range_vs_adr": 0.376,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -243,11 +254,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.39005,
-        "range_today": 0.00216,
-        "range_vs_adr": 0.389,
+        "price": 1.38935,
+        "range_today": 0.00313,
+        "range_vs_adr": 0.564,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -283,11 +294,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 160.131,
-        "range_today": 0.179,
-        "range_vs_adr": 0.189,
+        "price": 159.801,
+        "range_today": 0.448,
+        "range_vs_adr": 0.473,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -324,11 +335,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4448.77,
-        "range_today": 31.14,
-        "range_vs_adr": 0.298,
+        "price": 4422.84,
+        "range_today": 70.78,
+        "range_vs_adr": 0.676,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -364,16 +375,75 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.21008,
-        "range_today": 0.00288,
-        "range_vs_adr": 0.525,
+        "price": 1.2106,
+        "range_today": 0.00502,
+        "range_vs_adr": 0.914,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-02T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Official Cash Rate",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Monetary Policy Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Rate Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-02T12:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Press Conference",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-02T00:00:00+09:00",
+            "window_end_jst": "2026-09-02T14:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -393,11 +463,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71612,
-        "range_today": 0.00067,
-        "range_vs_adr": 0.164,
+        "price": 0.7165,
+        "range_today": 0.00159,
+        "range_vs_adr": 0.39,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -408,6 +478,16 @@
             "currency": "USD",
             "impact": "High",
             "title": "ISM Manufacturing PMI",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-02T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "GDP q/q",
             "types": [],
             "window_start_jst": null,
             "window_end_jst": null,
@@ -433,16 +513,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61833,
-        "range_today": 0.00153,
-        "range_vs_adr": 0.223,
+        "price": 1.61769,
+        "range_today": 0.00284,
+        "range_vs_adr": 0.414,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-02T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -462,16 +553,65 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.95827,
-        "range_today": 0.00475,
-        "range_vs_adr": 0.501,
+        "price": 1.95843,
+        "range_today": 0.00959,
+        "range_vs_adr": 1.011,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Official Cash Rate",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Monetary Policy Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Rate Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-02T12:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Press Conference",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-02T00:00:00+09:00",
+            "window_end_jst": "2026-09-02T14:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -491,11 +631,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61087,
+        "price": 1.61036,
         "range_today": 0.00233,
         "range_vs_adr": 0.449,
         "spike_flag": false,
-        "updated_at": "2026-08-31T08:56:57+09:00"
+        "updated_at": "2026-08-31T14:19:36+09:00"
       },
       "events": {
         "in_event_window": false,
