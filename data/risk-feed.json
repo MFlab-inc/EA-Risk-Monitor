@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-01T10:18:27+09:00",
-    "generated_intraday": "2026-09-01T21:14:33+09:00",
-    "generated_calendar": "2026-09-01T21:14:33+09:00",
+    "generated_intraday": "2026-09-02T01:45:39+09:00",
+    "generated_calendar": "2026-09-02T01:45:39+09:00",
     "session_date": "2026-08-31",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.62,
-      "change": 0.19,
-      "change_pct": 0.19
+      "value": 99.69,
+      "change": 0.26,
+      "change_pct": 0.26
     },
     "us10y": {
-      "value": 4.758,
-      "change": 0.086,
-      "change_pct": 1.84
+      "value": 4.784,
+      "change": 0.026,
+      "change_pct": 0.55
     },
     "vix": {
-      "value": 15.87,
-      "change": 0.95,
-      "change_pct": 6.37
+      "value": 15.85,
+      "change": 0.93,
+      "change_pct": 6.23
     }
   },
   "pairs": {
@@ -105,26 +105,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 216.699,
-        "range_today": 0.415,
-        "range_vs_adr": 0.429,
+        "price": 216.522,
+        "range_today": 0.492,
+        "range_vs_adr": 0.508,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-01T23:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "ISM Manufacturing PMI",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-02T21:15:00+09:00",
             "currency": "USD",
@@ -157,11 +147,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99188,
-        "range_today": 0.00425,
-        "range_vs_adr": 0.947,
+        "price": 0.99411,
+        "range_today": 0.00527,
+        "range_vs_adr": 1.174,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -233,11 +223,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85657,
+        "price": 0.85697,
         "range_today": 0.00161,
         "range_vs_adr": 0.789,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -262,26 +252,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15893,
-        "range_today": 0.00361,
-        "range_vs_adr": 0.841,
+        "price": 1.15878,
+        "range_today": 0.00392,
+        "range_vs_adr": 0.914,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-01T23:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "ISM Manufacturing PMI",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-02T21:15:00+09:00",
             "currency": "USD",
@@ -314,26 +294,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.38869,
-        "range_today": 0.0043,
-        "range_vs_adr": 0.762,
+        "price": 1.39025,
+        "range_today": 0.00618,
+        "range_vs_adr": 1.096,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-01T23:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "ISM Manufacturing PMI",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-02T21:15:00+09:00",
             "currency": "USD",
@@ -414,26 +384,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 160.16,
-        "range_today": 0.534,
-        "range_vs_adr": 0.627,
+        "price": 160.13,
+        "range_today": 0.559,
+        "range_vs_adr": 0.656,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-01T23:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "ISM Manufacturing PMI",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-02T21:15:00+09:00",
             "currency": "USD",
@@ -467,26 +427,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4370.51,
-        "range_today": 98.05,
-        "range_vs_adr": 0.935,
+        "price": 4353.15,
+        "range_today": 135.3,
+        "range_vs_adr": 1.29,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-01T23:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "ISM Manufacturing PMI",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-02T21:15:00+09:00",
             "currency": "USD",
@@ -519,15 +469,60 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.21232,
+        "price": 1.2135,
         "range_today": 0.00319,
         "range_vs_adr": 0.581,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Official Cash Rate",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Monetary Policy Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Rate Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T12:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Press Conference",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-02T00:00:00+09:00",
+            "window_end_jst": "2026-09-02T14:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-02T10:30:00+09:00",
@@ -602,9 +597,14 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Official Cash Rate",
+          "event:RBNZ Monetary Policy Statement",
+          "event:RBNZ Rate Statement",
+          "event:RBNZ Press Conference"
+        ]
       }
     },
     "AUDUSD": {
@@ -619,26 +619,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71424,
+        "price": 0.71509,
         "range_today": 0.00409,
         "range_vs_adr": 1.071,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-01T23:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "ISM Manufacturing PMI",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-02T10:30:00+09:00",
             "currency": "AUD",
@@ -681,11 +671,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62263,
+        "price": 1.62055,
         "range_today": 0.00603,
         "range_vs_adr": 0.948,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -721,15 +711,60 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96716,
+        "price": 1.96636,
         "range_today": 0.00752,
         "range_vs_adr": 0.807,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Official Cash Rate",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Monetary Policy Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T11:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Rate Statement",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-01T23:00:00+09:00",
+            "window_end_jst": "2026-09-02T13:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T12:00:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "RBNZ Press Conference",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-09-02T00:00:00+09:00",
+            "window_end_jst": "2026-09-02T14:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-02T11:00:00+09:00",
@@ -794,9 +829,14 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Official Cash Rate",
+          "event:RBNZ Monetary Policy Statement",
+          "event:RBNZ Rate Statement",
+          "event:RBNZ Press Conference"
+        ]
       }
     },
     "EURCAD": {
@@ -811,11 +851,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60937,
-        "range_today": 0.0024,
-        "range_vs_adr": 0.47,
+        "price": 1.61091,
+        "range_today": 0.00502,
+        "range_vs_adr": 0.982,
         "spike_flag": false,
-        "updated_at": "2026-09-01T21:14:33+09:00"
+        "updated_at": "2026-09-02T01:45:39+09:00"
       },
       "events": {
         "in_event_window": false,
