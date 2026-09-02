@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-02T09:14:58+09:00",
-    "generated_intraday": "2026-09-02T22:44:03+09:00",
-    "generated_calendar": "2026-09-02T22:44:03+09:00",
+    "generated_intraday": "2026-09-03T02:26:43+09:00",
+    "generated_calendar": "2026-09-03T02:26:43+09:00",
     "session_date": "2026-09-01",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.61,
-      "change": -0.06,
-      "change_pct": -0.06
+      "value": 99.59,
+      "change": -0.08,
+      "change_pct": -0.08
     },
     "us10y": {
-      "value": 4.786,
-      "change": -0.01,
-      "change_pct": -0.21
+      "value": 4.796,
+      "change": 0,
+      "change_pct": 0
     },
     "vix": {
-      "value": 16.09,
-      "change": -0.25,
-      "change_pct": -1.53
+      "value": 15.43,
+      "change": -0.91,
+      "change_pct": -5.57
     }
   },
   "pairs": {
@@ -105,28 +105,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 214.381,
+        "price": 214.345,
         "range_today": 2.886,
         "range_vs_adr": 3.11,
         "spike_flag": true,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-02T09:15:00+09:00",
-            "window_end_jst": "2026-09-02T22:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T17:50:00+09:00",
             "currency": "GBP",
@@ -197,86 +185,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99612,
-        "range_today": 0.00422,
-        "range_vs_adr": 0.979,
+        "price": 0.99236,
+        "range_today": 0.00459,
+        "range_vs_adr": 1.065,
         "spike_flag": false,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Rate Statement",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Overnight Rate",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T01:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Rate Statement",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Overnight Rate",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T01:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "CAD",
@@ -304,13 +222,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOC Rate Statement",
-          "event:Overnight Rate",
-          "event:BOC Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURGBP": {
@@ -325,11 +239,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85875,
+        "price": 0.85901,
         "range_today": 0.00328,
         "range_vs_adr": 1.6,
         "spike_flag": true,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -369,28 +283,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15933,
+        "price": 1.15853,
         "range_today": 0.004,
         "range_vs_adr": 0.926,
         "spike_flag": false,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-02T09:15:00+09:00",
-            "window_end_jst": "2026-09-02T22:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "USD",
@@ -447,121 +349,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.3906,
-        "range_today": 0.00483,
-        "range_vs_adr": 0.844,
-        "spike_flag": false,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "price": 1.38473,
+        "range_today": 0.01027,
+        "range_vs_adr": 1.795,
+        "spike_flag": true,
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Rate Statement",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Overnight Rate",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T01:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T00:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-02T09:15:00+09:00",
-            "window_end_jst": "2026-09-02T22:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Rate Statement",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Overnight Rate",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T01:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T00:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "CAD",
@@ -626,12 +423,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "event:BOC Rate Statement",
-          "event:Overnight Rate",
-          "event:BOC Press Conference",
-          "event:Crude Oil Inventories"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -647,28 +441,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.715,
+        "price": 158.931,
         "range_today": 2.126,
         "range_vs_adr": 2.525,
         "spike_flag": true,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-02T09:15:00+09:00",
-            "window_end_jst": "2026-09-02T22:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "USD",
@@ -728,28 +510,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 4369.42,
-        "range_today": 86.91,
-        "range_vs_adr": 0.8,
+        "price": 4367.46,
+        "range_today": 112.98,
+        "range_vs_adr": 1.04,
         "spike_flag": false,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-02T09:15:00+09:00",
-            "window_end_jst": "2026-09-02T22:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "USD",
@@ -806,11 +576,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.22751,
+        "price": 1.22646,
         "range_today": 0.01747,
         "range_vs_adr": 3.247,
         "spike_flag": true,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -863,28 +633,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71633,
-        "range_today": 0.00452,
-        "range_vs_adr": 1.199,
+        "price": 0.71664,
+        "range_today": 0.00532,
+        "range_vs_adr": 1.411,
         "spike_flag": false,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T21:15:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "ADP Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-02T09:15:00+09:00",
-            "window_end_jst": "2026-09-02T22:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "USD",
@@ -941,11 +699,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61875,
-        "range_today": 0.00714,
-        "range_vs_adr": 1.15,
+        "price": 1.61656,
+        "range_today": 0.00927,
+        "range_vs_adr": 1.493,
         "spike_flag": false,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -970,11 +728,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.98668,
+        "price": 1.98271,
         "range_today": 0.0315,
         "range_vs_adr": 3.365,
         "spike_flag": true,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1027,109 +785,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61226,
-        "range_today": 0.00495,
-        "range_vs_adr": 0.992,
-        "spike_flag": false,
-        "updated_at": "2026-09-02T22:44:03+09:00"
+        "price": 1.60428,
+        "range_today": 0.01031,
+        "range_vs_adr": 2.066,
+        "spike_flag": true,
+        "updated_at": "2026-09-03T02:26:43+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Rate Statement",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Overnight Rate",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T01:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T00:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Rate Statement",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T22:45:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Overnight Rate",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T10:45:00+09:00",
-            "window_end_jst": "2026-09-03T00:45:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T01:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-09-02T11:30:00+09:00",
-            "window_end_jst": "2026-09-03T00:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "CAD",
@@ -1158,12 +823,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "event:BOC Rate Statement",
-          "event:Overnight Rate",
-          "event:BOC Press Conference",
-          "event:Crude Oil Inventories"
+          "spike:range_vs_adr"
         ]
       }
     }
