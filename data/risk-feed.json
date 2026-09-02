@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-02T09:14:58+09:00",
-    "generated_intraday": "2026-09-03T05:03:16+09:00",
-    "generated_calendar": "2026-09-03T05:03:16+09:00",
+    "generated_intraday": "2026-09-03T07:34:57+09:00",
+    "generated_calendar": "2026-09-03T07:34:57+09:00",
     "session_date": "2026-09-01",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 99.6,
-      "change": -0.07,
-      "change_pct": -0.07
+      "value": 99.58,
+      "change": -0.09,
+      "change_pct": -0.09
     },
     "us10y": {
       "value": 4.796,
@@ -87,9 +87,9 @@
       "change_pct": 0
     },
     "vix": {
-      "value": 15.3,
-      "change": -1.04,
-      "change_pct": -6.36
+      "value": 15.2,
+      "change": -1.14,
+      "change_pct": -6.98
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 214.17,
-        "range_today": 2.886,
-        "range_vs_adr": 3.11,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 214.075,
+        "range_today": 0.208,
+        "range_vs_adr": 0.224,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -166,11 +166,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "AUDCAD": {
@@ -185,11 +183,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99239,
-        "range_today": 0.00476,
-        "range_vs_adr": 1.104,
+        "price": 0.99262,
+        "range_today": 0.00146,
+        "range_vs_adr": 0.339,
         "spike_flag": false,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -239,11 +237,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85912,
-        "range_today": 0.00328,
-        "range_vs_adr": 1.6,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 0.85941,
+        "range_today": 0.00057,
+        "range_vs_adr": 0.278,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -264,11 +262,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "EURUSD": {
@@ -283,11 +279,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15882,
-        "range_today": 0.004,
-        "range_vs_adr": 0.926,
+        "price": 1.15866,
+        "range_today": 0.00043,
+        "range_vs_adr": 0.1,
         "spike_flag": false,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -349,11 +345,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.38392,
-        "range_today": 0.01051,
-        "range_vs_adr": 1.837,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 1.38454,
+        "range_today": 0.00099,
+        "range_vs_adr": 0.173,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -422,11 +418,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "USDJPY": {
@@ -441,11 +435,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.769,
-        "range_today": 2.126,
-        "range_vs_adr": 2.525,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 158.785,
+        "range_today": 0.133,
+        "range_vs_adr": 0.158,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -490,11 +484,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ],
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": [],
         "vr_hold_check": false
       }
     },
@@ -510,11 +502,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 4389.92,
-        "range_today": 112.98,
-        "range_vs_adr": 1.04,
+        "price": 4388.92,
+        "range_today": 5.97,
+        "range_vs_adr": 0.055,
         "spike_flag": false,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -576,49 +568,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.22534,
-        "range_today": 0.01747,
-        "range_vs_adr": 3.247,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 1.22554,
+        "range_today": 0.00265,
+        "range_vs_adr": 0.493,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-03T05:10:00+09:00",
-            "currency": "NZD",
-            "impact": "Medium",
-            "title": "RBNZ Gov Breman Speaks",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-02T17:10:00+09:00",
-            "window_end_jst": "2026-09-03T07:10:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-03T05:10:00+09:00",
-            "currency": "NZD",
-            "impact": "Medium",
-            "title": "RBNZ Gov Breman Speaks",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-02T17:10:00+09:00",
-            "window_end_jst": "2026-09-03T07:10:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr",
-          "event:RBNZ Gov Breman Speaks"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "AUDUSD": {
@@ -633,11 +597,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71709,
-        "range_today": 0.00532,
-        "range_vs_adr": 1.411,
+        "price": 0.71694,
+        "range_today": 0.00088,
+        "range_vs_adr": 0.233,
         "spike_flag": false,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -699,11 +663,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.6162,
-        "range_today": 0.0095,
-        "range_vs_adr": 1.53,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 1.61614,
+        "range_today": 0.00177,
+        "range_vs_adr": 0.285,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -711,11 +675,9 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "EURNZD": {
@@ -730,49 +692,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.98024,
-        "range_today": 0.0315,
-        "range_vs_adr": 3.365,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 1.98067,
+        "range_today": 0.00545,
+        "range_vs_adr": 0.582,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-03T05:10:00+09:00",
-            "currency": "NZD",
-            "impact": "Medium",
-            "title": "RBNZ Gov Breman Speaks",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-02T17:10:00+09:00",
-            "window_end_jst": "2026-09-03T07:10:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-03T05:10:00+09:00",
-            "currency": "NZD",
-            "impact": "Medium",
-            "title": "RBNZ Gov Breman Speaks",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-02T17:10:00+09:00",
-            "window_end_jst": "2026-09-03T07:10:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr",
-          "event:RBNZ Gov Breman Speaks"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "EURCAD": {
@@ -787,11 +721,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60372,
-        "range_today": 0.01128,
-        "range_vs_adr": 2.261,
-        "spike_flag": true,
-        "updated_at": "2026-09-03T05:03:16+09:00"
+        "price": 1.60422,
+        "range_today": 0.0011,
+        "range_vs_adr": 0.22,
+        "spike_flag": false,
+        "updated_at": "2026-09-03T07:34:57+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -824,11 +758,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     }
   }
