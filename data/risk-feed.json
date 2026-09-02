@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-02T09:14:58+09:00",
-    "generated_intraday": "2026-09-02T09:20:01+09:00",
-    "generated_calendar": "2026-09-02T09:20:01+09:00",
+    "generated_intraday": "2026-09-02T13:49:49+09:00",
+    "generated_calendar": "2026-09-02T13:49:49+09:00",
     "session_date": "2026-09-01",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 99.7,
-      "change": 0.27,
-      "change_pct": 0.27
+      "value": 99.79,
+      "change": 0.12,
+      "change_pct": 0.12
     },
     "us10y": {
       "value": 4.796,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 216.476,
-        "range_today": 0.149,
-        "range_vs_adr": 0.16,
+        "price": 216.128,
+        "range_today": 0.478,
+        "range_vs_adr": 0.515,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -161,26 +161,50 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99285,
-        "range_today": 0.00102,
-        "range_vs_adr": 0.237,
+        "price": 0.99313,
+        "range_today": 0.00164,
+        "range_vs_adr": 0.381,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
-        "next_48h": [
+        "in_event_window": true,
+        "active": [
           {
-            "time_jst": "2026-09-02T10:30:00+09:00",
-            "currency": "AUD",
+            "time_jst": "2026-09-02T22:45:00+09:00",
+            "currency": "CAD",
             "impact": "High",
-            "title": "GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "title": "BOC Rate Statement",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T10:45:00+09:00",
+            "window_end_jst": "2026-09-03T00:45:00+09:00"
           },
+          {
+            "time_jst": "2026-09-02T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Overnight Rate",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T10:45:00+09:00",
+            "window_end_jst": "2026-09-03T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T23:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Press Conference",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T11:30:00+09:00",
+            "window_end_jst": "2026-09-03T01:30:00+09:00"
+          }
+        ],
+        "next_48h": [
           {
             "time_jst": "2026-09-02T22:45:00+09:00",
             "currency": "CAD",
@@ -220,9 +244,13 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:BOC Rate Statement",
+          "event:Overnight Rate",
+          "event:BOC Press Conference"
+        ]
       }
     },
     "EURGBP": {
@@ -237,11 +265,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85773,
-        "range_today": 0.00054,
-        "range_vs_adr": 0.263,
+        "price": 0.85769,
+        "range_today": 0.00067,
+        "range_vs_adr": 0.327,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -266,11 +294,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15896,
-        "range_today": 0.00094,
-        "range_vs_adr": 0.218,
+        "price": 1.15772,
+        "range_today": 0.00215,
+        "range_vs_adr": 0.498,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -322,11 +350,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.38976,
-        "range_today": 0.00117,
-        "range_vs_adr": 0.205,
+        "price": 1.39205,
+        "range_today": 0.00305,
+        "range_vs_adr": 0.533,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -341,6 +369,50 @@
             ],
             "window_start_jst": "2026-09-02T09:15:00+09:00",
             "window_end_jst": "2026-09-02T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Rate Statement",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T10:45:00+09:00",
+            "window_end_jst": "2026-09-03T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Overnight Rate",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T10:45:00+09:00",
+            "window_end_jst": "2026-09-03T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T23:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Press Conference",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T11:30:00+09:00",
+            "window_end_jst": "2026-09-03T01:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-09-02T11:30:00+09:00",
+            "window_end_jst": "2026-09-03T00:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -410,7 +482,11 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ADP Non-Farm Employment Change"
+          "event:ADP Non-Farm Employment Change",
+          "event:BOC Rate Statement",
+          "event:Overnight Rate",
+          "event:BOC Press Conference",
+          "event:Crude Oil Inventories"
         ]
       }
     },
@@ -426,11 +502,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 160.217,
-        "range_today": 0.086,
-        "range_vs_adr": 0.102,
+        "price": 160.112,
+        "range_today": 0.3,
+        "range_vs_adr": 0.356,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -483,11 +559,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 4333.06,
-        "range_today": 15.92,
-        "range_vs_adr": 0.146,
+        "price": 4304.84,
+        "range_today": 51.99,
+        "range_vs_adr": 0.479,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -539,48 +615,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.21274,
-        "range_today": 0.00146,
-        "range_vs_adr": 0.271,
-        "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "price": 1.22347,
+        "range_today": 0.01228,
+        "range_vs_adr": 2.283,
+        "spike_flag": true,
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Official Cash Rate",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Monetary Policy Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Rate Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00"
-          },
           {
             "time_jst": "2026-09-02T12:00:00+09:00",
             "currency": "NZD",
@@ -594,52 +637,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Official Cash Rate",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Monetary Policy Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Rate Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-02T12:00:00+09:00",
             "currency": "NZD",
@@ -668,11 +665,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "event:Official Cash Rate",
-          "event:RBNZ Monetary Policy Statement",
-          "event:RBNZ Rate Statement",
+          "spike:range_vs_adr",
           "event:RBNZ Press Conference"
         ]
       }
@@ -689,11 +684,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.7144,
-        "range_today": 0.00073,
-        "range_vs_adr": 0.194,
+        "price": 0.71343,
+        "range_today": 0.00193,
+        "range_vs_adr": 0.512,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -711,16 +706,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-02T21:15:00+09:00",
             "currency": "USD",
@@ -755,27 +740,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62229,
-        "range_today": 0.00162,
-        "range_vs_adr": 0.261,
+        "price": 1.6227,
+        "range_today": 0.00397,
+        "range_vs_adr": 0.639,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-02T10:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "GDP q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -795,48 +769,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.96735,
-        "range_today": 0.00184,
-        "range_vs_adr": 0.197,
-        "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "price": 1.98525,
+        "range_today": 0.02321,
+        "range_vs_adr": 2.48,
+        "spike_flag": true,
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Official Cash Rate",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Monetary Policy Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Rate Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00"
-          },
           {
             "time_jst": "2026-09-02T12:00:00+09:00",
             "currency": "NZD",
@@ -850,42 +791,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Official Cash Rate",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Monetary Policy Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-02T11:00:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "RBNZ Rate Statement",
-            "types": [
-              "rbnz"
-            ],
-            "window_start_jst": "2026-09-01T23:00:00+09:00",
-            "window_end_jst": "2026-09-02T13:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-02T12:00:00+09:00",
             "currency": "NZD",
@@ -914,11 +819,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "event:Official Cash Rate",
-          "event:RBNZ Monetary Policy Statement",
-          "event:RBNZ Rate Statement",
+          "spike:range_vs_adr",
           "event:RBNZ Press Conference"
         ]
       }
@@ -935,15 +838,60 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61064,
-        "range_today": 0.00163,
-        "range_vs_adr": 0.327,
+        "price": 1.61156,
+        "range_today": 0.00259,
+        "range_vs_adr": 0.519,
         "spike_flag": false,
-        "updated_at": "2026-09-02T09:20:01+09:00"
+        "updated_at": "2026-09-02T13:49:49+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-02T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Rate Statement",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T10:45:00+09:00",
+            "window_end_jst": "2026-09-03T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Overnight Rate",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T10:45:00+09:00",
+            "window_end_jst": "2026-09-03T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T23:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Press Conference",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-02T11:30:00+09:00",
+            "window_end_jst": "2026-09-03T01:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-02T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-09-02T11:30:00+09:00",
+            "window_end_jst": "2026-09-03T00:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-02T22:45:00+09:00",
@@ -996,9 +944,14 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:BOC Rate Statement",
+          "event:Overnight Rate",
+          "event:BOC Press Conference",
+          "event:Crude Oil Inventories"
+        ]
       }
     }
   }
