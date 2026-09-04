@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-04T09:06:50+09:00",
-    "generated_intraday": "2026-09-04T19:00:01+09:00",
-    "generated_calendar": "2026-09-04T19:00:01+09:00",
+    "generated_intraday": "2026-09-04T23:16:08+09:00",
+    "generated_calendar": "2026-09-04T23:16:08+09:00",
     "session_date": "2026-09-03",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.11,
-      "change": 0.11,
-      "change_pct": 0.11
+      "value": 99.16,
+      "change": 0.16,
+      "change_pct": 0.16
     },
     "us10y": {
-      "value": 4.762,
-      "change": -0.034,
-      "change_pct": -0.71
+      "value": 4.776,
+      "change": 0.014,
+      "change_pct": 0.29
     },
     "vix": {
-      "value": 14.24,
-      "change": -0.08,
-      "change_pct": -0.56
+      "value": 14.03,
+      "change": -0.29,
+      "change_pct": -2.03
     }
   },
   "pairs": {
@@ -105,73 +105,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 211.626,
-        "range_today": 1.661,
-        "range_vs_adr": 1.392,
-        "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "price": 210.906,
+        "range_today": 2.043,
+        "range_vs_adr": 1.712,
+        "spike_flag": true,
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-04T17:50:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Gov Bailey Speaks",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-04T05:50:00+09:00",
-            "window_end_jst": "2026-09-04T19:50:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Average Hourly Earnings m/m",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-04T17:50:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Gov Bailey Speaks",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-04T05:50:00+09:00",
-            "window_end_jst": "2026-09-04T19:50:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
             "currency": "USD",
@@ -212,12 +155,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "event:BOE Gov Bailey Speaks",
-          "event:Average Hourly Earnings m/m",
-          "event:Non-Farm Employment Change",
-          "event:Unemployment Rate"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -233,11 +173,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99404,
-        "range_today": 0.00202,
-        "range_vs_adr": 0.469,
+        "price": 0.99798,
+        "range_today": 0.00621,
+        "range_vs_adr": 1.441,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -287,34 +227,23 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85913,
-        "range_today": 0.00162,
-        "range_vs_adr": 0.743,
-        "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "price": 0.85957,
+        "range_today": 0.00377,
+        "range_vs_adr": 1.729,
+        "spike_flag": true,
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-04T17:50:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "BOE Gov Bailey Speaks",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-04T11:50:00+09:00",
-            "window_end_jst": "2026-09-04T18:50:00+09:00",
-            "gating": true
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     },
     "EURUSD": {
@@ -329,49 +258,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.16216,
-        "range_today": 0.0016,
-        "range_vs_adr": 0.362,
+        "price": 1.16111,
+        "range_today": 0.00488,
+        "range_vs_adr": 1.104,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Average Hourly Earnings m/m",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
@@ -412,13 +307,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Average Hourly Earnings m/m",
-          "event:Non-Farm Employment Change",
-          "event:Unemployment Rate"
-        ]
+        "reasons": []
       }
     },
     "USDCAD": {
@@ -433,71 +324,15 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.3804,
-        "range_today": 0.00216,
-        "range_vs_adr": 0.357,
-        "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "price": 1.38597,
+        "range_today": 0.01186,
+        "range_vs_adr": 1.96,
+        "spike_flag": true,
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Employment Change",
-            "types": [
-              "ca_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [
-              "ca_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Average Hourly Earnings m/m",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
@@ -563,14 +398,10 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "regime:highvol",
-          "event:Employment Change",
-          "event:Unemployment Rate",
-          "event:Average Hourly Earnings m/m",
-          "event:Non-Farm Employment Change",
-          "event:Unemployment Rate"
+          "spike:range_vs_adr",
+          "regime:highvol"
         ]
       }
     },
@@ -586,49 +417,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 156.461,
-        "range_today": 1.285,
-        "range_vs_adr": 1.218,
+        "price": 156.118,
+        "range_today": 1.549,
+        "range_vs_adr": 1.468,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Average Hourly Earnings m/m",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
@@ -669,12 +466,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
         "reasons": [
-          "event:Average Hourly Earnings m/m",
-          "event:Non-Farm Employment Change",
-          "event:Unemployment Rate",
           "hold:weekend_approach"
         ],
         "vr_hold_check": true
@@ -692,49 +486,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4469.77,
-        "range_today": 30.83,
-        "range_vs_adr": 0.289,
+        "price": 4430.44,
+        "range_today": 145.58,
+        "range_vs_adr": 1.365,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Average Hourly Earnings m/m",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
@@ -775,13 +535,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Average Hourly Earnings m/m",
-          "event:Non-Farm Employment Change",
-          "event:Unemployment Rate"
-        ]
+        "reasons": []
       }
     },
     "AUDNZD": {
@@ -796,11 +552,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.22508,
-        "range_today": 0.00473,
-        "range_vs_adr": 0.787,
+        "price": 1.22419,
+        "range_today": 0.00624,
+        "range_vs_adr": 1.038,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -825,49 +581,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.72017,
-        "range_today": 0.00187,
-        "range_vs_adr": 0.47,
+        "price": 0.72008,
+        "range_today": 0.00362,
+        "range_vs_adr": 0.91,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Average Hourly Earnings m/m",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Non-Farm Employment Change",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-04T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [
-              "us_jobs"
-            ],
-            "window_start_jst": "2026-09-04T09:30:00+09:00",
-            "window_end_jst": "2026-09-04T22:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
             "time_jst": "2026-09-04T21:30:00+09:00",
@@ -908,13 +630,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Average Hourly Earnings m/m",
-          "event:Non-Farm Employment Change",
-          "event:Unemployment Rate"
-        ]
+        "reasons": []
       }
     },
     "EURAUD": {
@@ -929,11 +647,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.6135,
-        "range_today": 0.00376,
-        "range_vs_adr": 0.565,
+        "price": 1.61276,
+        "range_today": 0.00927,
+        "range_vs_adr": 1.392,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -958,11 +676,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.97654,
-        "range_today": 0.00995,
-        "range_vs_adr": 0.952,
+        "price": 1.97427,
+        "range_today": 0.01196,
+        "range_vs_adr": 1.144,
         "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -987,11 +705,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60409,
-        "range_today": 0.00191,
-        "range_vs_adr": 0.37,
-        "spike_flag": false,
-        "updated_at": "2026-09-04T19:00:01+09:00"
+        "price": 1.60946,
+        "range_today": 0.01004,
+        "range_vs_adr": 1.946,
+        "spike_flag": true,
+        "updated_at": "2026-09-04T23:16:08+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1024,9 +742,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     }
   }
