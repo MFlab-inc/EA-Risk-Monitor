@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-08T09:25:34+09:00",
-    "generated_intraday": "2026-09-08T23:01:36+09:00",
-    "generated_calendar": "2026-09-08T23:01:36+09:00",
+    "generated_intraday": "2026-09-09T02:53:13+09:00",
+    "generated_calendar": "2026-09-09T02:53:13+09:00",
     "session_date": "2026-09-07",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 98.86,
-      "change": -0.3,
-      "change_pct": -0.3
+      "value": 98.88,
+      "change": -0.28,
+      "change_pct": -0.28
     },
     "us10y": {
-      "value": 4.78,
-      "change": -0.004,
-      "change_pct": -0.08
+      "value": 4.79,
+      "change": 0.006,
+      "change_pct": 0.13
     },
     "vix": {
-      "value": 15.59,
-      "change": 0.29,
-      "change_pct": 1.9
+      "value": 15.28,
+      "change": -0.02,
+      "change_pct": -0.13
     }
   },
   "pairs": {
@@ -105,40 +105,16 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 208.475,
+        "price": 208.883,
         "range_today": 2.109,
         "range_vs_adr": 1.756,
         "spike_flag": true,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-08T22:15:00+09:00",
-            "currency": "GBP",
-            "impact": "Medium",
-            "title": "Monetary Policy Report Hearings",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-08T10:15:00+09:00",
-            "window_end_jst": "2026-09-09T00:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-08T22:15:00+09:00",
-            "currency": "GBP",
-            "impact": "Medium",
-            "title": "Monetary Policy Report Hearings",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-08T10:15:00+09:00",
-            "window_end_jst": "2026-09-09T00:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-10T21:30:00+09:00",
             "currency": "USD",
@@ -166,8 +142,7 @@
         "halt_all_new": true,
         "reasons": [
           "spike:range_vs_adr",
-          "regime:highvol",
-          "event:Monetary Policy Report Hearings"
+          "regime:highvol"
         ]
       }
     },
@@ -183,11 +158,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99608,
+        "price": 0.99554,
         "range_today": 0.00364,
         "range_vs_adr": 0.824,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -212,40 +187,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85771,
+        "price": 0.85862,
         "range_today": 0.00186,
         "range_vs_adr": 0.886,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-08T22:15:00+09:00",
-            "currency": "GBP",
-            "impact": "Medium",
-            "title": "Monetary Policy Report Hearings",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-08T16:15:00+09:00",
-            "window_end_jst": "2026-09-08T23:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-08T22:15:00+09:00",
-            "currency": "GBP",
-            "impact": "Medium",
-            "title": "Monetary Policy Report Hearings",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-08T16:15:00+09:00",
-            "window_end_jst": "2026-09-08T23:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-10T21:15:00+09:00",
             "currency": "EUR",
@@ -285,11 +236,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Monetary Policy Report Hearings"
-        ]
+        "reasons": []
       }
     },
     "EURUSD": {
@@ -304,11 +253,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.16228,
+        "price": 1.16262,
         "range_today": 0.00277,
         "range_vs_adr": 0.635,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -390,11 +339,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.37881,
-        "range_today": 0.00428,
-        "range_vs_adr": 0.7,
+        "price": 1.37852,
+        "range_today": 0.00591,
+        "range_vs_adr": 0.967,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -419,6 +368,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-09-11T01:00:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-09-10T13:00:00+09:00",
+            "window_end_jst": "2026-09-11T02:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -442,11 +403,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 153.835,
+        "price": 154.256,
         "range_today": 1.592,
         "range_vs_adr": 1.491,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -495,11 +456,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4398.13,
-        "range_today": 56.28,
-        "range_vs_adr": 0.534,
+        "price": 4388.17,
+        "range_today": 60.7,
+        "range_vs_adr": 0.576,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -545,11 +506,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.23386,
+        "price": 1.23293,
         "range_today": 0.00855,
         "range_vs_adr": 1.375,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -574,11 +535,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.72241,
-        "range_today": 0.00232,
-        "range_vs_adr": 0.593,
+        "price": 0.72219,
+        "range_today": 0.00253,
+        "range_vs_adr": 0.647,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -624,11 +585,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60888,
+        "price": 1.61,
         "range_today": 0.00523,
         "range_vs_adr": 0.762,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -690,11 +651,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.98512,
+        "price": 1.98501,
         "range_today": 0.01421,
         "range_vs_adr": 1.341,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -756,11 +717,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60247,
-        "range_today": 0.00471,
-        "range_vs_adr": 0.915,
+        "price": 1.60278,
+        "range_today": 0.00606,
+        "range_vs_adr": 1.177,
         "spike_flag": false,
-        "updated_at": "2026-09-08T23:01:36+09:00"
+        "updated_at": "2026-09-09T02:53:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -800,6 +761,18 @@
             ],
             "window_start_jst": "2026-09-10T09:45:00+09:00",
             "window_end_jst": "2026-09-10T23:45:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-11T01:00:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-09-10T13:00:00+09:00",
+            "window_end_jst": "2026-09-11T02:00:00+09:00",
             "gating": true
           }
         ]
