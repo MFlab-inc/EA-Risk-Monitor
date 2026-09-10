@@ -1,10 +1,10 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-09-09T09:15:23+09:00",
+    "generated_daily": "2026-09-10T09:15:38+09:00",
     "generated_intraday": "2026-09-10T08:21:48+09:00",
-    "generated_calendar": "2026-09-10T08:21:48+09:00",
-    "session_date": "2026-09-08",
+    "generated_calendar": "2026-09-10T09:15:38+09:00",
+    "session_date": "2026-09-09",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
       "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 98.78,
-      "change": -0.06,
-      "change_pct": -0.06
+      "value": 98.8,
+      "change": -0.04,
+      "change_pct": -0.04
     },
     "us10y": {
       "value": 4.837,
@@ -95,13 +95,13 @@
   "pairs": {
     "GBPJPY": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 208.518,
-      "atr14": 1.578,
-      "atr_pct": 0.757,
-      "adr20": 1.283,
-      "rv20": 8.47,
-      "atr_pct_percentile_250": 84.4,
+      "session_date": "2026-09-09",
+      "close": 208.02,
+      "atr14": 1.543,
+      "atr_pct": 0.742,
+      "adr20": 1.305,
+      "rv20": 8.46,
+      "atr_pct_percentile_250": 80.8,
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
@@ -205,13 +205,13 @@
     },
     "AUDCAD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 0.99477,
-      "atr14": 0.00462,
-      "atr_pct": 0.465,
-      "adr20": 0.00439,
-      "rv20": 3.83,
-      "atr_pct_percentile_250": 4.8,
+      "session_date": "2026-09-09",
+      "close": 0.99651,
+      "atr14": 0.00455,
+      "atr_pct": 0.457,
+      "adr20": 0.00438,
+      "rv20": 3.85,
+      "atr_pct_percentile_250": 4.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -234,13 +234,13 @@
     },
     "EURGBP": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 0.85848,
-      "atr14": 0.00238,
-      "atr_pct": 0.277,
-      "adr20": 0.00213,
-      "rv20": 2.04,
-      "atr_pct_percentile_250": 2.8,
+      "session_date": "2026-09-09",
+      "close": 0.85876,
+      "atr14": 0.00231,
+      "atr_pct": 0.269,
+      "adr20": 0.00212,
+      "rv20": 2.02,
+      "atr_pct_percentile_250": 1.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -322,13 +322,13 @@
     },
     "EURUSD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 1.16242,
-      "atr14": 0.00447,
-      "atr_pct": 0.384,
-      "adr20": 0.0044,
-      "rv20": 4.54,
-      "atr_pct_percentile_250": 4,
+      "session_date": "2026-09-09",
+      "close": 1.16334,
+      "atr14": 0.00438,
+      "atr_pct": 0.377,
+      "adr20": 0.00435,
+      "rv20": 4.48,
+      "atr_pct_percentile_250": 1.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -339,8 +339,31 @@
         "updated_at": "2026-09-10T08:21:48+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-10T21:15:00+09:00",
@@ -461,20 +484,23 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Main Refinancing Rate",
+          "event:Monetary Policy Statement"
+        ]
       }
     },
     "USDCAD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 1.37835,
-      "atr14": 0.00643,
-      "atr_pct": 0.466,
-      "adr20": 0.00626,
-      "rv20": 4.86,
-      "atr_pct_percentile_250": 84.4,
+      "session_date": "2026-09-09",
+      "close": 1.38054,
+      "atr14": 0.00635,
+      "atr_pct": 0.46,
+      "adr20": 0.00633,
+      "rv20": 4.89,
+      "atr_pct_percentile_250": 82.8,
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
@@ -580,13 +606,13 @@
     },
     "USDJPY": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 153.997,
-      "atr14": 1.291,
-      "atr_pct": 0.839,
-      "adr20": 1.126,
-      "rv20": 9.57,
-      "atr_pct_percentile_250": 92.8,
+      "session_date": "2026-09-09",
+      "close": 153.554,
+      "atr14": 1.275,
+      "atr_pct": 0.83,
+      "adr20": 1.138,
+      "rv20": 9.53,
+      "atr_pct_percentile_250": 91.2,
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
@@ -681,15 +707,15 @@
     },
     "XAUUSD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 4356.03,
-      "atr14": 104.83,
-      "atr_pct": 2.407,
-      "adr20": 106.25,
-      "rv20": 27.64,
-      "atr_pct_percentile_250": 51.2,
+      "session_date": "2026-09-09",
+      "close": 4401.7,
+      "atr14": 103.82,
+      "atr_pct": 2.359,
+      "adr20": 106.89,
+      "rv20": 27.69,
+      "atr_pct_percentile_250": 45.2,
       "percentile_window": 250,
-      "regime": "caution",
+      "regime": "normal",
       "intraday": {
         "price": 4401.31,
         "range_today": 8.14,
@@ -779,15 +805,15 @@
     },
     "AUDNZD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 1.23294,
-      "atr14": 0.00641,
-      "atr_pct": 0.52,
-      "adr20": 0.00631,
-      "rv20": 5.46,
-      "atr_pct_percentile_250": 58.4,
+      "session_date": "2026-09-09",
+      "close": 1.23641,
+      "atr14": 0.00631,
+      "atr_pct": 0.51,
+      "adr20": 0.00622,
+      "rv20": 5.4,
+      "atr_pct_percentile_250": 44.8,
       "percentile_window": 250,
-      "regime": "caution",
+      "regime": "normal",
       "intraday": {
         "price": 1.23547,
         "range_today": 0.00234,
@@ -808,13 +834,13 @@
     },
     "AUDUSD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 0.7217,
-      "atr14": 0.00392,
-      "atr_pct": 0.544,
-      "adr20": 0.0039,
+      "session_date": "2026-09-09",
+      "close": 0.72185,
+      "atr14": 0.00385,
+      "atr_pct": 0.533,
+      "adr20": 0.00386,
       "rv20": 5.01,
-      "atr_pct_percentile_250": 1.6,
+      "atr_pct_percentile_250": 0.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -906,13 +932,13 @@
     },
     "EURAUD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 1.6107,
-      "atr14": 0.0071,
-      "atr_pct": 0.441,
-      "adr20": 0.0068,
-      "rv20": 4.22,
-      "atr_pct_percentile_250": 0.8,
+      "session_date": "2026-09-09",
+      "close": 1.61169,
+      "atr14": 0.00695,
+      "atr_pct": 0.431,
+      "adr20": 0.00678,
+      "rv20": 4.23,
+      "atr_pct_percentile_250": 0.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -923,8 +949,31 @@
         "updated_at": "2026-09-10T08:21:48+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-10T21:15:00+09:00",
@@ -977,20 +1026,23 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Main Refinancing Rate",
+          "event:Monetary Policy Statement"
+        ]
       }
     },
     "EURNZD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 1.98586,
-      "atr14": 0.01123,
-      "atr_pct": 0.566,
-      "adr20": 0.01094,
-      "rv20": 4.86,
-      "atr_pct_percentile_250": 18.8,
+      "session_date": "2026-09-09",
+      "close": 1.99267,
+      "atr14": 0.01116,
+      "atr_pct": 0.56,
+      "adr20": 0.01101,
+      "rv20": 4.93,
+      "atr_pct_percentile_250": 17.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -1001,8 +1053,31 @@
         "updated_at": "2026-09-10T08:21:48+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-10T21:15:00+09:00",
@@ -1055,20 +1130,23 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Main Refinancing Rate",
+          "event:Monetary Policy Statement"
+        ]
       }
     },
     "EURCAD": {
       "data_ok": true,
-      "session_date": "2026-09-08",
-      "close": 1.60214,
-      "atr14": 0.00582,
-      "atr_pct": 0.363,
-      "adr20": 0.00526,
-      "rv20": 3.09,
-      "atr_pct_percentile_250": 13.2,
+      "session_date": "2026-09-09",
+      "close": 1.60602,
+      "atr14": 0.0058,
+      "atr_pct": 0.361,
+      "adr20": 0.00541,
+      "rv20": 3.22,
+      "atr_pct_percentile_250": 12.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -1079,8 +1157,31 @@
         "updated_at": "2026-09-10T08:21:48+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:15:00+09:00",
+            "window_end_jst": "2026-09-10T23:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-10T21:15:00+09:00",
@@ -1145,9 +1246,12 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Main Refinancing Rate",
+          "event:Monetary Policy Statement"
+        ]
       }
     }
   }
