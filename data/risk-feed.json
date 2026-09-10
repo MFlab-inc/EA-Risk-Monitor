@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-10T09:15:38+09:00",
-    "generated_intraday": "2026-09-10T08:21:48+09:00",
-    "generated_calendar": "2026-09-10T09:15:38+09:00",
+    "generated_intraday": "2026-09-10T10:17:01+09:00",
+    "generated_calendar": "2026-09-10T10:17:01+09:00",
     "session_date": "2026-09-09",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 207.813,
+        "price": 208.187,
         "range_today": 0.426,
-        "range_vs_adr": 0.332,
+        "range_vs_adr": 0.326,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -215,11 +215,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99632,
-        "range_today": 0.00157,
-        "range_vs_adr": 0.358,
+        "price": 0.9965,
+        "range_today": 0.00172,
+        "range_vs_adr": 0.393,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -244,11 +244,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85869,
+        "price": 0.85858,
         "range_today": 0.00059,
-        "range_vs_adr": 0.277,
+        "range_vs_adr": 0.278,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -332,11 +332,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.16376,
-        "range_today": 0.00078,
-        "range_vs_adr": 0.177,
+        "price": 1.16312,
+        "range_today": 0.00089,
+        "range_vs_adr": 0.205,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -362,6 +362,17 @@
             ],
             "window_start_jst": "2026-09-10T09:15:00+09:00",
             "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:45:00+09:00",
+            "window_end_jst": "2026-09-10T23:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -488,7 +499,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     },
@@ -504,11 +516,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.37996,
-        "range_today": 0.00095,
-        "range_vs_adr": 0.152,
+        "price": 1.38064,
+        "range_today": 0.00097,
+        "range_vs_adr": 0.153,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -616,11 +628,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 153.337,
-        "range_today": 0.333,
-        "range_vs_adr": 0.296,
+        "price": 153.674,
+        "range_today": 0.386,
+        "range_vs_adr": 0.339,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -717,11 +729,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4401.31,
-        "range_today": 8.14,
-        "range_vs_adr": 0.077,
+        "price": 4412.36,
+        "range_today": 30.34,
+        "range_vs_adr": 0.284,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -815,11 +827,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.23547,
-        "range_today": 0.00234,
-        "range_vs_adr": 0.371,
+        "price": 1.2346,
+        "range_today": 0.00304,
+        "range_vs_adr": 0.489,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -844,11 +856,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.72199,
-        "range_today": 0.00095,
-        "range_vs_adr": 0.244,
+        "price": 0.72176,
+        "range_today": 0.00107,
+        "range_vs_adr": 0.277,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -942,11 +954,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61192,
+        "price": 1.6115,
         "range_today": 0.00217,
-        "range_vs_adr": 0.319,
+        "range_vs_adr": 0.32,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -972,6 +984,17 @@
             ],
             "window_start_jst": "2026-09-10T09:15:00+09:00",
             "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:45:00+09:00",
+            "window_end_jst": "2026-09-10T23:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -1030,7 +1053,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     },
@@ -1046,11 +1070,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.99145,
-        "range_today": 0.00341,
-        "range_vs_adr": 0.312,
+        "price": 1.98959,
+        "range_today": 0.00581,
+        "range_vs_adr": 0.528,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1076,6 +1100,17 @@
             ],
             "window_start_jst": "2026-09-10T09:15:00+09:00",
             "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:45:00+09:00",
+            "window_end_jst": "2026-09-10T23:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -1134,7 +1169,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     },
@@ -1150,11 +1186,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.606,
+        "price": 1.60589,
         "range_today": 0.00113,
-        "range_vs_adr": 0.215,
+        "range_vs_adr": 0.209,
         "spike_flag": false,
-        "updated_at": "2026-09-10T08:21:48+09:00"
+        "updated_at": "2026-09-10T10:17:01+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1180,6 +1216,17 @@
             ],
             "window_start_jst": "2026-09-10T09:15:00+09:00",
             "window_end_jst": "2026-09-10T23:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T09:45:00+09:00",
+            "window_end_jst": "2026-09-10T23:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -1250,7 +1297,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     }
