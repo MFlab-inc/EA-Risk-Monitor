@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-10T18:01:17+09:00",
-    "generated_intraday": "2026-09-10T20:15:03+09:00",
-    "generated_calendar": "2026-09-10T20:15:03+09:00",
+    "generated_intraday": "2026-09-11T00:02:42+09:00",
+    "generated_calendar": "2026-09-11T00:02:42+09:00",
     "session_date": "2026-09-09",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 98.89,
-      "change": 0.12,
-      "change_pct": 0.12
+      "value": 98.92,
+      "change": 0.15,
+      "change_pct": 0.16
     },
     "us10y": {
-      "value": 4.837,
-      "change": 0.031,
-      "change_pct": 0.65
+      "value": 4.918,
+      "change": 0.081,
+      "change_pct": 1.67
     },
     "vix": {
-      "value": 16.57,
-      "change": 0.11,
-      "change_pct": 0.67
+      "value": 17.42,
+      "change": 0.96,
+      "change_pct": 5.83
     }
   },
   "pairs": {
@@ -105,36 +105,16 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 208.638,
-        "range_today": 0.949,
-        "range_vs_adr": 0.727,
+        "price": 208.238,
+        "range_today": 1.157,
+        "range_vs_adr": 0.887,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-11T15:00:00+09:00",
             "currency": "GBP",
@@ -215,11 +195,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99449,
-        "range_today": 0.00288,
-        "range_vs_adr": 0.658,
-        "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "price": 0.99048,
+        "range_today": 0.00758,
+        "range_vs_adr": 1.731,
+        "spike_flag": true,
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -227,9 +207,11 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     },
     "EURGBP": {
@@ -244,86 +226,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85912,
-        "range_today": 0.00076,
-        "range_vs_adr": 0.358,
+        "price": 0.85945,
+        "range_today": 0.00159,
+        "range_vs_adr": 0.75,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T15:15:00+09:00",
-            "window_end_jst": "2026-09-10T22:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T15:15:00+09:00",
-            "window_end_jst": "2026-09-10T22:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T15:45:00+09:00",
-            "window_end_jst": "2026-09-10T22:45:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T15:15:00+09:00",
-            "window_end_jst": "2026-09-10T22:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T15:15:00+09:00",
-            "window_end_jst": "2026-09-10T22:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T15:45:00+09:00",
-            "window_end_jst": "2026-09-10T22:45:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-11T15:00:00+09:00",
             "currency": "GBP",
@@ -361,13 +273,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement",
-          "event:ECB Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURUSD": {
@@ -382,106 +290,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.16236,
-        "range_today": 0.00186,
-        "range_vs_adr": 0.428,
+        "price": 1.16294,
+        "range_today": 0.00485,
+        "range_vs_adr": 1.115,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-11T21:30:00+09:00",
             "currency": "USD",
@@ -557,13 +375,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement",
-          "event:ECB Press Conference"
-        ]
+        "reasons": []
       }
     },
     "USDCAD": {
@@ -578,11 +392,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.38234,
-        "range_today": 0.00243,
-        "range_vs_adr": 0.384,
+        "price": 1.3818,
+        "range_today": 0.0035,
+        "range_vs_adr": 0.553,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -600,26 +414,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-11T01:00:00+09:00",
             "currency": "USD",
@@ -703,36 +497,16 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 154.194,
-        "range_today": 0.889,
-        "range_vs_adr": 0.781,
+        "price": 153.92,
+        "range_today": 1.348,
+        "range_vs_adr": 1.184,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-11T21:30:00+09:00",
             "currency": "USD",
@@ -804,36 +578,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4374.44,
-        "range_today": 57.33,
-        "range_vs_adr": 0.536,
+        "price": 4355.82,
+        "range_today": 105.95,
+        "range_vs_adr": 0.991,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-11T21:30:00+09:00",
             "currency": "USD",
@@ -902,11 +656,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.2339,
+        "price": 1.23382,
         "range_today": 0.00536,
         "range_vs_adr": 0.862,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -931,36 +685,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71936,
-        "range_today": 0.00298,
-        "range_vs_adr": 0.772,
-        "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "price": 0.71675,
+        "range_today": 0.00655,
+        "range_vs_adr": 1.697,
+        "spike_flag": true,
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "Core PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-10T21:30:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "PPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-09-11T21:30:00+09:00",
             "currency": "USD",
@@ -1012,9 +746,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     },
     "EURAUD": {
@@ -1029,86 +765,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61586,
-        "range_today": 0.00521,
-        "range_vs_adr": 0.768,
-        "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "price": 1.6225,
+        "range_today": 0.01188,
+        "range_vs_adr": 1.752,
+        "spike_flag": true,
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-11T23:00:00+09:00",
             "currency": "EUR",
@@ -1137,11 +803,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement",
-          "event:ECB Press Conference"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -1157,86 +821,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.99363,
-        "range_today": 0.00756,
-        "range_vs_adr": 0.687,
+        "price": 2.00211,
+        "range_today": 0.01529,
+        "range_vs_adr": 1.389,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-11T23:00:00+09:00",
             "currency": "EUR",
@@ -1264,13 +858,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement",
-          "event:ECB Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURCAD": {
@@ -1285,48 +875,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60681,
-        "range_today": 0.00189,
-        "range_vs_adr": 0.349,
+        "price": 1.60704,
+        "range_today": 0.00468,
+        "range_vs_adr": 0.865,
         "spike_flag": false,
-        "updated_at": "2026-09-10T20:15:03+09:00"
+        "updated_at": "2026-09-11T00:02:42+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00"
-          },
           {
             "time_jst": "2026-09-11T01:00:00+09:00",
             "currency": "USD",
@@ -1340,42 +897,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:15:00+09:00",
-            "window_end_jst": "2026-09-10T23:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-10T21:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-10T09:45:00+09:00",
-            "window_end_jst": "2026-09-10T23:45:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-11T01:00:00+09:00",
             "currency": "USD",
@@ -1418,9 +939,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement",
-          "event:ECB Press Conference",
           "event:Crude Oil Inventories"
         ]
       }
