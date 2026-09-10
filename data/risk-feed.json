@@ -1,9 +1,9 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-09-10T09:15:38+09:00",
+    "generated_daily": "2026-09-10T18:01:17+09:00",
     "generated_intraday": "2026-09-10T15:05:42+09:00",
-    "generated_calendar": "2026-09-10T15:05:42+09:00",
+    "generated_calendar": "2026-09-10T18:01:17+09:00",
     "session_date": "2026-09-09",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 98.74,
-      "change": -0.03,
-      "change_pct": -0.03
+      "value": 98.77,
+      "change": 0,
+      "change_pct": 0
     },
     "us10y": {
       "value": 4.837,
@@ -87,9 +87,9 @@
       "change_pct": 0.65
     },
     "vix": {
-      "value": 16.46,
-      "change": 0.74,
-      "change_pct": 4.71
+      "value": 16.48,
+      "change": 0.02,
+      "change_pct": 0.12
     }
   },
   "pairs": {
@@ -251,8 +251,42 @@
         "updated_at": "2026-09-10T15:05:42+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T15:15:00+09:00",
+            "window_end_jst": "2026-09-10T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T15:15:00+09:00",
+            "window_end_jst": "2026-09-10T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-10T21:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-10T15:45:00+09:00",
+            "window_end_jst": "2026-09-10T22:45:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-10T21:15:00+09:00",
@@ -311,13 +345,29 @@
             "window_start_jst": "2026-09-11T17:00:00+09:00",
             "window_end_jst": "2026-09-12T00:00:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T11:00:00+09:00",
+            "window_end_jst": "2026-09-12T18:00:00+09:00",
+            "gating": true
           }
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Main Refinancing Rate",
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
+        ]
       }
     },
     "EURUSD": {
@@ -490,6 +540,18 @@
             ],
             "window_start_jst": "2026-09-11T11:00:00+09:00",
             "window_end_jst": "2026-09-12T01:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00",
             "gating": true
           }
         ]
@@ -1058,6 +1120,18 @@
             "window_start_jst": "2026-09-11T11:00:00+09:00",
             "window_end_jst": "2026-09-12T01:00:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -1173,6 +1247,18 @@
             ],
             "window_start_jst": "2026-09-11T11:00:00+09:00",
             "window_end_jst": "2026-09-12T01:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00",
             "gating": true
           }
         ]
@@ -1312,6 +1398,18 @@
             ],
             "window_start_jst": "2026-09-11T11:00:00+09:00",
             "window_end_jst": "2026-09-12T01:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00",
             "gating": true
           }
         ]
