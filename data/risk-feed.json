@@ -1,10 +1,10 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-09-11T09:11:10+09:00",
+    "generated_daily": "2026-09-12T09:18:43+09:00",
     "generated_intraday": "2026-09-12T03:39:15+09:00",
-    "generated_calendar": "2026-09-12T03:39:15+09:00",
-    "session_date": "2026-09-10",
+    "generated_calendar": "2026-09-12T09:18:43+09:00",
+    "session_date": "2026-09-11",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
       "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
@@ -77,31 +77,31 @@
   },
   "market": {
     "dxy": {
-      "value": 99.12,
-      "change": 0.03,
-      "change_pct": 0.03
+      "value": 99.1,
+      "change": 0.01,
+      "change_pct": 0.01
     },
     "us10y": {
-      "value": 4.967,
-      "change": 0.023,
-      "change_pct": 0.47
+      "value": 4.975,
+      "change": 0.031,
+      "change_pct": 0.63
     },
     "vix": {
-      "value": 15.66,
-      "change": -2.18,
-      "change_pct": -12.22
+      "value": 15.84,
+      "change": -2,
+      "change_pct": -11.21
     }
   },
   "pairs": {
     "GBPJPY": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 208.774,
-      "atr14": 1.516,
-      "atr_pct": 0.726,
-      "adr20": 1.343,
-      "rv20": 8.65,
-      "atr_pct_percentile_250": 76.4,
+      "session_date": "2026-09-11",
+      "close": 207.665,
+      "atr14": 1.525,
+      "atr_pct": 0.734,
+      "adr20": 1.374,
+      "rv20": 8.63,
+      "atr_pct_percentile_250": 78.4,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -124,13 +124,13 @@
     },
     "AUDCAD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 0.99001,
-      "atr14": 0.00478,
-      "atr_pct": 0.483,
-      "adr20": 0.00462,
-      "rv20": 4.59,
-      "atr_pct_percentile_250": 13.2,
+      "session_date": "2026-09-11",
+      "close": 0.99479,
+      "atr14": 0.00496,
+      "atr_pct": 0.498,
+      "adr20": 0.00486,
+      "rv20": 4.84,
+      "atr_pct_percentile_250": 16.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -155,13 +155,13 @@
     },
     "EURGBP": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 0.85933,
-      "atr14": 0.00226,
-      "atr_pct": 0.263,
-      "adr20": 0.00212,
-      "rv20": 2,
-      "atr_pct_percentile_250": 0.4,
+      "session_date": "2026-09-11",
+      "close": 0.85753,
+      "atr14": 0.00235,
+      "atr_pct": 0.274,
+      "adr20": 0.00223,
+      "rv20": 2.17,
+      "atr_pct_percentile_250": 3.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -199,13 +199,13 @@
     },
     "EURUSD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 1.16105,
-      "atr14": 0.00442,
-      "atr_pct": 0.381,
-      "adr20": 0.00443,
-      "rv20": 4.56,
-      "atr_pct_percentile_250": 2,
+      "session_date": "2026-09-11",
+      "close": 1.15989,
+      "atr14": 0.00445,
+      "atr_pct": 0.384,
+      "adr20": 0.00438,
+      "rv20": 4.42,
+      "atr_pct_percentile_250": 4.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -216,8 +216,20 @@
         "updated_at": "2026-09-12T03:39:15+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-12T17:00:00+09:00",
@@ -234,20 +246,22 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     },
     "USDCAD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 1.38334,
-      "atr14": 0.00618,
-      "atr_pct": 0.447,
-      "adr20": 0.00638,
-      "rv20": 4.97,
-      "atr_pct_percentile_250": 79.6,
+      "session_date": "2026-09-11",
+      "close": 1.38725,
+      "atr14": 0.00615,
+      "atr_pct": 0.443,
+      "adr20": 0.00631,
+      "rv20": 4.89,
+      "atr_pct_percentile_250": 77.6,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -270,13 +284,13 @@
     },
     "USDJPY": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 154.495,
-      "atr14": 1.28,
-      "atr_pct": 0.828,
-      "adr20": 1.179,
-      "rv20": 9.92,
-      "atr_pct_percentile_250": 90.8,
+      "session_date": "2026-09-11",
+      "close": 153.527,
+      "atr14": 1.284,
+      "atr_pct": 0.836,
+      "adr20": 1.2,
+      "rv20": 10.05,
+      "atr_pct_percentile_250": 92.4,
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
@@ -303,13 +317,13 @@
     },
     "XAUUSD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 4316.76,
-      "atr14": 104.75,
-      "atr_pct": 2.427,
-      "adr20": 107.5,
-      "rv20": 28.17,
-      "atr_pct_percentile_250": 52.4,
+      "session_date": "2026-09-11",
+      "close": 4348.87,
+      "atr14": 104.83,
+      "atr_pct": 2.41,
+      "adr20": 108.5,
+      "rv20": 28.22,
+      "atr_pct_percentile_250": 50.8,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -332,13 +346,13 @@
     },
     "AUDNZD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 1.23467,
-      "atr14": 0.00624,
-      "atr_pct": 0.505,
-      "adr20": 0.00619,
-      "rv20": 5.48,
-      "atr_pct_percentile_250": 41.2,
+      "session_date": "2026-09-11",
+      "close": 1.23354,
+      "atr14": 0.00635,
+      "atr_pct": 0.514,
+      "adr20": 0.0063,
+      "rv20": 5.28,
+      "atr_pct_percentile_250": 48.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -361,13 +375,13 @@
     },
     "AUDUSD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 0.71565,
-      "atr14": 0.00406,
-      "atr_pct": 0.567,
-      "adr20": 0.00408,
-      "rv20": 6.07,
-      "atr_pct_percentile_250": 6,
+      "session_date": "2026-09-11",
+      "close": 0.71711,
+      "atr14": 0.00403,
+      "atr_pct": 0.563,
+      "adr20": 0.00407,
+      "rv20": 6.01,
+      "atr_pct_percentile_250": 5.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -390,13 +404,13 @@
     },
     "EURAUD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 1.62237,
-      "atr14": 0.00732,
-      "atr_pct": 0.451,
-      "adr20": 0.00715,
-      "rv20": 4.93,
-      "atr_pct_percentile_250": 2.8,
+      "session_date": "2026-09-11",
+      "close": 1.61751,
+      "atr14": 0.00746,
+      "atr_pct": 0.461,
+      "adr20": 0.0075,
+      "rv20": 5.02,
+      "atr_pct_percentile_250": 6.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -407,8 +421,20 @@
         "updated_at": "2026-09-12T03:39:15+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-12T17:00:00+09:00",
@@ -425,20 +451,22 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     },
     "EURNZD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 2.00297,
-      "atr14": 0.01158,
-      "atr_pct": 0.578,
-      "adr20": 0.01125,
-      "rv20": 5.18,
-      "atr_pct_percentile_250": 22.8,
+      "session_date": "2026-09-11",
+      "close": 1.9952,
+      "atr14": 0.01189,
+      "atr_pct": 0.596,
+      "adr20": 0.01158,
+      "rv20": 5.25,
+      "atr_pct_percentile_250": 39.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -449,8 +477,20 @@
         "updated_at": "2026-09-12T03:39:15+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-12T17:00:00+09:00",
@@ -467,20 +507,22 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     },
     "EURCAD": {
       "data_ok": true,
-      "session_date": "2026-09-10",
-      "close": 1.60605,
-      "atr14": 0.00572,
-      "atr_pct": 0.356,
-      "adr20": 0.00543,
-      "rv20": 3.22,
-      "atr_pct_percentile_250": 10.4,
+      "session_date": "2026-09-11",
+      "close": 1.60902,
+      "atr14": 0.00588,
+      "atr_pct": 0.365,
+      "adr20": 0.00564,
+      "rv20": 3.28,
+      "atr_pct_percentile_250": 14.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -491,8 +533,20 @@
         "updated_at": "2026-09-12T03:39:15+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-12T17:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-12T05:00:00+09:00",
+            "window_end_jst": "2026-09-12T19:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-12T17:00:00+09:00",
@@ -509,9 +563,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     }
   }
