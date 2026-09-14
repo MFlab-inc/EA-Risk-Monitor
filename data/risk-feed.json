@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-12T09:18:43+09:00",
-    "generated_intraday": "2026-09-14T22:15:56+09:00",
-    "generated_calendar": "2026-09-14T22:15:56+09:00",
+    "generated_intraday": "2026-09-15T03:42:59+09:00",
+    "generated_calendar": "2026-09-15T03:42:59+09:00",
     "session_date": "2026-09-11",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 99.68,
-      "change": 0.56,
-      "change_pct": 0.57
+      "value": 99.41,
+      "change": 0.29,
+      "change_pct": 0.29
     },
     "us10y": {
-      "value": 4.983,
-      "change": 0.008,
-      "change_pct": 0.16
+      "value": 4.959,
+      "change": -0.016,
+      "change_pct": -0.32
     },
     "vix": {
-      "value": 17.76,
-      "change": 1.92,
-      "change_pct": 12.12
+      "value": 16.75,
+      "change": 0.91,
+      "change_pct": 5.74
     }
   },
   "pairs": {
@@ -105,15 +105,38 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.577,
-        "range_today": 1.414,
-        "range_vs_adr": 1.029,
+        "price": 208.375,
+        "range_today": 1.498,
+        "range_vs_adr": 1.09,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-15T15:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "Claimant Count Change",
+            "types": [
+              "uk_jobs"
+            ],
+            "window_start_jst": "2026-09-15T03:00:00+09:00",
+            "window_end_jst": "2026-09-15T16:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-15T15:00:00+09:00",
+            "currency": "GBP",
+            "impact": "Medium",
+            "title": "Average Earnings Index 3m/y",
+            "types": [
+              "uk_jobs"
+            ],
+            "window_start_jst": "2026-09-15T03:00:00+09:00",
+            "window_end_jst": "2026-09-15T16:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-15T15:00:00+09:00",
@@ -150,13 +173,64 @@
             "window_start_jst": "2026-09-16T03:00:00+09:00",
             "window_end_jst": "2026-09-16T16:00:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Economic Projections",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:30:00+09:00",
+            "window_end_jst": "2026-09-17T05:30:00+09:00",
+            "gating": true
           }
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Claimant Count Change",
+          "event:Average Earnings Index 3m/y"
+        ]
       }
     },
     "AUDCAD": {
@@ -171,47 +245,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98971,
+        "price": 0.99343,
         "range_today": 0.0047,
         "range_vs_adr": 0.967,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -231,40 +274,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.8563,
-        "range_today": 0.00239,
-        "range_vs_adr": 1.072,
+        "price": 0.8553,
+        "range_today": 0.00244,
+        "range_vs_adr": 1.094,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T18:15:00+09:00",
-            "window_end_jst": "2026-09-15T01:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T18:15:00+09:00",
-            "window_end_jst": "2026-09-15T01:15:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-15T15:00:00+09:00",
             "currency": "GBP",
@@ -292,11 +311,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:ECB President Lagarde Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURUSD": {
@@ -311,38 +328,62 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.15328,
-        "range_today": 0.00701,
-        "range_vs_adr": 1.6,
+        "price": 1.15579,
+        "range_today": 0.00765,
+        "range_vs_adr": 1.747,
         "spike_flag": true,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
             "types": [
-              "ecb"
+              "fomc"
             ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00",
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Economic Projections",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:30:00+09:00",
+            "window_end_jst": "2026-09-17T05:30:00+09:00",
             "gating": true
           }
         ]
@@ -351,8 +392,7 @@
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
-          "spike:range_vs_adr",
-          "event:ECB President Lagarde Speaks"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -368,45 +408,75 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.3917,
-        "range_today": 0.00574,
-        "range_vs_adr": 0.91,
+        "price": 1.39025,
+        "range_today": 0.00658,
+        "range_vs_adr": 1.043,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "time_jst": "2026-09-16T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-09-16T11:30:00+09:00",
+            "window_end_jst": "2026-09-17T00:30:00+09:00",
+            "gating": true
           },
           {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
             "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
           },
           {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
             "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "title": "FOMC Economic Projections",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:30:00+09:00",
+            "window_end_jst": "2026-09-17T05:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -428,16 +498,65 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 154.87,
-        "range_today": 1.678,
-        "range_vs_adr": 1.398,
+        "price": 154.209,
+        "range_today": 1.783,
+        "range_vs_adr": 1.486,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Economic Projections",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:30:00+09:00",
+            "window_end_jst": "2026-09-17T05:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
@@ -460,16 +579,65 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 4266.5,
+        "price": 4310.28,
         "range_today": 101.32,
         "range_vs_adr": 0.934,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Economic Projections",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:30:00+09:00",
+            "window_end_jst": "2026-09-17T05:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -489,11 +657,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.23474,
-        "range_today": 0.00722,
-        "range_vs_adr": 1.146,
+        "price": 1.23487,
+        "range_today": 0.00738,
+        "range_vs_adr": 1.171,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -518,16 +686,65 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71114,
+        "price": 0.71454,
         "range_today": 0.00589,
         "range_vs_adr": 1.447,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Economic Projections",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:00:00+09:00",
+            "window_end_jst": "2026-09-17T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-17T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-16T03:30:00+09:00",
+            "window_end_jst": "2026-09-17T05:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -547,48 +764,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62183,
-        "range_today": 0.00554,
-        "range_vs_adr": 0.739,
+        "price": 1.61754,
+        "range_today": 0.00575,
+        "range_vs_adr": 0.767,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:ECB President Lagarde Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURNZD": {
@@ -603,48 +793,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00243,
-        "range_today": 0.01143,
-        "range_vs_adr": 0.987,
+        "price": 1.99736,
+        "range_today": 0.01171,
+        "range_vs_adr": 1.011,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:ECB President Lagarde Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURCAD": {
@@ -659,78 +822,34 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60507,
+        "price": 1.60672,
         "range_today": 0.0071,
         "range_vs_adr": 1.259,
         "spike_flag": false,
-        "updated_at": "2026-09-14T22:15:56+09:00"
+        "updated_at": "2026-09-15T03:42:59+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-14T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-09-15T00:15:00+09:00",
-            "currency": "EUR",
-            "impact": "Medium",
-            "title": "ECB President Lagarde Speaks",
+            "time_jst": "2026-09-16T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
             "types": [
-              "ecb"
+              "oil"
             ],
-            "window_start_jst": "2026-09-14T12:15:00+09:00",
-            "window_end_jst": "2026-09-15T02:15:00+09:00",
+            "window_start_jst": "2026-09-16T11:30:00+09:00",
+            "window_end_jst": "2026-09-17T00:30:00+09:00",
             "gating": true
           }
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:ECB President Lagarde Speaks"
-        ]
+        "reasons": []
       }
     }
   }
