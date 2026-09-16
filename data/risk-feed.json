@@ -1,10 +1,10 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-09-15T09:38:46+09:00",
+    "generated_daily": "2026-09-16T09:21:01+09:00",
     "generated_intraday": "2026-09-16T07:12:07+09:00",
-    "generated_calendar": "2026-09-16T07:12:07+09:00",
-    "session_date": "2026-09-14",
+    "generated_calendar": "2026-09-16T09:21:01+09:00",
+    "session_date": "2026-09-15",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
       "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 99.62,
-      "change": 0.16,
-      "change_pct": 0.16
+      "value": 99.69,
+      "change": 0.23,
+      "change_pct": 0.23
     },
     "us10y": {
       "value": 4.996,
@@ -95,13 +95,13 @@
   "pairs": {
     "GBPJPY": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 208.385,
-      "atr14": 1.523,
-      "atr_pct": 0.731,
-      "adr20": 1.412,
-      "rv20": 8.77,
-      "atr_pct_percentile_250": 77.6,
+      "session_date": "2026-09-15",
+      "close": 209.045,
+      "atr14": 1.484,
+      "atr_pct": 0.71,
+      "adr20": 1.443,
+      "rv20": 8.91,
+      "atr_pct_percentile_250": 72,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -283,13 +283,13 @@
     },
     "AUDCAD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 0.99257,
-      "atr14": 0.00498,
-      "atr_pct": 0.502,
-      "adr20": 0.00479,
-      "rv20": 4.87,
-      "atr_pct_percentile_250": 18,
+      "session_date": "2026-09-15",
+      "close": 0.99278,
+      "atr14": 0.0049,
+      "atr_pct": 0.494,
+      "adr20": 0.00482,
+      "rv20": 4.84,
+      "atr_pct_percentile_250": 15.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -302,7 +302,20 @@
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -312,13 +325,13 @@
     },
     "EURGBP": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 0.85558,
-      "atr14": 0.00236,
-      "atr_pct": 0.275,
-      "adr20": 0.00226,
-      "rv20": 2.34,
-      "atr_pct_percentile_250": 3.6,
+      "session_date": "2026-09-15",
+      "close": 0.85641,
+      "atr14": 0.00229,
+      "atr_pct": 0.268,
+      "adr20": 0.00227,
+      "rv20": 2.36,
+      "atr_pct_percentile_250": 1.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -390,13 +403,13 @@
     },
     "EURUSD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 1.15511,
-      "atr14": 0.00468,
-      "atr_pct": 0.405,
-      "adr20": 0.0045,
+      "session_date": "2026-09-15",
+      "close": 1.1542,
+      "atr14": 0.00455,
+      "atr_pct": 0.394,
+      "adr20": 0.00454,
       "rv20": 4.66,
-      "atr_pct_percentile_250": 10.4,
+      "atr_pct_percentile_250": 8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -518,13 +531,13 @@
     },
     "USDCAD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 1.3901,
-      "atr14": 0.00618,
-      "atr_pct": 0.444,
-      "adr20": 0.00647,
-      "rv20": 4.95,
-      "atr_pct_percentile_250": 78.4,
+      "session_date": "2026-09-15",
+      "close": 1.39213,
+      "atr14": 0.00596,
+      "atr_pct": 0.428,
+      "adr20": 0.00639,
+      "rv20": 4.94,
+      "atr_pct_percentile_250": 66.8,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -658,15 +671,15 @@
     },
     "USDJPY": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 154.344,
-      "atr14": 1.32,
-      "atr_pct": 0.855,
-      "adr20": 1.252,
-      "rv20": 10.33,
-      "atr_pct_percentile_250": 96,
+      "session_date": "2026-09-15",
+      "close": 155.114,
+      "atr14": 1.297,
+      "atr_pct": 0.836,
+      "adr20": 1.278,
+      "rv20": 10.56,
+      "atr_pct_percentile_250": 91.6,
       "percentile_window": 250,
-      "regime": "extreme",
+      "regime": "highvol",
       "intraday": {
         "price": 155.113,
         "range_today": 0.115,
@@ -775,9 +788,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "regime:extreme",
+          "regime:highvol",
           "event:Federal Funds Rate",
           "event:FOMC Economic Projections",
           "event:FOMC Statement",
@@ -788,15 +801,15 @@
     },
     "XAUUSD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 4298.35,
-      "atr14": 104.58,
-      "atr_pct": 2.433,
-      "adr20": 110.54,
-      "rv20": 28.27,
-      "atr_pct_percentile_250": 52.4,
+      "session_date": "2026-09-15",
+      "close": 4293.8,
+      "atr14": 101.22,
+      "atr_pct": 2.357,
+      "adr20": 108.17,
+      "rv20": 27.53,
+      "atr_pct_percentile_250": 43.6,
       "percentile_window": 250,
-      "regime": "caution",
+      "regime": "normal",
       "intraday": {
         "price": 4295.52,
         "range_today": 2.66,
@@ -916,15 +929,15 @@
     },
     "AUDNZD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 1.23565,
-      "atr14": 0.00642,
-      "atr_pct": 0.52,
-      "adr20": 0.00645,
+      "session_date": "2026-09-15",
+      "close": 1.23848,
+      "atr14": 0.00635,
+      "atr_pct": 0.512,
+      "adr20": 0.00641,
       "rv20": 5.28,
-      "atr_pct_percentile_250": 56.8,
+      "atr_pct_percentile_250": 47.6,
       "percentile_window": 250,
-      "regime": "caution",
+      "regime": "normal",
       "intraday": {
         "price": 1.2381,
         "range_today": 0.00597,
@@ -945,6 +958,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -956,13 +981,13 @@
     },
     "AUDUSD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 0.71405,
-      "atr14": 0.00419,
-      "atr_pct": 0.587,
-      "adr20": 0.0041,
-      "rv20": 6.19,
-      "atr_pct_percentile_250": 9.6,
+      "session_date": "2026-09-15",
+      "close": 0.71314,
+      "atr14": 0.00407,
+      "atr_pct": 0.571,
+      "adr20": 0.00403,
+      "rv20": 6.13,
+      "atr_pct_percentile_250": 6.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -1068,6 +1093,18 @@
             "window_start_jst": "2026-09-16T03:30:00+09:00",
             "window_end_jst": "2026-09-17T05:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -1084,13 +1121,13 @@
     },
     "EURAUD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 1.61772,
-      "atr14": 0.00734,
-      "atr_pct": 0.454,
-      "adr20": 0.00736,
-      "rv20": 4.99,
-      "atr_pct_percentile_250": 4,
+      "session_date": "2026-09-15",
+      "close": 1.61851,
+      "atr14": 0.00707,
+      "atr_pct": 0.437,
+      "adr20": 0.00715,
+      "rv20": 4.9,
+      "atr_pct_percentile_250": 0.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -1103,7 +1140,20 @@
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -1113,13 +1163,13 @@
     },
     "EURNZD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 1.99888,
-      "atr14": 0.01188,
-      "atr_pct": 0.594,
-      "adr20": 0.01174,
-      "rv20": 5.22,
-      "atr_pct_percentile_250": 36.8,
+      "session_date": "2026-09-15",
+      "close": 2.00443,
+      "atr14": 0.01182,
+      "atr_pct": 0.59,
+      "adr20": 0.01173,
+      "rv20": 5.12,
+      "atr_pct_percentile_250": 32.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -1153,13 +1203,13 @@
     },
     "EURCAD": {
       "data_ok": true,
-      "session_date": "2026-09-14",
-      "close": 1.60566,
-      "atr14": 0.00598,
-      "atr_pct": 0.373,
-      "adr20": 0.00578,
-      "rv20": 3.35,
-      "atr_pct_percentile_250": 16.4,
+      "session_date": "2026-09-15",
+      "close": 1.60676,
+      "atr14": 0.00595,
+      "atr_pct": 0.371,
+      "adr20": 0.00576,
+      "rv20": 3.33,
+      "atr_pct_percentile_250": 16,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
