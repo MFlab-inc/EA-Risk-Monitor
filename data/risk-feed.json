@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-17T09:32:51+09:00",
-    "generated_intraday": "2026-09-17T18:34:04+09:00",
-    "generated_calendar": "2026-09-17T18:34:04+09:00",
+    "generated_intraday": "2026-09-17T23:26:11+09:00",
+    "generated_calendar": "2026-09-17T23:26:11+09:00",
     "session_date": "2026-09-16",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 100.17,
-      "change": -0.14,
-      "change_pct": -0.14
+      "value": 100.06,
+      "change": -0.25,
+      "change_pct": -0.25
     },
     "us10y": {
-      "value": 5.006,
-      "change": 0.01,
-      "change_pct": 0.2
+      "value": 4.947,
+      "change": -0.059,
+      "change_pct": -1.18
     },
     "vix": {
-      "value": 16.06,
-      "change": -1.65,
-      "change_pct": -9.32
+      "value": 15.94,
+      "change": -1.77,
+      "change_pct": -9.99
     }
   },
   "pairs": {
@@ -105,48 +105,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.457,
-        "range_today": 0.992,
-        "range_vs_adr": 0.686,
+        "price": 208.219,
+        "range_today": 1.34,
+        "range_vs_adr": 0.927,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T08:00:00+09:00",
-            "window_end_jst": "2026-09-17T22:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T08:00:00+09:00",
-            "window_end_jst": "2026-09-17T22:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T08:00:00+09:00",
-            "window_end_jst": "2026-09-17T22:00:00+09:00"
-          },
           {
             "time_jst": "2026-09-18T11:30:00+09:00",
             "currency": "JPY",
@@ -182,42 +149,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T08:00:00+09:00",
-            "window_end_jst": "2026-09-17T22:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T08:00:00+09:00",
-            "window_end_jst": "2026-09-17T22:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T08:00:00+09:00",
-            "window_end_jst": "2026-09-17T22:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-18T11:30:00+09:00",
             "currency": "JPY",
@@ -260,9 +191,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:Monetary Policy Summary",
-          "event:MPC Official Bank Rate Votes",
-          "event:Official Bank Rate",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
           "event:BOJ Press Conference"
@@ -281,15 +209,26 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99506,
-        "range_today": 0.00502,
-        "range_vs_adr": 1.046,
+        "price": 0.9948,
+        "range_today": 0.00539,
+        "range_vs_adr": 1.123,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00"
+          },
           {
             "time_jst": "2026-09-18T11:30:00+09:00",
             "currency": "JPY",
@@ -379,6 +318,7 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:RBA Gov Bullock Speaks",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
           "event:BOJ Press Conference"
@@ -397,86 +337,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85674,
-        "range_today": 0.00238,
-        "range_vs_adr": 1.067,
-        "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "price": 0.85959,
+        "range_today": 0.00439,
+        "range_vs_adr": 1.969,
+        "spike_flag": true,
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T14:00:00+09:00",
-            "window_end_jst": "2026-09-17T21:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T14:00:00+09:00",
-            "window_end_jst": "2026-09-17T21:00:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T14:00:00+09:00",
-            "window_end_jst": "2026-09-17T21:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Monetary Policy Summary",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T14:00:00+09:00",
-            "window_end_jst": "2026-09-17T21:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "MPC Official Bank Rate Votes",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T14:00:00+09:00",
-            "window_end_jst": "2026-09-17T21:00:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-17T20:00:00+09:00",
-            "currency": "GBP",
-            "impact": "High",
-            "title": "Official Bank Rate",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-09-17T14:00:00+09:00",
-            "window_end_jst": "2026-09-17T21:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-18T19:30:00+09:00",
             "currency": "EUR",
@@ -493,11 +363,9 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
-          "event:Monetary Policy Summary",
-          "event:MPC Official Bank Rate Votes",
-          "event:Official Bank Rate"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -513,11 +381,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.14755,
-        "range_today": 0.00279,
-        "range_vs_adr": 0.623,
+        "price": 1.1494,
+        "range_today": 0.00415,
+        "range_vs_adr": 0.926,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -555,11 +423,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.39889,
-        "range_today": 0.00174,
-        "range_vs_adr": 0.277,
+        "price": 1.39758,
+        "range_today": 0.00285,
+        "range_vs_adr": 0.454,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -584,11 +452,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 155.632,
-        "range_today": 0.8,
-        "range_vs_adr": 0.628,
+        "price": 155.712,
+        "range_today": 1.022,
+        "range_vs_adr": 0.802,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -693,11 +561,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 4307.58,
-        "range_today": 79.05,
-        "range_vs_adr": 0.758,
+        "price": 4369.53,
+        "range_today": 123.63,
+        "range_vs_adr": 1.185,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -722,15 +590,27 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.24027,
+        "price": 1.23986,
         "range_today": 0.00548,
         "range_vs_adr": 0.854,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-18T08:30:00+09:00",
@@ -747,9 +627,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:RBA Gov Bullock Speaks"
+        ]
       }
     },
     "AUDUSD": {
@@ -764,15 +646,26 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71134,
-        "range_today": 0.00357,
-        "range_vs_adr": 0.886,
+        "price": 0.71189,
+        "range_today": 0.00421,
+        "range_vs_adr": 1.045,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00"
+          },
           {
             "time_jst": "2026-09-18T11:30:00+09:00",
             "currency": "JPY",
@@ -862,6 +755,7 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:RBA Gov Bullock Speaks",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
           "event:BOJ Press Conference"
@@ -880,15 +774,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61324,
+        "price": 1.61469,
         "range_today": 0.00714,
         "range_vs_adr": 1.017,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-18T08:30:00+09:00",
+            "currency": "AUD",
+            "impact": "Medium",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-17T20:30:00+09:00",
+            "window_end_jst": "2026-09-18T10:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-18T08:30:00+09:00",
@@ -917,9 +823,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:RBA Gov Bullock Speaks"
+        ]
       }
     },
     "EURNZD": {
@@ -934,11 +842,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00097,
-        "range_today": 0.00864,
-        "range_vs_adr": 0.722,
+        "price": 2.00194,
+        "range_today": 0.00975,
+        "range_vs_adr": 0.815,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -976,11 +884,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60528,
-        "range_today": 0.00283,
-        "range_vs_adr": 0.491,
+        "price": 1.60624,
+        "range_today": 0.00443,
+        "range_vs_adr": 0.769,
         "spike_flag": false,
-        "updated_at": "2026-09-17T18:34:04+09:00"
+        "updated_at": "2026-09-17T23:26:11+09:00"
       },
       "events": {
         "in_event_window": false,
