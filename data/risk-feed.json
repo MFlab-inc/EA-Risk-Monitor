@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-18T09:20:09+09:00",
-    "generated_intraday": "2026-09-18T17:07:37+09:00",
-    "generated_calendar": "2026-09-18T17:07:37+09:00",
+    "generated_intraday": "2026-09-18T18:40:38+09:00",
+    "generated_calendar": "2026-09-18T18:40:38+09:00",
     "session_date": "2026-09-17",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 100.29,
-      "change": 0.07,
-      "change_pct": 0.07
+      "value": 100.37,
+      "change": 0.15,
+      "change_pct": 0.15
     },
     "us10y": {
       "value": 4.947,
@@ -87,9 +87,9 @@
       "change_pct": -1.18
     },
     "vix": {
-      "value": 15.08,
-      "change": -0.36,
-      "change_pct": -2.33
+      "value": 15.18,
+      "change": -0.26,
+      "change_pct": -1.68
     }
   },
   "pairs": {
@@ -105,48 +105,22 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 210.623,
-        "range_today": 2.437,
-        "range_vs_adr": 1.716,
+        "price": 211.099,
+        "range_today": 2.879,
+        "range_vs_adr": 2.027,
         "spike_flag": true,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
-          "spike:range_vs_adr",
-          "event:BOJ Press Conference"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -162,48 +136,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99753,
-        "range_today": 0.00328,
-        "range_vs_adr": 0.689,
+        "price": 0.99769,
+        "range_today": 0.00356,
+        "range_vs_adr": 0.748,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOJ Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURGBP": {
@@ -218,11 +165,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85925,
+        "price": 0.85916,
         "range_today": 0.00108,
         "range_vs_adr": 0.454,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -274,11 +221,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.14866,
+        "price": 1.1485,
         "range_today": 0.0018,
         "range_vs_adr": 0.402,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -330,11 +277,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.39983,
-        "range_today": 0.00279,
-        "range_vs_adr": 0.454,
+        "price": 1.40006,
+        "range_today": 0.00299,
+        "range_vs_adr": 0.487,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -359,50 +306,24 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 157.555,
-        "range_today": 1.729,
-        "range_vs_adr": 1.364,
-        "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "price": 157.882,
+        "range_today": 2.056,
+        "range_vs_adr": 1.622,
+        "spike_flag": true,
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": false,
+        "halt_all_new": true,
         "reasons": [
+          "spike:range_vs_adr",
           "regime:highvol",
-          "event:BOJ Press Conference",
-          "hold:weekend_approach",
-          "hold:boj_window:BOJ Press Conference"
+          "hold:weekend_approach"
         ],
         "vr_hold_check": true
       }
@@ -419,11 +340,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4396.55,
+        "price": 4385.65,
         "range_today": 64.21,
         "range_vs_adr": 0.607,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -448,11 +369,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.24582,
-        "range_today": 0.00709,
-        "range_vs_adr": 1.113,
+        "price": 1.24635,
+        "range_today": 0.0074,
+        "range_vs_adr": 1.162,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -481,44 +402,17 @@
         "range_today": 0.00277,
         "range_vs_adr": 0.679,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-09-18T15:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Press Conference",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-09-17T15:30:00+09:00",
-            "window_end_jst": "2026-09-18T17:30:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOJ Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURAUD": {
@@ -533,11 +427,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61193,
+        "price": 1.61171,
         "range_today": 0.00469,
         "range_vs_adr": 0.671,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -589,11 +483,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00812,
-        "range_today": 0.00853,
-        "range_vs_adr": 0.713,
+        "price": 2.00872,
+        "range_today": 0.0086,
+        "range_vs_adr": 0.719,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -645,11 +539,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60793,
-        "range_today": 0.00294,
-        "range_vs_adr": 0.512,
+        "price": 1.608,
+        "range_today": 0.00299,
+        "range_vs_adr": 0.521,
         "spike_flag": false,
-        "updated_at": "2026-09-18T17:07:37+09:00"
+        "updated_at": "2026-09-18T18:40:38+09:00"
       },
       "events": {
         "in_event_window": true,
