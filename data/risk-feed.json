@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-19T09:21:31+09:00",
-    "generated_intraday": "2026-09-19T05:58:58+09:00",
-    "generated_calendar": "2026-09-19T09:21:31+09:00",
+    "generated_intraday": "2026-09-21T06:03:48+09:00",
+    "generated_calendar": "2026-09-21T06:03:48+09:00",
     "session_date": "2026-09-18",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,8 +77,8 @@
   },
   "market": {
     "dxy": {
-      "value": 100.21,
-      "change": -0.01,
+      "value": 100.22,
+      "change": 0,
       "change_pct": 0
     },
     "us10y": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 210.149,
-        "range_today": 3.03,
-        "range_vs_adr": 2.134,
-        "spike_flag": true,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "price": 210.044,
+        "range_today": 0.054,
+        "range_vs_adr": 0.035,
+        "spike_flag": false,
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -118,9 +118,8 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
           "regime:highvol"
         ]
       }
@@ -137,16 +136,41 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99643,
-        "range_today": 0.0039,
-        "range_vs_adr": 0.819,
+        "price": 0.99578,
+        "range_today": 0.00042,
+        "range_vs_adr": 0.092,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T00:05:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-21T12:05:00+09:00",
+            "window_end_jst": "2026-09-22T02:05:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T12:10:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-22T00:10:00+09:00",
+            "window_end_jst": "2026-09-22T14:10:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -166,16 +190,41 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85748,
-        "range_today": 0.00244,
-        "range_vs_adr": 1.025,
+        "price": 0.85774,
+        "range_today": 0.00016,
+        "range_vs_adr": 0.067,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T00:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-21T18:00:00+09:00",
+            "window_end_jst": "2026-09-22T01:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T20:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-22T14:00:00+09:00",
+            "window_end_jst": "2026-09-22T21:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -195,16 +244,41 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.14865,
-        "range_today": 0.0037,
-        "range_vs_adr": 0.826,
+        "price": 1.14862,
+        "range_today": 0.00009,
+        "range_vs_adr": 0.02,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T00:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-21T12:00:00+09:00",
+            "window_end_jst": "2026-09-22T02:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T20:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-22T08:00:00+09:00",
+            "window_end_jst": "2026-09-22T22:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -224,16 +298,29 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.3984,
-        "range_today": 0.00384,
-        "range_vs_adr": 0.625,
+        "price": 1.39852,
+        "range_today": 0.00022,
+        "range_vs_adr": 0.036,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T00:05:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-21T12:05:00+09:00",
+            "window_end_jst": "2026-09-22T02:05:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -253,11 +340,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 156.892,
-        "range_today": 2.138,
-        "range_vs_adr": 1.686,
-        "spike_flag": true,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "price": 156.853,
+        "range_today": 0.019,
+        "range_vs_adr": 0.014,
+        "spike_flag": false,
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -268,11 +355,9 @@
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
-          "regime:extreme",
-          "spike:range_vs_adr",
-          "hold:weekend_approach"
+          "regime:extreme"
         ],
-        "vr_hold_check": true
+        "vr_hold_check": false
       }
     },
     "XAUUSD": {
@@ -287,11 +372,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4378.42,
-        "range_today": 64.21,
-        "range_vs_adr": 0.607,
+        "price": 4380.01,
+        "range_today": 0.26,
+        "range_vs_adr": 0.003,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -316,16 +401,29 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.24474,
-        "range_today": 0.00858,
-        "range_vs_adr": 1.347,
+        "price": 1.24449,
+        "range_today": 0.00805,
+        "range_vs_adr": 1.233,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T12:10:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-22T00:10:00+09:00",
+            "window_end_jst": "2026-09-22T14:10:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -345,16 +443,29 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.71256,
-        "range_today": 0.00307,
-        "range_vs_adr": 0.752,
+        "price": 0.71202,
+        "range_today": 0.00021,
+        "range_vs_adr": 0.054,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T12:10:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-22T00:10:00+09:00",
+            "window_end_jst": "2026-09-22T14:10:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -374,16 +485,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61197,
-        "range_today": 0.00604,
-        "range_vs_adr": 0.864,
+        "price": 1.61315,
+        "range_today": 0.00062,
+        "range_vs_adr": 0.095,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T00:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-21T12:00:00+09:00",
+            "window_end_jst": "2026-09-22T02:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T12:10:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Gov Bullock Speaks",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-09-22T00:10:00+09:00",
+            "window_end_jst": "2026-09-22T14:10:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T20:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-22T08:00:00+09:00",
+            "window_end_jst": "2026-09-22T22:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -403,16 +551,41 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00657,
-        "range_today": 0.00902,
-        "range_vs_adr": 0.754,
+        "price": 2.00743,
+        "range_today": 0.01234,
+        "range_vs_adr": 1.058,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T00:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-21T12:00:00+09:00",
+            "window_end_jst": "2026-09-22T02:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T20:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-22T08:00:00+09:00",
+            "window_end_jst": "2026-09-22T22:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -432,16 +605,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60621,
-        "range_today": 0.00341,
-        "range_vs_adr": 0.594,
+        "price": 1.6063,
+        "range_today": 0.00026,
+        "range_vs_adr": 0.046,
         "spike_flag": false,
-        "updated_at": "2026-09-19T05:58:58+09:00"
+        "updated_at": "2026-09-21T06:03:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-09-22T00:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-21T12:00:00+09:00",
+            "window_end_jst": "2026-09-22T02:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T00:05:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-09-21T12:05:00+09:00",
+            "window_end_jst": "2026-09-22T02:05:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-09-22T20:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-22T08:00:00+09:00",
+            "window_end_jst": "2026-09-22T22:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
