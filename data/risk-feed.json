@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-26T09:37:39+09:00",
-    "generated_intraday": "2026-09-28T10:26:59+09:00",
-    "generated_calendar": "2026-09-28T10:26:59+09:00",
+    "generated_intraday": "2026-09-28T10:31:59+09:00",
+    "generated_calendar": "2026-09-28T10:31:59+09:00",
     "session_date": "2026-09-25",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.872,
+        "price": 208.858,
         "range_today": 0.947,
         "range_vs_adr": 0.559,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -134,11 +134,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99328,
+        "price": 0.99347,
         "range_today": 0.00225,
         "range_vs_adr": 0.449,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -179,6 +179,36 @@
             "window_start_jst": "2026-09-29T02:30:00+09:00",
             "window_end_jst": "2026-09-29T16:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Trimmed Mean CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
@@ -200,11 +230,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.86009,
+        "price": 0.86,
         "range_today": 0.0015,
         "range_vs_adr": 0.638,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -254,15 +284,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13862,
+        "price": 1.13859,
         "range_today": 0.00206,
         "range_vs_adr": 0.439,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-28T22:30:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-28T10:30:00+09:00",
+            "window_end_jst": "2026-09-29T00:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-28T22:30:00+09:00",
@@ -291,9 +333,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     },
     "USDCAD": {
@@ -308,11 +352,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41544,
+        "price": 1.41538,
         "range_today": 0.00256,
         "range_vs_adr": 0.437,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -337,11 +381,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 157.771,
+        "price": 157.754,
         "range_today": 0.631,
         "range_vs_adr": 0.423,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -369,11 +413,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4219.98,
+        "price": 4220.81,
         "range_today": 71.91,
         "range_vs_adr": 0.759,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -398,11 +442,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23907,
+        "price": 1.23894,
         "range_today": 0.00288,
         "range_vs_adr": 0.404,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -443,6 +487,36 @@
             "window_start_jst": "2026-09-29T02:30:00+09:00",
             "window_end_jst": "2026-09-29T16:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Trimmed Mean CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
@@ -464,11 +538,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70176,
+        "price": 0.70191,
         "range_today": 0.00192,
         "range_vs_adr": 0.464,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -509,6 +583,36 @@
             "window_start_jst": "2026-09-29T02:30:00+09:00",
             "window_end_jst": "2026-09-29T16:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Trimmed Mean CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
@@ -530,15 +634,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62247,
+        "price": 1.62214,
         "range_today": 0.00421,
         "range_vs_adr": 0.603,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-28T22:30:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-28T10:30:00+09:00",
+            "window_end_jst": "2026-09-29T00:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-28T22:30:00+09:00",
@@ -599,13 +715,45 @@
             "window_start_jst": "2026-09-29T08:00:00+09:00",
             "window_end_jst": "2026-09-29T22:00:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-09-30T10:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Trimmed Mean CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     },
     "EURNZD": {
@@ -620,15 +768,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.01025,
-        "range_today": 0.00487,
-        "range_vs_adr": 0.38,
+        "price": 2.00978,
+        "range_today": 0.00517,
+        "range_vs_adr": 0.404,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-28T22:30:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-28T10:30:00+09:00",
+            "window_end_jst": "2026-09-29T00:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-28T22:30:00+09:00",
@@ -657,9 +817,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     },
     "EURCAD": {
@@ -674,15 +836,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61152,
+        "price": 1.61158,
         "range_today": 0.00295,
         "range_vs_adr": 0.5,
         "spike_flag": false,
-        "updated_at": "2026-09-28T10:26:59+09:00"
+        "updated_at": "2026-09-28T10:31:59+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-28T22:30:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-09-28T10:30:00+09:00",
+            "window_end_jst": "2026-09-29T00:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-28T22:30:00+09:00",
@@ -711,9 +885,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ECB President Lagarde Speaks"
+        ]
       }
     }
   }
