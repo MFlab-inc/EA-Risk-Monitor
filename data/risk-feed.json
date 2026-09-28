@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-26T09:37:39+09:00",
-    "generated_intraday": "2026-09-28T19:06:26+09:00",
-    "generated_calendar": "2026-09-28T19:06:26+09:00",
+    "generated_intraday": "2026-09-28T19:21:29+09:00",
+    "generated_calendar": "2026-09-28T19:21:29+09:00",
     "session_date": "2026-09-25",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.11,
-      "change": 0.14,
-      "change_pct": 0.14
+      "value": 101.15,
+      "change": 0.18,
+      "change_pct": 0.18
     },
     "us10y": {
       "value": 5.184,
@@ -87,9 +87,9 @@
       "change_pct": 0.43
     },
     "vix": {
-      "value": 16.28,
-      "change": 1.41,
-      "change_pct": 9.48
+      "value": 16.32,
+      "change": 1.45,
+      "change_pct": 9.75
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.084,
+        "price": 208.221,
         "range_today": 1.354,
         "range_vs_adr": 0.799,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -134,11 +134,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99339,
+        "price": 0.99281,
         "range_today": 0.0031,
         "range_vs_adr": 0.619,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -230,11 +230,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85807,
+        "price": 0.85783,
         "range_today": 0.00401,
         "range_vs_adr": 1.706,
         "spike_flag": true,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -299,11 +299,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13722,
-        "range_today": 0.00227,
-        "range_vs_adr": 0.484,
+        "price": 1.13675,
+        "range_today": 0.00277,
+        "range_vs_adr": 0.591,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -367,11 +367,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41639,
-        "range_today": 0.00256,
-        "range_vs_adr": 0.437,
+        "price": 1.41655,
+        "range_today": 0.0027,
+        "range_vs_adr": 0.461,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -396,11 +396,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 156.996,
+        "price": 157.132,
         "range_today": 1.373,
         "range_vs_adr": 0.919,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -428,11 +428,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4159.28,
+        "price": 4153.12,
         "range_today": 147.71,
         "range_vs_adr": 1.559,
         "spike_flag": true,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -459,11 +459,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23967,
+        "price": 1.23941,
         "range_today": 0.0029,
         "range_vs_adr": 0.407,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -555,11 +555,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70134,
+        "price": 0.70087,
         "range_today": 0.00227,
         "range_vs_adr": 0.548,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -651,11 +651,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62136,
+        "price": 1.6218,
         "range_today": 0.0047,
         "range_vs_adr": 0.673,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -785,11 +785,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.01004,
+        "price": 2.01014,
         "range_today": 0.00758,
         "range_vs_adr": 0.592,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -853,11 +853,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61082,
+        "price": 1.61018,
         "range_today": 0.00295,
         "range_vs_adr": 0.5,
         "spike_flag": false,
-        "updated_at": "2026-09-28T19:06:26+09:00"
+        "updated_at": "2026-09-28T19:21:29+09:00"
       },
       "events": {
         "in_event_window": true,
