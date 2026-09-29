@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-29T10:57:52+09:00",
-    "generated_intraday": "2026-09-29T16:26:26+09:00",
-    "generated_calendar": "2026-09-29T16:26:26+09:00",
+    "generated_intraday": "2026-09-29T16:31:28+09:00",
+    "generated_calendar": "2026-09-29T16:31:28+09:00",
     "session_date": "2026-09-28",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,7 +77,7 @@
   },
   "market": {
     "dxy": {
-      "value": 101.3,
+      "value": 101.29,
       "change": 0.1,
       "change_pct": 0.09
     },
@@ -87,9 +87,9 @@
       "change_pct": 1.08
     },
     "vix": {
-      "value": 16.07,
-      "change": 1.2,
-      "change_pct": 8.07
+      "value": 16.19,
+      "change": 0.12,
+      "change_pct": 0.75
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.303,
+        "price": 208.23,
         "range_today": 0.621,
         "range_vs_adr": 0.36,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -167,40 +167,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99175,
+        "price": 0.99177,
         "range_today": 0.00656,
         "range_vs_adr": 1.289,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-30T10:30:00+09:00",
             "currency": "AUD",
@@ -234,11 +210,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:RBA Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURGBP": {
@@ -253,11 +227,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85783,
+        "price": 0.85771,
         "range_today": 0.00113,
         "range_vs_adr": 0.456,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -309,11 +283,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13566,
+        "price": 1.13556,
         "range_today": 0.00208,
         "range_vs_adr": 0.444,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -397,11 +371,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41848,
+        "price": 1.41837,
         "range_today": 0.00238,
         "range_vs_adr": 0.416,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -471,11 +445,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 157.352,
+        "price": 157.282,
         "range_today": 0.372,
         "range_vs_adr": 0.244,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -536,11 +510,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4146.42,
-        "range_today": 36.25,
-        "range_vs_adr": 0.363,
+        "price": 4147.51,
+        "range_today": 36.94,
+        "range_vs_adr": 0.37,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -598,40 +572,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23596,
+        "price": 1.23626,
         "range_today": 0.0101,
         "range_vs_adr": 1.429,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-30T10:30:00+09:00",
             "currency": "AUD",
@@ -665,11 +615,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:RBA Press Conference"
-        ]
+        "reasons": []
       }
     },
     "AUDUSD": {
@@ -684,40 +632,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69918,
+        "price": 0.69922,
         "range_today": 0.00504,
         "range_vs_adr": 1.191,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-30T10:30:00+09:00",
             "currency": "AUD",
@@ -783,11 +707,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:RBA Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURAUD": {
@@ -802,26 +724,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62427,
+        "price": 1.62411,
         "range_today": 0.01029,
         "range_vs_adr": 1.449,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00"
-          },
           {
             "time_jst": "2026-09-29T20:00:00+09:00",
             "currency": "EUR",
@@ -835,18 +746,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T14:30:00+09:00",
-            "currency": "AUD",
-            "impact": "Medium",
-            "title": "RBA Press Conference",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T02:30:00+09:00",
-            "window_end_jst": "2026-09-29T16:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-29T20:00:00+09:00",
             "currency": "EUR",
@@ -895,7 +794,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:RBA Press Conference",
           "event:ECB President Lagarde Speaks"
         ]
       }
@@ -912,11 +810,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00746,
+        "price": 2.00774,
         "range_today": 0.01001,
         "range_vs_adr": 0.776,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -968,11 +866,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61089,
+        "price": 1.61066,
         "range_today": 0.00182,
         "range_vs_adr": 0.306,
         "spike_flag": false,
-        "updated_at": "2026-09-29T16:26:26+09:00"
+        "updated_at": "2026-09-29T16:31:28+09:00"
       },
       "events": {
         "in_event_window": true,
