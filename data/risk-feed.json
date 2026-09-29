@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-29T10:57:52+09:00",
-    "generated_intraday": "2026-09-29T15:26:27+09:00",
-    "generated_calendar": "2026-09-29T15:26:27+09:00",
+    "generated_intraday": "2026-09-29T15:31:30+09:00",
+    "generated_calendar": "2026-09-29T15:31:30+09:00",
     "session_date": "2026-09-28",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.25,
-      "change": 0.05,
-      "change_pct": 0.05
+      "value": 101.26,
+      "change": 0.06,
+      "change_pct": 0.06
     },
     "us10y": {
       "value": 5.24,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.248,
+        "price": 208.306,
         "range_today": 0.621,
         "range_vs_adr": 0.36,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -167,37 +167,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99127,
+        "price": 0.99103,
         "range_today": 0.00656,
         "range_vs_adr": 1.289,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -211,30 +189,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -283,8 +237,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:Cash Rate",
-          "event:RBA Rate Statement",
           "event:RBA Press Conference"
         ]
       }
@@ -301,11 +253,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85848,
-        "range_today": 0.00103,
-        "range_vs_adr": 0.415,
+        "price": 0.85849,
+        "range_today": 0.00112,
+        "range_vs_adr": 0.452,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -357,11 +309,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13642,
+        "price": 1.13651,
         "range_today": 0.00208,
         "range_vs_adr": 0.444,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -445,11 +397,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41862,
+        "price": 1.41853,
         "range_today": 0.00238,
         "range_vs_adr": 0.416,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -519,11 +471,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 157.316,
+        "price": 157.36,
         "range_today": 0.372,
         "range_vs_adr": 0.244,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -584,11 +536,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4144.42,
+        "price": 4143.86,
         "range_today": 36.25,
         "range_vs_adr": 0.363,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -646,37 +598,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23594,
+        "price": 1.23574,
         "range_today": 0.0101,
         "range_vs_adr": 1.429,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -690,30 +620,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -762,8 +668,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:Cash Rate",
-          "event:RBA Rate Statement",
           "event:RBA Press Conference"
         ]
       }
@@ -780,37 +684,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69876,
+        "price": 0.69858,
         "range_today": 0.00504,
         "range_vs_adr": 1.191,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -824,30 +706,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -928,8 +786,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:Cash Rate",
-          "event:RBA Rate Statement",
           "event:RBA Press Conference"
         ]
       }
@@ -946,37 +802,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62631,
-        "range_today": 0.01024,
-        "range_vs_adr": 1.442,
+        "price": 1.62688,
+        "range_today": 0.01029,
+        "range_vs_adr": 1.449,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00"
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -1001,30 +835,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "Cash Rate",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-09-29T13:30:00+09:00",
-            "currency": "AUD",
-            "impact": "High",
-            "title": "RBA Rate Statement",
-            "types": [
-              "rba"
-            ],
-            "window_start_jst": "2026-09-29T01:30:00+09:00",
-            "window_end_jst": "2026-09-29T15:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-09-29T14:30:00+09:00",
             "currency": "AUD",
@@ -1085,8 +895,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:Cash Rate",
-          "event:RBA Rate Statement",
           "event:RBA Press Conference",
           "event:ECB President Lagarde Speaks"
         ]
@@ -1104,11 +912,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00989,
+        "price": 2.01056,
         "range_today": 0.01001,
         "range_vs_adr": 0.776,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1160,11 +968,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61213,
+        "price": 1.61228,
         "range_today": 0.0015,
         "range_vs_adr": 0.252,
         "spike_flag": false,
-        "updated_at": "2026-09-29T15:26:27+09:00"
+        "updated_at": "2026-09-29T15:31:30+09:00"
       },
       "events": {
         "in_event_window": true,
