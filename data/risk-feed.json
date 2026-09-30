@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-30T10:17:51+09:00",
-    "generated_intraday": "2026-09-30T19:36:44+09:00",
-    "generated_calendar": "2026-09-30T19:36:44+09:00",
+    "generated_intraday": "2026-09-30T19:53:28+09:00",
+    "generated_calendar": "2026-09-30T19:53:28+09:00",
     "session_date": "2026-09-29",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.19,
-      "change": -0.18,
-      "change_pct": -0.18
+      "value": 101.21,
+      "change": -0.16,
+      "change_pct": -0.16
     },
     "us10y": {
       "value": 5.255,
@@ -87,9 +87,9 @@
       "change_pct": 0.29
     },
     "vix": {
-      "value": 16.03,
-      "change": -0.01,
-      "change_pct": -0.06
+      "value": 16.09,
+      "change": 0.05,
+      "change_pct": 0.31
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.69,
-        "range_today": 1.827,
-        "range_vs_adr": 1.047,
+        "price": 208.774,
+        "range_today": 1.892,
+        "range_vs_adr": 1.084,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -124,6 +124,17 @@
             ],
             "window_start_jst": "2026-09-30T09:15:00+09:00",
             "window_end_jst": "2026-09-30T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00"
           }
         ],
         "next_48h": [
@@ -160,6 +171,18 @@
             "gating": false
           },
           {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00",
+            "gating": true
+          },
+          {
             "time_jst": "2026-10-01T17:00:00+09:00",
             "currency": "GBP",
             "impact": "Medium",
@@ -189,7 +212,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ADP Non-Farm Employment Change"
+          "event:ADP Non-Farm Employment Change",
+          "event:FOMC Member Kashkari Speaks"
         ]
       }
     },
@@ -205,11 +229,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98861,
+        "price": 0.98854,
         "range_today": 0.005,
         "range_vs_adr": 0.956,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -234,11 +258,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85421,
-        "range_today": 0.00362,
-        "range_vs_adr": 1.454,
+        "price": 0.85437,
+        "range_today": 0.00367,
+        "range_vs_adr": 1.474,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -288,11 +312,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13569,
+        "price": 1.13562,
         "range_today": 0.00353,
         "range_vs_adr": 0.732,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -307,6 +331,17 @@
             ],
             "window_start_jst": "2026-09-30T09:15:00+09:00",
             "window_end_jst": "2026-09-30T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00"
           }
         ],
         "next_48h": [
@@ -343,6 +378,18 @@
             "gating": false
           },
           {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00",
+            "gating": true
+          },
+          {
             "time_jst": "2026-10-01T22:30:00+09:00",
             "currency": "EUR",
             "impact": "Medium",
@@ -372,7 +419,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ADP Non-Farm Employment Change"
+          "event:ADP Non-Farm Employment Change",
+          "event:FOMC Member Kashkari Speaks"
         ]
       }
     },
@@ -388,11 +436,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41816,
+        "price": 1.4181,
         "range_today": 0.00251,
         "range_vs_adr": 0.451,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -418,6 +466,17 @@
             ],
             "window_start_jst": "2026-09-30T11:30:00+09:00",
             "window_end_jst": "2026-10-01T00:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00"
           }
         ],
         "next_48h": [
@@ -466,6 +525,18 @@
             "gating": true
           },
           {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00",
+            "gating": true
+          },
+          {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
             "impact": "Medium",
@@ -484,7 +555,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:ADP Non-Farm Employment Change",
-          "event:Crude Oil Inventories"
+          "event:Crude Oil Inventories",
+          "event:FOMC Member Kashkari Speaks"
         ]
       }
     },
@@ -500,11 +572,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 156.957,
+        "price": 157.073,
         "range_today": 1.078,
         "range_vs_adr": 0.704,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -519,6 +591,17 @@
             ],
             "window_start_jst": "2026-09-30T09:15:00+09:00",
             "window_end_jst": "2026-09-30T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00"
           }
         ],
         "next_48h": [
@@ -553,6 +636,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00",
+            "gating": true
           },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
@@ -573,7 +668,8 @@
         "halt_all_new": false,
         "reasons": [
           "regime:highvol",
-          "event:ADP Non-Farm Employment Change"
+          "event:ADP Non-Farm Employment Change",
+          "event:FOMC Member Kashkari Speaks"
         ],
         "vr_hold_check": false
       }
@@ -590,11 +686,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4187.54,
+        "price": 4183.64,
         "range_today": 36.76,
         "range_vs_adr": 0.38,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -609,6 +705,17 @@
             ],
             "window_start_jst": "2026-09-30T09:15:00+09:00",
             "window_end_jst": "2026-09-30T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00"
           }
         ],
         "next_48h": [
@@ -645,6 +752,18 @@
             "gating": false
           },
           {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00",
+            "gating": true
+          },
+          {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
             "impact": "Medium",
@@ -662,7 +781,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ADP Non-Farm Employment Change"
+          "event:ADP Non-Farm Employment Change",
+          "event:FOMC Member Kashkari Speaks"
         ]
       }
     },
@@ -678,11 +798,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23334,
+        "price": 1.23404,
         "range_today": 0.00776,
         "range_vs_adr": 1.047,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -711,7 +831,7 @@
         "range_today": 0.00363,
         "range_vs_adr": 0.834,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -726,6 +846,17 @@
             ],
             "window_start_jst": "2026-09-30T09:15:00+09:00",
             "window_end_jst": "2026-09-30T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00"
           }
         ],
         "next_48h": [
@@ -762,6 +893,18 @@
             "gating": false
           },
           {
+            "time_jst": "2026-10-01T07:00:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "FOMC Member Kashkari Speaks",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-09-30T07:00:00+09:00",
+            "window_end_jst": "2026-10-01T09:00:00+09:00",
+            "gating": true
+          },
+          {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
             "impact": "Medium",
@@ -779,7 +922,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ADP Non-Farm Employment Change"
+          "event:ADP Non-Farm Employment Change",
+          "event:FOMC Member Kashkari Speaks"
         ]
       }
     },
@@ -795,11 +939,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62931,
+        "price": 1.62907,
         "range_today": 0.00902,
         "range_vs_adr": 1.234,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -837,11 +981,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00941,
+        "price": 2.01035,
         "range_today": 0.00743,
         "range_vs_adr": 0.57,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -879,11 +1023,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61068,
+        "price": 1.61038,
         "range_today": 0.003,
         "range_vs_adr": 0.499,
         "spike_flag": false,
-        "updated_at": "2026-09-30T19:36:44+09:00"
+        "updated_at": "2026-09-30T19:53:28+09:00"
       },
       "events": {
         "in_event_window": true,
