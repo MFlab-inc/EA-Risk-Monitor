@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-30T07:20:37+09:00",
-    "generated_intraday": "2026-09-30T09:06:32+09:00",
-    "generated_calendar": "2026-09-30T09:06:32+09:00",
+    "generated_intraday": "2026-09-30T09:21:34+09:00",
+    "generated_calendar": "2026-09-30T09:21:34+09:00",
     "session_date": "2026-09-29",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -105,15 +105,27 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.212,
+        "price": 208.078,
         "range_today": 0.243,
         "range_vs_adr": 0.139,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-30T21:15:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "ADP Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-09-30T09:15:00+09:00",
+            "window_end_jst": "2026-09-30T22:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-30T21:15:00+09:00",
@@ -174,9 +186,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ADP Non-Farm Employment Change"
+        ]
       }
     },
     "AUDCAD": {
@@ -191,11 +205,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99138,
+        "price": 0.99168,
         "range_today": 0.00172,
         "range_vs_adr": 0.329,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -251,11 +265,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.8573,
+        "price": 0.85723,
         "range_today": 0.00059,
         "range_vs_adr": 0.237,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -305,15 +319,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13393,
+        "price": 1.13385,
         "range_today": 0.00091,
         "range_vs_adr": 0.189,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-30T21:15:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "ADP Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-09-30T09:15:00+09:00",
+            "window_end_jst": "2026-09-30T22:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-30T21:15:00+09:00",
@@ -374,9 +400,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ADP Non-Farm Employment Change"
+        ]
       }
     },
     "USDCAD": {
@@ -391,15 +419,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41941,
+        "price": 1.41933,
         "range_today": 0.00108,
         "range_vs_adr": 0.194,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-30T21:15:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "ADP Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-09-30T09:15:00+09:00",
+            "window_end_jst": "2026-09-30T22:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-30T21:15:00+09:00",
@@ -460,9 +500,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ADP Non-Farm Employment Change"
+        ]
       }
     },
     "USDJPY": {
@@ -477,15 +519,27 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 157.413,
+        "price": 157.316,
         "range_today": 0.21,
         "range_vs_adr": 0.137,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-30T21:15:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "ADP Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-09-30T09:15:00+09:00",
+            "window_end_jst": "2026-09-30T22:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-30T21:15:00+09:00",
@@ -537,7 +591,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "regime:highvol"
+          "regime:highvol",
+          "event:ADP Non-Farm Employment Change"
         ],
         "vr_hold_check": false
       }
@@ -554,15 +609,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4183.32,
+        "price": 4183.97,
         "range_today": 10.71,
         "range_vs_adr": 0.111,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-30T21:15:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "ADP Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-09-30T09:15:00+09:00",
+            "window_end_jst": "2026-09-30T22:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-30T21:15:00+09:00",
@@ -611,9 +678,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ADP Non-Farm Employment Change"
+        ]
       }
     },
     "AUDNZD": {
@@ -628,11 +697,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23884,
+        "price": 1.23899,
         "range_today": 0.00324,
         "range_vs_adr": 0.437,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -688,15 +757,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69847,
+        "price": 0.69872,
         "range_today": 0.00095,
         "range_vs_adr": 0.218,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-30T21:15:00+09:00",
+            "currency": "USD",
+            "impact": "Medium",
+            "title": "ADP Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-09-30T09:15:00+09:00",
+            "window_end_jst": "2026-09-30T22:15:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-30T10:30:00+09:00",
@@ -775,9 +856,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:ADP Non-Farm Employment Change"
+        ]
       }
     },
     "EURAUD": {
@@ -792,11 +875,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62344,
+        "price": 1.62273,
         "range_today": 0.0023,
         "range_vs_adr": 0.315,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -864,11 +947,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.0112,
+        "price": 2.01054,
         "range_today": 0.00461,
         "range_vs_adr": 0.354,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -906,11 +989,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60948,
+        "price": 1.60929,
         "range_today": 0.00151,
         "range_vs_adr": 0.251,
         "spike_flag": false,
-        "updated_at": "2026-09-30T09:06:32+09:00"
+        "updated_at": "2026-09-30T09:21:34+09:00"
       },
       "events": {
         "in_event_window": false,
