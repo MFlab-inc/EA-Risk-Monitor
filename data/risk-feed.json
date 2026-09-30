@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-09-30T10:17:51+09:00",
-    "generated_intraday": "2026-09-30T11:26:27+09:00",
-    "generated_calendar": "2026-09-30T11:26:27+09:00",
+    "generated_intraday": "2026-09-30T11:31:45+09:00",
+    "generated_calendar": "2026-09-30T11:31:45+09:00",
     "session_date": "2026-09-29",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.35,
-      "change": -0.03,
-      "change_pct": -0.02
+      "value": 101.33,
+      "change": -0.04,
+      "change_pct": -0.04
     },
     "us10y": {
       "value": 5.255,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 207.107,
-        "range_today": 1.325,
-        "range_vs_adr": 0.759,
+        "price": 206.906,
+        "range_today": 1.409,
+        "range_vs_adr": 0.807,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -205,11 +205,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98883,
+        "price": 0.98891,
         "range_today": 0.005,
         "range_vs_adr": 0.956,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -265,11 +265,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85708,
+        "price": 0.8571,
         "range_today": 0.00078,
         "range_vs_adr": 0.313,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -319,11 +319,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13387,
+        "price": 1.13402,
         "range_today": 0.00118,
         "range_vs_adr": 0.245,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -419,11 +419,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.41972,
+        "price": 1.41946,
         "range_today": 0.0015,
         "range_vs_adr": 0.269,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -438,6 +438,17 @@
             ],
             "window_start_jst": "2026-09-30T09:15:00+09:00",
             "window_end_jst": "2026-09-30T22:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-09-30T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-09-30T11:30:00+09:00",
+            "window_end_jst": "2026-10-01T00:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -503,7 +514,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ADP Non-Farm Employment Change"
+          "event:ADP Non-Farm Employment Change",
+          "event:Crude Oil Inventories"
         ]
       }
     },
@@ -519,11 +531,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 156.556,
-        "range_today": 1.007,
-        "range_vs_adr": 0.658,
+        "price": 156.395,
+        "range_today": 1.078,
+        "range_vs_adr": 0.704,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -609,11 +621,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4177.99,
+        "price": 4177.31,
         "range_today": 19.77,
         "range_vs_adr": 0.204,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -697,11 +709,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23448,
+        "price": 1.23443,
         "range_today": 0.00762,
         "range_vs_adr": 1.028,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -757,11 +769,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69652,
+        "price": 0.69664,
         "range_today": 0.00363,
         "range_vs_adr": 0.834,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -875,11 +887,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.62789,
+        "price": 1.62774,
         "range_today": 0.00877,
         "range_vs_adr": 1.2,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -947,11 +959,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00947,
+        "price": 2.00937,
         "range_today": 0.00461,
         "range_vs_adr": 0.354,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -989,15 +1001,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60974,
-        "range_today": 0.00162,
-        "range_vs_adr": 0.27,
+        "price": 1.60962,
+        "range_today": 0.00164,
+        "range_vs_adr": 0.273,
         "spike_flag": false,
-        "updated_at": "2026-09-30T11:26:27+09:00"
+        "updated_at": "2026-09-30T11:31:45+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-09-30T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-09-30T11:30:00+09:00",
+            "window_end_jst": "2026-10-01T00:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-09-30T23:30:00+09:00",
@@ -1026,9 +1050,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Crude Oil Inventories"
+        ]
       }
     }
   }
