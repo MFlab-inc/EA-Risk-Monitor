@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-01T07:20:18+09:00",
-    "generated_intraday": "2026-10-01T08:58:20+09:00",
-    "generated_calendar": "2026-10-01T08:58:20+09:00",
+    "generated_intraday": "2026-10-01T09:03:20+09:00",
+    "generated_calendar": "2026-10-01T09:03:20+09:00",
     "session_date": "2026-09-30",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.48,
-      "change": 0.11,
-      "change_pct": 0.1
+      "value": 101.49,
+      "change": 0.12,
+      "change_pct": 0.12
     },
     "us10y": {
       "value": 5.293,
@@ -105,26 +105,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.969,
-        "range_today": 0.282,
-        "range_vs_adr": 0.166,
+        "price": 209.056,
+        "range_today": 0.37,
+        "range_vs_adr": 0.217,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-01T17:00:00+09:00",
             "currency": "GBP",
@@ -149,18 +138,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-01T17:00:00+09:00",
             "currency": "GBP",
@@ -227,7 +204,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Kashkari Speaks",
           "event:BOE Gov Bailey Speaks",
           "event:FOMC Member Waller Speaks"
         ]
@@ -245,11 +221,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.9887,
+        "price": 0.9888,
         "range_today": 0.0011,
         "range_vs_adr": 0.207,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -274,11 +250,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.85397,
+        "price": 0.85404,
         "range_today": 0.00071,
         "range_vs_adr": 0.282,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -328,26 +304,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.13258,
+        "price": 1.13265,
         "range_today": 0.00083,
         "range_vs_adr": 0.169,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -361,18 +326,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-01T22:30:00+09:00",
             "currency": "EUR",
@@ -439,7 +392,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Kashkari Speaks",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -456,26 +408,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.42361,
+        "price": 1.42363,
         "range_today": 0.0016,
         "range_vs_adr": 0.293,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -489,18 +430,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -555,7 +484,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Kashkari Speaks",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -572,26 +500,15 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 157.564,
-        "range_today": 0.239,
-        "range_vs_adr": 0.161,
+        "price": 157.622,
+        "range_today": 0.303,
+        "range_vs_adr": 0.205,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -605,18 +522,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -672,7 +577,6 @@
         "halt_all_new": false,
         "reasons": [
           "regime:highvol",
-          "event:FOMC Member Kashkari Speaks",
           "event:FOMC Member Waller Speaks"
         ],
         "vr_hold_check": false
@@ -690,26 +594,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4155.15,
+        "price": 4154.33,
         "range_today": 9.68,
         "range_vs_adr": 0.102,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -723,18 +616,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -789,7 +670,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Kashkari Speaks",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -806,11 +686,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.23295,
+        "price": 1.23284,
         "range_today": 0.00491,
         "range_vs_adr": 0.702,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -837,26 +717,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69452,
+        "price": 0.69458,
         "range_today": 0.00066,
         "range_vs_adr": 0.152,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -870,18 +739,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-01T07:00:00+09:00",
-            "currency": "USD",
-            "impact": "Medium",
-            "title": "FOMC Member Kashkari Speaks",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-09-30T07:00:00+09:00",
-            "window_end_jst": "2026-10-01T09:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-01T23:00:00+09:00",
             "currency": "USD",
@@ -936,7 +793,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Kashkari Speaks",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -953,11 +809,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.63089,
+        "price": 1.63076,
         "range_today": 0.00164,
         "range_vs_adr": 0.22,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -995,11 +851,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.01071,
+        "price": 2.0103,
         "range_today": 0.00919,
         "range_vs_adr": 0.772,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1037,11 +893,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.61232,
+        "price": 1.61244,
         "range_today": 0.0016,
         "range_vs_adr": 0.281,
         "spike_flag": false,
-        "updated_at": "2026-10-01T08:58:20+09:00"
+        "updated_at": "2026-10-01T09:03:20+09:00"
       },
       "events": {
         "in_event_window": false,
