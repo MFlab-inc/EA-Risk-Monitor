@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-07T10:32:35+09:00",
-    "generated_intraday": "2026-10-08T04:58:40+09:00",
-    "generated_calendar": "2026-10-08T04:58:40+09:00",
+    "generated_intraday": "2026-10-08T05:03:36+09:00",
+    "generated_calendar": "2026-10-08T05:03:36+09:00",
     "session_date": "2026-10-06",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -87,9 +87,9 @@
       "change_pct": 0.15
     },
     "vix": {
-      "value": 15.01,
-      "change": 0,
-      "change_pct": 0
+      "value": 15.03,
+      "change": 0.02,
+      "change_pct": 0.13
     }
   },
   "pairs": {
@@ -105,26 +105,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.818,
-        "range_today": 1.549,
-        "range_vs_adr": 1.063,
+        "price": 208.85,
+        "range_today": 0.024,
+        "range_vs_adr": 0.016,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -138,18 +127,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -180,7 +157,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Meeting Minutes",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -198,10 +174,10 @@
       "regime": "normal",
       "intraday": {
         "price": 0.99291,
-        "range_today": 0.00383,
-        "range_vs_adr": 0.674,
+        "range_today": 0.00009,
+        "range_vs_adr": 0.016,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -251,11 +227,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.84735,
-        "range_today": 0.00384,
-        "range_vs_adr": 1.407,
+        "price": 0.84729,
+        "range_today": 0.00012,
+        "range_vs_adr": 0.044,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -293,26 +269,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11952,
-        "range_today": 0.00967,
-        "range_vs_adr": 1.636,
-        "spike_flag": true,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "price": 1.11954,
+        "range_today": 0.00013,
+        "range_vs_adr": 0.022,
+        "spike_flag": false,
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -326,18 +291,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -354,10 +307,8 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
-          "event:FOMC Meeting Minutes",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -374,26 +325,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.42596,
-        "range_today": 0.00761,
-        "range_vs_adr": 1.444,
+        "price": 1.42606,
+        "range_today": 0.00025,
+        "range_vs_adr": 0.047,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -407,18 +347,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -461,7 +389,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Meeting Minutes",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -478,26 +405,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 158.053,
-        "range_today": 0.638,
-        "range_vs_adr": 0.525,
+        "price": 158.062,
+        "range_today": 0.011,
+        "range_vs_adr": 0.009,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -511,18 +427,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -541,7 +445,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Meeting Minutes",
           "event:FOMC Member Waller Speaks"
         ],
         "vr_hold_check": false
@@ -559,26 +462,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4102.32,
-        "range_today": 108.08,
-        "range_vs_adr": 1.238,
+        "price": 4104.19,
+        "range_today": 3.99,
+        "range_vs_adr": 0.046,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -592,18 +484,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -622,7 +502,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Meeting Minutes",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -639,11 +518,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.24332,
-        "range_today": 0.00357,
-        "range_vs_adr": 0.488,
+        "price": 1.24346,
+        "range_today": 0.00054,
+        "range_vs_adr": 0.074,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -670,26 +549,15 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69632,
-        "range_today": 0.00411,
-        "range_vs_adr": 0.899,
+        "price": 0.69625,
+        "range_today": 0.00009,
+        "range_vs_adr": 0.02,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00"
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -703,18 +571,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-08T03:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-10-07T03:00:00+09:00",
-            "window_end_jst": "2026-10-08T05:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-08T17:30:00+09:00",
             "currency": "USD",
@@ -733,7 +589,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Meeting Minutes",
           "event:FOMC Member Waller Speaks"
         ]
       }
@@ -750,11 +605,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60778,
-        "range_today": 0.00827,
-        "range_vs_adr": 0.985,
+        "price": 1.60806,
+        "range_today": 0.00035,
+        "range_vs_adr": 0.042,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -779,11 +634,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.99904,
-        "range_today": 0.00996,
-        "range_vs_adr": 0.818,
+        "price": 1.99942,
+        "range_today": 0.00097,
+        "range_vs_adr": 0.08,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -808,11 +663,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.59631,
-        "range_today": 0.0097,
-        "range_vs_adr": 1.461,
+        "price": 1.59658,
+        "range_today": 0.0003,
+        "range_vs_adr": 0.045,
         "spike_flag": false,
-        "updated_at": "2026-10-08T04:58:40+09:00"
+        "updated_at": "2026-10-08T05:03:36+09:00"
       },
       "events": {
         "in_event_window": false,
