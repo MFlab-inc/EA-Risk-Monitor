@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-07T10:32:35+09:00",
-    "generated_intraday": "2026-10-07T21:26:42+09:00",
-    "generated_calendar": "2026-10-07T21:26:42+09:00",
+    "generated_intraday": "2026-10-07T21:32:12+09:00",
+    "generated_calendar": "2026-10-07T21:32:12+09:00",
     "session_date": "2026-10-06",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 102.43,
-      "change": 0.6,
-      "change_pct": 0.59
+      "value": 102.46,
+      "change": 0.63,
+      "change_pct": 0.61
     },
     "us10y": {
       "value": 5.269,
@@ -87,9 +87,9 @@
       "change_pct": -0.79
     },
     "vix": {
-      "value": 15.79,
-      "change": 0.78,
-      "change_pct": 5.2
+      "value": 15.75,
+      "change": 0.74,
+      "change_pct": 4.93
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.882,
-        "range_today": 1.368,
-        "range_vs_adr": 0.939,
+        "price": 208.865,
+        "range_today": 1.391,
+        "range_vs_adr": 0.955,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -197,16 +197,41 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99094,
+        "price": 0.99073,
         "range_today": 0.00299,
         "range_vs_adr": 0.526,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-10-09T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-09T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -226,11 +251,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.84617,
+        "price": 0.84634,
         "range_today": 0.00384,
         "range_vs_adr": 1.407,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -268,11 +293,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11671,
-        "range_today": 0.00955,
-        "range_vs_adr": 1.616,
+        "price": 1.11675,
+        "range_today": 0.00967,
+        "range_vs_adr": 1.636,
         "spike_flag": true,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -349,11 +374,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.42637,
-        "range_today": 0.00585,
-        "range_vs_adr": 1.11,
+        "price": 1.42656,
+        "range_today": 0.00601,
+        "range_vs_adr": 1.14,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -428,6 +453,30 @@
             "window_start_jst": "2026-10-07T17:30:00+09:00",
             "window_end_jst": "2026-10-08T19:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-10-09T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": "2026-10-09T09:30:00+09:00",
+            "window_end_jst": "2026-10-09T22:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-09T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": "2026-10-09T09:30:00+09:00",
+            "window_end_jst": "2026-10-09T22:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -453,11 +502,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 158.281,
+        "price": 158.282,
         "range_today": 0.638,
         "range_vs_adr": 0.525,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -534,11 +583,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4111.79,
-        "range_today": 60.68,
-        "range_vs_adr": 0.695,
+        "price": 4079.86,
+        "range_today": 91.1,
+        "range_vs_adr": 1.044,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -614,11 +663,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.24334,
+        "price": 1.2432,
         "range_today": 0.00315,
         "range_vs_adr": 0.431,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -645,11 +694,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69472,
-        "range_today": 0.00373,
-        "range_vs_adr": 0.816,
+        "price": 0.6945,
+        "range_today": 0.00411,
+        "range_vs_adr": 0.899,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -725,11 +774,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.6074,
+        "price": 1.60793,
         "range_today": 0.00827,
         "range_vs_adr": 0.985,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -754,11 +803,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.99842,
+        "price": 1.99908,
         "range_today": 0.00996,
         "range_vs_adr": 0.818,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -783,11 +832,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.59269,
+        "price": 1.59307,
         "range_today": 0.0097,
         "range_vs_adr": 1.461,
         "spike_flag": false,
-        "updated_at": "2026-10-07T21:26:42+09:00"
+        "updated_at": "2026-10-07T21:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -816,6 +865,30 @@
             "window_start_jst": "2026-10-07T11:30:00+09:00",
             "window_end_jst": "2026-10-08T00:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-10-09T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-09T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
