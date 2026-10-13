@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-14T07:20:47+09:00",
-    "generated_intraday": "2026-10-14T08:26:43+09:00",
-    "generated_calendar": "2026-10-14T08:26:43+09:00",
+    "generated_intraday": "2026-10-14T08:31:46+09:00",
+    "generated_calendar": "2026-10-14T08:31:46+09:00",
     "session_date": "2026-10-13",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 209.917,
+        "price": 209.916,
         "range_today": 0.203,
         "range_vs_adr": 0.143,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -271,11 +271,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99298,
+        "price": 0.99299,
         "range_today": 0.00082,
         "range_vs_adr": 0.15,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -347,11 +347,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.84488,
+        "price": 0.84492,
         "range_today": 0.00073,
         "range_vs_adr": 0.255,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -366,6 +366,17 @@
             ],
             "window_start_jst": "2026-10-14T05:10:00+09:00",
             "window_end_jst": "2026-10-14T12:10:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-14T14:30:00+09:00",
+            "currency": "GBP",
+            "impact": "Medium",
+            "title": "BOE Gov Bailey Speaks",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-10-14T08:30:00+09:00",
+            "window_end_jst": "2026-10-14T15:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -433,7 +444,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ECB President Lagarde Speaks"
+          "event:ECB President Lagarde Speaks",
+          "event:BOE Gov Bailey Speaks"
         ]
       }
     },
@@ -449,11 +461,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11984,
+        "price": 1.11987,
         "range_today": 0.00059,
         "range_vs_adr": 0.093,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -617,11 +629,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.42201,
+        "price": 1.42205,
         "range_today": 0.001,
         "range_vs_adr": 0.172,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -777,7 +789,7 @@
         "range_today": 0.095,
         "range_vs_adr": 0.088,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -892,11 +904,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4156.09,
-        "range_today": 9.16,
-        "range_vs_adr": 0.113,
+        "price": 4156.59,
+        "range_today": 9.32,
+        "range_vs_adr": 0.115,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1010,11 +1022,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.24442,
+        "price": 1.24427,
         "range_today": 0.00232,
         "range_vs_adr": 0.343,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1060,11 +1072,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69831,
+        "price": 0.69829,
         "range_today": 0.00066,
         "range_vs_adr": 0.148,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1198,11 +1210,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.60369,
+        "price": 1.60374,
         "range_today": 0.00132,
         "range_vs_adr": 0.16,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1298,11 +1310,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.99567,
+        "price": 1.99547,
         "range_today": 0.0038,
         "range_vs_adr": 0.349,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1378,11 +1390,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.59241,
+        "price": 1.59246,
         "range_today": 0.0012,
         "range_vs_adr": 0.174,
         "spike_flag": false,
-        "updated_at": "2026-10-14T08:26:43+09:00"
+        "updated_at": "2026-10-14T08:31:46+09:00"
       },
       "events": {
         "in_event_window": true,
