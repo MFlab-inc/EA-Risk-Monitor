@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-15T09:31:57+09:00",
-    "generated_intraday": "2026-10-16T04:58:21+09:00",
-    "generated_calendar": "2026-10-16T04:58:21+09:00",
+    "generated_intraday": "2026-10-16T05:03:23+09:00",
+    "generated_calendar": "2026-10-16T05:03:23+09:00",
     "session_date": "2026-10-14",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -87,9 +87,9 @@
       "change_pct": -1.95
     },
     "vix": {
-      "value": 16.45,
-      "change": -0.42,
-      "change_pct": -2.49
+      "value": 16.4,
+      "change": -0.47,
+      "change_pct": -2.79
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 209.901,
-        "range_today": 1.376,
-        "range_vs_adr": 0.95,
+        "price": 209.889,
+        "range_today": 0.063,
+        "range_vs_adr": 0.043,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -197,11 +197,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98189,
-        "range_today": 0.01372,
-        "range_vs_adr": 2.481,
-        "spike_flag": true,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "price": 0.98155,
+        "range_today": 0.0001,
+        "range_vs_adr": 0.018,
+        "spike_flag": false,
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -235,9 +235,8 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
           "event:BOC Gov Macklem Speaks"
         ]
       }
@@ -254,15 +253,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.84482,
-        "range_today": 0.00331,
-        "range_vs_adr": 1.114,
+        "price": 0.84476,
+        "range_today": 0.00008,
+        "range_vs_adr": 0.027,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-10-16T11:00:00+09:00",
+            "currency": "GBP",
+            "impact": "High",
+            "title": "BOE Gov Bailey Speaks",
+            "types": [
+              "boe"
+            ],
+            "window_start_jst": "2026-10-16T05:00:00+09:00",
+            "window_end_jst": "2026-10-16T12:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-10-16T11:00:00+09:00",
@@ -291,9 +302,11 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:BOE Gov Bailey Speaks"
+        ]
       }
     },
     "EURUSD": {
@@ -308,11 +321,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.12135,
-        "range_today": 0.00906,
-        "range_vs_adr": 1.42,
+        "price": 1.12153,
+        "range_today": 0.00018,
+        "range_vs_adr": 0.028,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -364,11 +377,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.41882,
-        "range_today": 0.00731,
-        "range_vs_adr": 1.227,
+        "price": 1.4185,
+        "range_today": 0.00018,
+        "range_vs_adr": 0.03,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -445,11 +458,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.142,
-        "range_today": 0.884,
-        "range_vs_adr": 0.846,
+        "price": 158.099,
+        "range_today": 0.023,
+        "range_vs_adr": 0.022,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -502,11 +515,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4173.64,
-        "range_today": 78.34,
-        "range_vs_adr": 0.983,
+        "price": 4176.16,
+        "range_today": 4.26,
+        "range_vs_adr": 0.053,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -558,11 +571,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.23254,
-        "range_today": 0.01729,
-        "range_vs_adr": 2.561,
-        "spike_flag": true,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "price": 1.23207,
+        "range_today": 0.00026,
+        "range_vs_adr": 0.039,
+        "spike_flag": false,
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -570,11 +583,9 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "AUDUSD": {
@@ -589,11 +600,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69201,
-        "range_today": 0.00841,
-        "range_vs_adr": 1.865,
-        "spike_flag": true,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "price": 0.69198,
+        "range_today": 0.00011,
+        "range_vs_adr": 0.024,
+        "spike_flag": false,
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -627,9 +638,8 @@
       },
       "flags": {
         "no_new_grid": true,
-        "halt_all_new": true,
+        "halt_all_new": false,
         "reasons": [
-          "spike:range_vs_adr",
           "event:Fed Chairman Warsh Speaks"
         ]
       }
@@ -646,11 +656,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.6204,
-        "range_today": 0.02706,
-        "range_vs_adr": 3.161,
-        "spike_flag": true,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "price": 1.6207,
+        "range_today": 0.0002,
+        "range_vs_adr": 0.023,
+        "spike_flag": false,
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -658,11 +668,9 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
-        "halt_all_new": true,
-        "reasons": [
-          "spike:range_vs_adr"
-        ]
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     },
     "EURNZD": {
@@ -677,11 +685,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.9971,
-        "range_today": 0.01143,
-        "range_vs_adr": 1.066,
+        "price": 1.9969,
+        "range_today": 0.0004,
+        "range_vs_adr": 0.037,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -706,11 +714,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.59094,
-        "range_today": 0.00941,
-        "range_vs_adr": 1.366,
+        "price": 1.59081,
+        "range_today": 0.00025,
+        "range_vs_adr": 0.036,
         "spike_flag": false,
-        "updated_at": "2026-10-16T04:58:21+09:00"
+        "updated_at": "2026-10-16T05:03:23+09:00"
       },
       "events": {
         "in_event_window": true,
