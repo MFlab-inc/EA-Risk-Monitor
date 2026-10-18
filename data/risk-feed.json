@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-17T09:29:28+09:00",
-    "generated_intraday": "2026-10-17T05:58:41+09:00",
-    "generated_calendar": "2026-10-17T09:29:28+09:00",
+    "generated_intraday": "2026-10-19T06:03:12+09:00",
+    "generated_calendar": "2026-10-19T06:03:12+09:00",
     "session_date": "2026-10-16",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.78,
-      "change": -0.22,
-      "change_pct": -0.22
+      "value": 101.84,
+      "change": -0.16,
+      "change_pct": -0.16
     },
     "us10y": {
       "value": 5.098,
@@ -105,48 +105,34 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 210.567,
-        "range_today": 0.098,
-        "range_vs_adr": 0.067,
+        "price": 210.321,
+        "range_today": 0.727,
+        "range_vs_adr": 0.532,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-10-17T15:45:00+09:00",
-            "currency": "GBP",
-            "impact": "Medium",
-            "title": "BOE Gov Bailey Speaks",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-10-17T03:45:00+09:00",
-            "window_end_jst": "2026-10-17T17:45:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-10-17T15:45:00+09:00",
+            "time_jst": "2026-10-20T15:00:00+09:00",
             "currency": "GBP",
             "impact": "Medium",
-            "title": "BOE Gov Bailey Speaks",
+            "title": "Average Earnings Index 3m/y",
             "types": [
-              "boe"
+              "uk_jobs"
             ],
-            "window_start_jst": "2026-10-17T03:45:00+09:00",
-            "window_end_jst": "2026-10-17T17:45:00+09:00",
+            "window_start_jst": "2026-10-20T03:00:00+09:00",
+            "window_end_jst": "2026-10-20T16:00:00+09:00",
             "gating": true
           }
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOE Gov Bailey Speaks"
-        ]
+        "reasons": []
       }
     },
     "AUDCAD": {
@@ -161,16 +147,47 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98166,
-        "range_today": 0.00063,
-        "range_vs_adr": 0.106,
+        "price": 0.98147,
+        "range_today": 0.00524,
+        "range_vs_adr": 0.875,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Median CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Trimmed CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -190,34 +207,23 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.84326,
-        "range_today": 0.00031,
-        "range_vs_adr": 0.108,
-        "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "price": 0.84165,
+        "range_today": 0.00581,
+        "range_vs_adr": 1.983,
+        "spike_flag": true,
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-10-17T15:45:00+09:00",
-            "currency": "GBP",
-            "impact": "Medium",
-            "title": "BOE Gov Bailey Speaks",
-            "types": [
-              "boe"
-            ],
-            "window_start_jst": "2026-10-17T09:45:00+09:00",
-            "window_end_jst": "2026-10-17T16:45:00+09:00",
-            "gating": true
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     },
     "EURUSD": {
@@ -232,11 +238,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.12384,
-        "range_today": 0.00051,
-        "range_vs_adr": 0.077,
+        "price": 1.12077,
+        "range_today": 0.00809,
+        "range_vs_adr": 1.199,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -261,16 +267,47 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.41372,
-        "range_today": 0.00055,
-        "range_vs_adr": 0.089,
+        "price": 1.41153,
+        "range_today": 0.00287,
+        "range_vs_adr": 0.455,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Median CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Trimmed CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
@@ -292,11 +329,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.979,
-        "range_today": 0.051,
-        "range_vs_adr": 0.049,
+        "price": 157.916,
+        "range_today": 0.431,
+        "range_vs_adr": 0.447,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -306,10 +343,8 @@
       "flags": {
         "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "hold:weekend_approach"
-        ],
-        "vr_hold_check": true
+        "reasons": [],
+        "vr_hold_check": false
       }
     },
     "XAUUSD": {
@@ -324,11 +359,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4164.72,
-        "range_today": 5.97,
-        "range_vs_adr": 0.077,
+        "price": 4165.94,
+        "range_today": 4.51,
+        "range_vs_adr": 0.059,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -353,11 +388,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.22858,
-        "range_today": 0.0009,
-        "range_vs_adr": 0.123,
+        "price": 1.23025,
+        "range_today": 0.00558,
+        "range_vs_adr": 0.775,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -384,11 +419,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69438,
-        "range_today": 0.00035,
-        "range_vs_adr": 0.074,
+        "price": 0.69533,
+        "range_today": 0.00317,
+        "range_vs_adr": 0.656,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -413,11 +448,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.61845,
-        "range_today": 0.001,
-        "range_vs_adr": 0.105,
+        "price": 1.614,
+        "range_today": 0.01358,
+        "range_vs_adr": 1.41,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -442,11 +477,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.98846,
-        "range_today": 0.00109,
-        "range_vs_adr": 0.101,
+        "price": 1.98226,
+        "range_today": 0.01613,
+        "range_vs_adr": 1.441,
         "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -471,21 +506,54 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.5888,
-        "range_today": 0.00071,
-        "range_vs_adr": 0.099,
-        "spike_flag": false,
-        "updated_at": "2026-10-17T05:58:41+09:00"
+        "price": 1.58216,
+        "range_today": 0.01126,
+        "range_vs_adr": 1.542,
+        "spike_flag": true,
+        "updated_at": "2026-10-19T06:03:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Median CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-10-19T21:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Trimmed CPI y/y",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "spike:range_vs_adr"
+        ]
       }
     }
   }
