@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-19T07:20:12+09:00",
-    "generated_intraday": "2026-10-19T23:26:45+09:00",
-    "generated_calendar": "2026-10-19T23:26:45+09:00",
+    "generated_intraday": "2026-10-19T23:31:48+09:00",
+    "generated_calendar": "2026-10-19T23:31:48+09:00",
     "session_date": "2026-10-16",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -82,14 +82,14 @@
       "change_pct": 0.1
     },
     "us10y": {
-      "value": 5.104,
-      "change": 0.006,
-      "change_pct": 0.12
+      "value": 5.106,
+      "change": 0.008,
+      "change_pct": 0.16
     },
     "vix": {
-      "value": 18.21,
-      "change": -1.78,
-      "change_pct": -8.9
+      "value": 17.68,
+      "change": -2.31,
+      "change_pct": -11.56
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 210.982,
+        "price": 210.979,
         "range_today": 1.126,
         "range_vs_adr": 0.824,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -171,47 +171,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98592,
+        "price": 0.98589,
         "range_today": 0.00524,
         "range_vs_adr": 0.875,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": false,
@@ -231,11 +200,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.84213,
+        "price": 0.84219,
         "range_today": 0.00581,
         "range_vs_adr": 1.983,
         "spike_flag": true,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -287,11 +256,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.12139,
+        "price": 1.12134,
         "range_today": 0.00809,
         "range_vs_adr": 1.199,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -316,45 +285,27 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.41075,
+        "price": 1.41033,
         "range_today": 0.00726,
         "range_vs_adr": 1.151,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "time_jst": "2026-10-21T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-10-21T11:30:00+09:00",
+            "window_end_jst": "2026-10-22T00:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -378,11 +329,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.447,
+        "price": 158.448,
         "range_today": 0.774,
         "range_vs_adr": 0.803,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -408,11 +359,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4146.96,
+        "price": 4147.51,
         "range_today": 47.19,
         "range_vs_adr": 0.614,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -437,11 +388,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.23229,
+        "price": 1.23227,
         "range_today": 0.00661,
         "range_vs_adr": 0.918,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -468,11 +419,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69893,
+        "price": 0.69901,
         "range_today": 0.00443,
         "range_vs_adr": 0.917,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -497,11 +448,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.60459,
+        "price": 1.60422,
         "range_today": 0.01489,
         "range_vs_adr": 1.546,
         "spike_flag": true,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -528,11 +479,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.97741,
+        "price": 1.97695,
         "range_today": 0.01613,
         "range_vs_adr": 1.441,
         "spike_flag": false,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -557,45 +508,27 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.58194,
+        "price": 1.58147,
         "range_today": 0.01391,
         "range_vs_adr": 1.905,
         "spike_flag": true,
-        "updated_at": "2026-10-19T23:26:45+09:00"
+        "updated_at": "2026-10-19T23:31:48+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
           {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "CPI m/m",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Median CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-10-19T21:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "Trimmed CPI y/y",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
+            "time_jst": "2026-10-21T23:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-10-21T11:30:00+09:00",
+            "window_end_jst": "2026-10-22T00:30:00+09:00",
+            "gating": true
           }
         ]
       },
