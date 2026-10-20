@@ -1,10 +1,10 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-10-20T10:05:35+09:00",
+    "generated_daily": "2026-10-21T07:20:27+09:00",
     "generated_intraday": "2026-10-21T07:07:11+09:00",
-    "generated_calendar": "2026-10-21T07:07:11+09:00",
-    "session_date": "2026-10-19",
+    "generated_calendar": "2026-10-21T07:20:27+09:00",
+    "session_date": "2026-10-20",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
       "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.71,
-      "change": -0.27,
-      "change_pct": -0.26
+      "value": 101.73,
+      "change": -0.25,
+      "change_pct": -0.25
     },
     "us10y": {
       "value": 5.117,
@@ -95,13 +95,13 @@
   "pairs": {
     "GBPJPY": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 210.926,
-      "atr14": 1.385,
-      "atr_pct": 0.657,
-      "adr20": 1.369,
-      "rv20": 5.51,
-      "atr_pct_percentile_250": 49.6,
+      "session_date": "2026-10-20",
+      "close": 211.755,
+      "atr14": 1.356,
+      "atr_pct": 0.64,
+      "adr20": 1.348,
+      "rv20": 5.61,
+      "atr_pct_percentile_250": 46.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -163,13 +163,13 @@
     },
     "AUDCAD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 0.98485,
-      "atr14": 0.00574,
-      "atr_pct": 0.583,
-      "adr20": 0.006,
-      "rv20": 6.68,
-      "atr_pct_percentile_250": 47.2,
+      "session_date": "2026-10-20",
+      "close": 0.98425,
+      "atr14": 0.00566,
+      "atr_pct": 0.575,
+      "adr20": 0.00599,
+      "rv20": 6.62,
+      "atr_pct_percentile_250": 45.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -192,13 +192,13 @@
     },
     "EURGBP": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 0.84274,
-      "atr14": 0.00317,
-      "atr_pct": 0.376,
-      "adr20": 0.00317,
-      "rv20": 2.29,
-      "atr_pct_percentile_250": 56,
+      "session_date": "2026-10-20",
+      "close": 0.83967,
+      "atr14": 0.00327,
+      "atr_pct": 0.389,
+      "adr20": 0.00332,
+      "rv20": 2.43,
+      "atr_pct_percentile_250": 68.8,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -246,15 +246,15 @@
     },
     "EURUSD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 1.12113,
-      "atr14": 0.00667,
-      "atr_pct": 0.595,
-      "adr20": 0.00699,
-      "rv20": 5.44,
-      "atr_pct_percentile_250": 80,
+      "session_date": "2026-10-20",
+      "close": 1.12351,
+      "atr14": 0.00659,
+      "atr_pct": 0.587,
+      "adr20": 0.00702,
+      "rv20": 5.56,
+      "atr_pct_percentile_250": 78,
       "percentile_window": 250,
-      "regime": "highvol",
+      "regime": "caution",
       "intraday": {
         "price": 1.12352,
         "range_today": 0.00045,
@@ -268,22 +268,20 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "regime:highvol"
-        ]
+        "reasons": []
       }
     },
     "USDCAD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 1.41113,
-      "atr14": 0.00661,
-      "atr_pct": 0.468,
-      "adr20": 0.00639,
-      "rv20": 4.17,
-      "atr_pct_percentile_250": 85.6,
+      "session_date": "2026-10-20",
+      "close": 1.40583,
+      "atr14": 0.0067,
+      "atr_pct": 0.477,
+      "adr20": 0.00649,
+      "rv20": 4.34,
+      "atr_pct_percentile_250": 88,
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
@@ -321,13 +319,13 @@
     },
     "USDJPY": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 158.549,
-      "atr14": 0.989,
-      "atr_pct": 0.624,
-      "adr20": 0.958,
-      "rv20": 5.11,
-      "atr_pct_percentile_250": 35.6,
+      "session_date": "2026-10-20",
+      "close": 158.269,
+      "atr14": 0.971,
+      "atr_pct": 0.614,
+      "adr20": 0.947,
+      "rv20": 5.17,
+      "atr_pct_percentile_250": 33.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -351,13 +349,13 @@
     },
     "XAUUSD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 4141.53,
-      "atr14": 78.48,
-      "atr_pct": 1.895,
-      "adr20": 76.38,
-      "rv20": 20.23,
-      "atr_pct_percentile_250": 16.4,
+      "session_date": "2026-10-20",
+      "close": 4120.8,
+      "atr14": 76.02,
+      "atr_pct": 1.845,
+      "adr20": 74.33,
+      "rv20": 20.13,
+      "atr_pct_percentile_250": 16,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -380,15 +378,15 @@
     },
     "AUDNZD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 1.23286,
-      "atr14": 0.00702,
-      "atr_pct": 0.569,
-      "adr20": 0.00708,
-      "rv20": 5.83,
-      "atr_pct_percentile_250": 87.2,
+      "session_date": "2026-10-20",
+      "close": 1.23241,
+      "atr14": 0.00679,
+      "atr_pct": 0.551,
+      "adr20": 0.0067,
+      "rv20": 5.75,
+      "atr_pct_percentile_250": 76.8,
       "percentile_window": 250,
-      "regime": "highvol",
+      "regime": "caution",
       "intraday": {
         "price": 1.23298,
         "range_today": 0.0016,
@@ -413,22 +411,20 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "regime:highvol"
-        ]
+        "reasons": []
       }
     },
     "AUDUSD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 0.69792,
-      "atr14": 0.00479,
-      "atr_pct": 0.687,
-      "adr20": 0.00491,
-      "rv20": 6.83,
-      "atr_pct_percentile_250": 45.6,
+      "session_date": "2026-10-20",
+      "close": 0.70013,
+      "atr14": 0.00478,
+      "atr_pct": 0.682,
+      "adr20": 0.00498,
+      "rv20": 6.98,
+      "atr_pct_percentile_250": 44,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -451,13 +447,13 @@
     },
     "EURAUD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 1.60646,
-      "atr14": 0.0098,
-      "atr_pct": 0.61,
-      "adr20": 0.01008,
-      "rv20": 7.29,
-      "atr_pct_percentile_250": 64,
+      "session_date": "2026-10-20",
+      "close": 1.60466,
+      "atr14": 0.00955,
+      "atr_pct": 0.595,
+      "adr20": 0.01006,
+      "rv20": 7.3,
+      "atr_pct_percentile_250": 59.2,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -480,13 +476,13 @@
     },
     "EURNZD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 1.98053,
-      "atr14": 0.01144,
-      "atr_pct": 0.577,
-      "adr20": 0.01137,
-      "rv20": 3.57,
-      "atr_pct_percentile_250": 24.8,
+      "session_date": "2026-10-20",
+      "close": 1.97768,
+      "atr14": 0.01128,
+      "atr_pct": 0.57,
+      "adr20": 0.01084,
+      "rv20": 3.39,
+      "atr_pct_percentile_250": 23.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -520,13 +516,13 @@
     },
     "EURCAD": {
       "data_ok": true,
-      "session_date": "2026-10-19",
-      "close": 1.58208,
-      "atr14": 0.00758,
-      "atr_pct": 0.479,
-      "adr20": 0.00776,
-      "rv20": 4.36,
-      "atr_pct_percentile_250": 80.8,
+      "session_date": "2026-10-20",
+      "close": 1.57944,
+      "atr14": 0.00763,
+      "atr_pct": 0.483,
+      "adr20": 0.00794,
+      "rv20": 4.32,
+      "atr_pct_percentile_250": 82,
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
