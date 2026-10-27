@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-27T10:28:57+09:00",
-    "generated_intraday": "2026-10-27T22:07:14+09:00",
-    "generated_calendar": "2026-10-27T22:07:14+09:00",
+    "generated_intraday": "2026-10-27T22:22:13+09:00",
+    "generated_calendar": "2026-10-27T22:22:13+09:00",
     "session_date": "2026-10-26",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 102.16,
-      "change": 0.2,
-      "change_pct": 0.2
+      "value": 102.19,
+      "change": 0.23,
+      "change_pct": 0.22
     },
     "us10y": {
-      "value": 4.984,
-      "change": -0.002,
-      "change_pct": -0.04
+      "value": 4.995,
+      "change": 0.009,
+      "change_pct": 0.18
     },
     "vix": {
-      "value": 17.73,
-      "change": -0.66,
-      "change_pct": -3.59
+      "value": 17.87,
+      "change": -0.52,
+      "change_pct": -2.83
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.386,
+        "price": 210.335,
         "range_today": 0.609,
         "range_vs_adr": 0.458,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -201,11 +201,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98623,
-        "range_today": 0.00407,
-        "range_vs_adr": 0.702,
+        "price": 0.98638,
+        "range_today": 0.0041,
+        "range_vs_adr": 0.707,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -335,11 +335,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.83649,
+        "price": 0.83654,
         "range_today": 0.00148,
         "range_vs_adr": 0.442,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -354,6 +354,30 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T16:15:00+09:00",
+            "window_end_jst": "2026-10-29T23:15:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T16:15:00+09:00",
+            "window_end_jst": "2026-10-29T23:15:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -375,11 +399,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11502,
+        "price": 1.11484,
         "range_today": 0.00447,
         "range_vs_adr": 0.643,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -440,6 +464,30 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -461,11 +509,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.40244,
-        "range_today": 0.00186,
-        "range_vs_adr": 0.281,
+        "price": 1.40256,
+        "range_today": 0.00189,
+        "range_vs_adr": 0.285,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -607,11 +655,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.825,
+        "price": 157.829,
         "range_today": 0.459,
         "range_vs_adr": 0.524,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -694,11 +742,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4024.2,
+        "price": 4024.93,
         "range_today": 40.19,
         "range_vs_adr": 0.592,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -780,11 +828,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23306,
+        "price": 1.23357,
         "range_today": 0.00315,
         "range_vs_adr": 0.466,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -926,11 +974,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70315,
+        "price": 0.70329,
         "range_today": 0.00272,
         "range_vs_adr": 0.582,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1068,11 +1116,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.58578,
+        "price": 1.58515,
         "range_today": 0.00984,
         "range_vs_adr": 0.964,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1131,6 +1179,30 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -1154,11 +1226,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.95538,
+        "price": 1.95537,
         "range_today": 0.01446,
         "range_vs_adr": 1.351,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1222,6 +1294,30 @@
             "window_start_jst": "2026-10-27T23:00:00+09:00",
             "window_end_jst": "2026-10-28T13:00:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -1246,11 +1342,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56365,
+        "price": 1.56354,
         "range_today": 0.00661,
         "range_vs_adr": 0.793,
         "spike_flag": false,
-        "updated_at": "2026-10-27T22:07:14+09:00"
+        "updated_at": "2026-10-27T22:22:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1314,6 +1410,30 @@
             ],
             "window_start_jst": "2026-10-28T11:30:00+09:00",
             "window_end_jst": "2026-10-29T00:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
             "gating": true
           }
         ]
