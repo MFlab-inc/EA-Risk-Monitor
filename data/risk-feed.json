@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-27T10:28:57+09:00",
-    "generated_intraday": "2026-10-28T02:59:14+09:00",
-    "generated_calendar": "2026-10-28T02:59:14+09:00",
+    "generated_intraday": "2026-10-28T03:04:14+09:00",
+    "generated_calendar": "2026-10-28T03:04:14+09:00",
     "session_date": "2026-10-26",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 102.29,
-      "change": 0.33,
+      "value": 102.3,
+      "change": 0.34,
       "change_pct": 0.33
     },
     "us10y": {
-      "value": 4.986,
-      "change": 0,
-      "change_pct": 0
+      "value": 4.99,
+      "change": 0.004,
+      "change_pct": 0.08
     },
     "vix": {
-      "value": 17.71,
-      "change": -0.68,
-      "change_pct": -3.7
+      "value": 17.72,
+      "change": -0.67,
+      "change_pct": -3.64
     }
   },
   "pairs": {
@@ -105,15 +105,38 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.225,
+        "price": 210.206,
         "range_today": 0.66,
         "range_vs_adr": 0.497,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-10-28T21:30:00+09:00",
@@ -184,9 +207,12 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Federal Funds Rate",
+          "event:FOMC Statement"
+        ]
       }
     },
     "AUDCAD": {
@@ -201,11 +227,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98752,
+        "price": 0.98725,
         "range_today": 0.0058,
         "range_vs_adr": 1,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -335,11 +361,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.83657,
+        "price": 0.83656,
         "range_today": 0.00157,
         "range_vs_adr": 0.469,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -411,15 +437,38 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11363,
-        "range_today": 0.00447,
-        "range_vs_adr": 0.643,
+        "price": 1.11341,
+        "range_today": 0.00464,
+        "range_vs_adr": 0.668,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-10-29T03:00:00+09:00",
@@ -516,9 +565,12 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Federal Funds Rate",
+          "event:FOMC Statement"
+        ]
       }
     },
     "USDCAD": {
@@ -533,15 +585,38 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.40496,
-        "range_today": 0.00405,
-        "range_vs_adr": 0.611,
+        "price": 1.40506,
+        "range_today": 0.00418,
+        "range_vs_adr": 0.63,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-10-28T22:45:00+09:00",
@@ -662,9 +737,12 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Federal Funds Rate",
+          "event:FOMC Statement"
+        ]
       }
     },
     "USDJPY": {
@@ -679,15 +757,38 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.919,
-        "range_today": 0.498,
-        "range_vs_adr": 0.568,
+        "price": 157.951,
+        "range_today": 0.525,
+        "range_vs_adr": 0.598,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-10-29T03:00:00+09:00",
@@ -748,9 +849,12 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": [],
+        "reasons": [
+          "event:Federal Funds Rate",
+          "event:FOMC Statement"
+        ],
         "vr_hold_check": false
       }
     },
@@ -766,15 +870,38 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4058.09,
+        "price": 4055.62,
         "range_today": 76.55,
         "range_vs_adr": 1.127,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-10-29T03:00:00+09:00",
@@ -835,9 +962,12 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Federal Funds Rate",
+          "event:FOMC Statement"
+        ]
       }
     },
     "AUDNZD": {
@@ -852,11 +982,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.2366,
+        "price": 1.23653,
         "range_today": 0.00451,
         "range_vs_adr": 0.667,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1010,11 +1140,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70289,
+        "price": 0.70269,
         "range_today": 0.00302,
         "range_vs_adr": 0.647,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1029,6 +1159,28 @@
             ],
             "window_start_jst": "2026-10-27T21:15:00+09:00",
             "window_end_jst": "2026-10-28T11:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Federal Funds Rate",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:00:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Statement",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:00:00+09:00",
+            "window_end_jst": "2026-10-29T05:00:00+09:00"
           }
         ],
         "next_48h": [
@@ -1136,7 +1288,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:RBA Gov Bullock Speaks"
+          "event:RBA Gov Bullock Speaks",
+          "event:Federal Funds Rate",
+          "event:FOMC Statement"
         ]
       }
     },
@@ -1152,11 +1306,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.58444,
+        "price": 1.58447,
         "range_today": 0.01107,
         "range_vs_adr": 1.084,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1274,11 +1428,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.9592,
+        "price": 1.95938,
         "range_today": 0.01446,
         "range_vs_adr": 1.351,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1414,11 +1568,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56462,
+        "price": 1.5644,
         "range_today": 0.00661,
         "range_vs_adr": 0.793,
         "spike_flag": false,
-        "updated_at": "2026-10-28T02:59:14+09:00"
+        "updated_at": "2026-10-28T03:04:14+09:00"
       },
       "events": {
         "in_event_window": false,
