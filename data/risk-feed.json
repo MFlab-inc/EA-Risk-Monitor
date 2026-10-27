@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-27T10:28:57+09:00",
-    "generated_intraday": "2026-10-28T03:27:14+09:00",
-    "generated_calendar": "2026-10-28T03:27:14+09:00",
+    "generated_intraday": "2026-10-28T03:32:15+09:00",
+    "generated_calendar": "2026-10-28T03:32:15+09:00",
     "session_date": "2026-10-26",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -79,7 +79,7 @@
     "dxy": {
       "value": 102.32,
       "change": 0.36,
-      "change_pct": 0.35
+      "change_pct": 0.36
     },
     "us10y": {
       "value": 4.99,
@@ -87,9 +87,9 @@
       "change_pct": 0.08
     },
     "vix": {
-      "value": 17.79,
-      "change": -0.6,
-      "change_pct": -3.26
+      "value": 17.78,
+      "change": -0.61,
+      "change_pct": -3.32
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.255,
+        "price": 210.292,
         "range_today": 0.66,
         "range_vs_adr": 0.497,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -135,6 +135,17 @@
             ],
             "window_start_jst": "2026-10-28T03:00:00+09:00",
             "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:30:00+09:00",
+            "window_end_jst": "2026-10-29T05:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -211,7 +222,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Federal Funds Rate",
-          "event:FOMC Statement"
+          "event:FOMC Statement",
+          "event:FOMC Press Conference"
         ]
       }
     },
@@ -227,11 +239,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.9876,
+        "price": 0.98773,
         "range_today": 0.0058,
         "range_vs_adr": 1,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -361,11 +373,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.83649,
+        "price": 0.83635,
         "range_today": 0.00157,
         "range_vs_adr": 0.469,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -437,11 +449,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11343,
+        "price": 1.1135,
         "range_today": 0.00464,
         "range_vs_adr": 0.668,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -467,6 +479,17 @@
             ],
             "window_start_jst": "2026-10-28T03:00:00+09:00",
             "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:30:00+09:00",
+            "window_end_jst": "2026-10-29T05:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -569,7 +592,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Federal Funds Rate",
-          "event:FOMC Statement"
+          "event:FOMC Statement",
+          "event:FOMC Press Conference"
         ]
       }
     },
@@ -585,11 +609,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.40512,
-        "range_today": 0.00428,
-        "range_vs_adr": 0.646,
+        "price": 1.40521,
+        "range_today": 0.00432,
+        "range_vs_adr": 0.652,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -615,6 +639,17 @@
             ],
             "window_start_jst": "2026-10-28T03:00:00+09:00",
             "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:30:00+09:00",
+            "window_end_jst": "2026-10-29T05:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -741,7 +776,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Federal Funds Rate",
-          "event:FOMC Statement"
+          "event:FOMC Statement",
+          "event:FOMC Press Conference"
         ]
       }
     },
@@ -757,11 +793,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.96,
+        "price": 157.953,
         "range_today": 0.537,
         "range_vs_adr": 0.612,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -787,6 +823,17 @@
             ],
             "window_start_jst": "2026-10-28T03:00:00+09:00",
             "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:30:00+09:00",
+            "window_end_jst": "2026-10-29T05:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -853,7 +900,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Federal Funds Rate",
-          "event:FOMC Statement"
+          "event:FOMC Statement",
+          "event:FOMC Press Conference"
         ],
         "vr_hold_check": false
       }
@@ -870,11 +918,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4056.26,
+        "price": 4055.81,
         "range_today": 76.55,
         "range_vs_adr": 1.127,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -900,6 +948,17 @@
             ],
             "window_start_jst": "2026-10-28T03:00:00+09:00",
             "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:30:00+09:00",
+            "window_end_jst": "2026-10-29T05:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -966,7 +1025,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Federal Funds Rate",
-          "event:FOMC Statement"
+          "event:FOMC Statement",
+          "event:FOMC Press Conference"
         ]
       }
     },
@@ -982,11 +1042,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.23668,
+        "price": 1.23651,
         "range_today": 0.00451,
         "range_vs_adr": 0.667,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1140,11 +1200,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70285,
+        "price": 0.7029,
         "range_today": 0.00302,
         "range_vs_adr": 0.647,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1181,6 +1241,17 @@
             ],
             "window_start_jst": "2026-10-28T03:00:00+09:00",
             "window_end_jst": "2026-10-29T05:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T03:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "FOMC Press Conference",
+            "types": [
+              "fomc"
+            ],
+            "window_start_jst": "2026-10-28T03:30:00+09:00",
+            "window_end_jst": "2026-10-29T05:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -1290,7 +1361,8 @@
         "reasons": [
           "event:RBA Gov Bullock Speaks",
           "event:Federal Funds Rate",
-          "event:FOMC Statement"
+          "event:FOMC Statement",
+          "event:FOMC Press Conference"
         ]
       }
     },
@@ -1306,11 +1378,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.58424,
+        "price": 1.58413,
         "range_today": 0.01107,
         "range_vs_adr": 1.084,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1428,11 +1500,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.95916,
+        "price": 1.95884,
         "range_today": 0.01446,
         "range_vs_adr": 1.351,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1568,11 +1640,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56451,
+        "price": 1.56472,
         "range_today": 0.00661,
         "range_vs_adr": 0.793,
         "spike_flag": false,
-        "updated_at": "2026-10-28T03:27:14+09:00"
+        "updated_at": "2026-10-28T03:32:15+09:00"
       },
       "events": {
         "in_event_window": false,
