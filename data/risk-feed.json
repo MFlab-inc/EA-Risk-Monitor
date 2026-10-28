@@ -1,10 +1,10 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-10-28T10:22:41+09:00",
+    "generated_daily": "2026-10-29T07:20:27+09:00",
     "generated_intraday": "2026-10-29T07:07:13+09:00",
-    "generated_calendar": "2026-10-29T07:07:13+09:00",
-    "session_date": "2026-10-27",
+    "generated_calendar": "2026-10-29T07:20:27+09:00",
+    "session_date": "2026-10-28",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
       "_note": "すべて仮置き(2026-07-19時点)。Phase 3の月次分析パイプラインで実測後に確定する(2段階方式)。",
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 102.13,
-      "change": -0.19,
-      "change_pct": -0.19
+      "value": 102.15,
+      "change": -0.17,
+      "change_pct": -0.16
     },
     "us10y": {
       "value": 5.045,
@@ -95,13 +95,13 @@
   "pairs": {
     "GBPJPY": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 210.306,
-      "atr14": 1.29,
-      "atr_pct": 0.613,
-      "adr20": 1.317,
-      "rv20": 5.6,
-      "atr_pct_percentile_250": 40,
+      "session_date": "2026-10-28",
+      "close": 210.523,
+      "atr14": 1.279,
+      "atr_pct": 0.607,
+      "adr20": 1.273,
+      "rv20": 5.51,
+      "atr_pct_percentile_250": 39.2,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -193,13 +193,13 @@
     },
     "AUDCAD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 0.98757,
-      "atr14": 0.00553,
-      "atr_pct": 0.56,
-      "adr20": 0.00569,
-      "rv20": 6.46,
-      "atr_pct_percentile_250": 41.6,
+      "session_date": "2026-10-28",
+      "close": 0.98736,
+      "atr14": 0.00544,
+      "atr_pct": 0.551,
+      "adr20": 0.00558,
+      "rv20": 6.37,
+      "atr_pct_percentile_250": 38.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -271,13 +271,13 @@
     },
     "EURGBP": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 0.8363,
-      "atr14": 0.00305,
-      "atr_pct": 0.365,
-      "adr20": 0.00333,
-      "rv20": 2.01,
-      "atr_pct_percentile_250": 48,
+      "session_date": "2026-10-28",
+      "close": 0.83712,
+      "atr14": 0.00298,
+      "atr_pct": 0.356,
+      "adr20": 0.00324,
+      "rv20": 1.96,
+      "atr_pct_percentile_250": 43.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -337,13 +337,13 @@
     },
     "EURUSD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 1.11362,
-      "atr14": 0.00603,
-      "atr_pct": 0.541,
-      "adr20": 0.00686,
-      "rv20": 5.32,
-      "atr_pct_percentile_250": 58.8,
+      "session_date": "2026-10-28",
+      "close": 1.1156,
+      "atr14": 0.00602,
+      "atr_pct": 0.539,
+      "adr20": 0.00687,
+      "rv20": 5.41,
+      "atr_pct_percentile_250": 57.6,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -423,13 +423,13 @@
     },
     "USDCAD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 1.40503,
-      "atr14": 0.00612,
-      "atr_pct": 0.436,
-      "adr20": 0.00669,
-      "rv20": 4.15,
-      "atr_pct_percentile_250": 68.4,
+      "session_date": "2026-10-28",
+      "close": 1.39932,
+      "atr14": 0.00624,
+      "atr_pct": 0.446,
+      "adr20": 0.00667,
+      "rv20": 4.12,
+      "atr_pct_percentile_250": 75.6,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -473,13 +473,13 @@
     },
     "USDJPY": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 157.932,
-      "atr14": 0.962,
-      "atr_pct": 0.609,
-      "adr20": 0.868,
-      "rv20": 4.52,
-      "atr_pct_percentile_250": 33.6,
+      "session_date": "2026-10-28",
+      "close": 157.974,
+      "atr14": 0.942,
+      "atr_pct": 0.596,
+      "adr20": 0.845,
+      "rv20": 4.51,
+      "atr_pct_percentile_250": 31.6,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -576,13 +576,13 @@
     },
     "XAUUSD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 4062.29,
-      "atr14": 73.88,
-      "atr_pct": 1.819,
-      "adr20": 68.1,
-      "rv20": 15.75,
-      "atr_pct_percentile_250": 14.8,
+      "session_date": "2026-10-28",
+      "close": 4070.21,
+      "atr14": 71.66,
+      "atr_pct": 1.761,
+      "adr20": 66.59,
+      "rv20": 15.69,
+      "atr_pct_percentile_250": 10.4,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -626,15 +626,15 @@
     },
     "AUDNZD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 1.23633,
-      "atr14": 0.00634,
-      "atr_pct": 0.513,
-      "adr20": 0.00648,
-      "rv20": 5.74,
-      "atr_pct_percentile_250": 47.2,
+      "session_date": "2026-10-28",
+      "close": 1.2539,
+      "atr14": 0.00765,
+      "atr_pct": 0.61,
+      "adr20": 0.00727,
+      "rv20": 7.4,
+      "atr_pct_percentile_250": 98.8,
       "percentile_window": 250,
-      "regime": "normal",
+      "regime": "extreme",
       "intraday": {
         "price": 1.25411,
         "range_today": 0.00191,
@@ -648,20 +648,22 @@
         "next_48h": []
       },
       "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
+        "no_new_grid": true,
+        "halt_all_new": true,
+        "reasons": [
+          "regime:extreme"
+        ]
       }
     },
     "AUDUSD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 0.70292,
-      "atr14": 0.00435,
-      "atr_pct": 0.619,
-      "adr20": 0.0045,
-      "rv20": 5.91,
-      "atr_pct_percentile_250": 26.4,
+      "session_date": "2026-10-28",
+      "close": 0.70561,
+      "atr14": 0.00431,
+      "atr_pct": 0.611,
+      "adr20": 0.00443,
+      "rv20": 5.53,
+      "atr_pct_percentile_250": 20.8,
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
@@ -753,13 +755,13 @@
     },
     "EURAUD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 1.58436,
-      "atr14": 0.00955,
-      "atr_pct": 0.603,
-      "adr20": 0.01025,
-      "rv20": 7.25,
-      "atr_pct_percentile_250": 63.2,
+      "session_date": "2026-10-28",
+      "close": 1.58094,
+      "atr14": 0.00935,
+      "atr_pct": 0.591,
+      "adr20": 0.00996,
+      "rv20": 6.88,
+      "atr_pct_percentile_250": 57.6,
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
@@ -819,85 +821,19 @@
     },
     "EURNZD": {
       "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 1.95881,
-      "atr14": 0.01135,
-      "atr_pct": 0.579,
-      "adr20": 0.01089,
-      "rv20": 3.44,
-      "atr_pct_percentile_250": 29.6,
+      "session_date": "2026-10-28",
+      "close": 1.98242,
+      "atr14": 0.01299,
+      "atr_pct": 0.655,
+      "adr20": 0.01216,
+      "rv20": 5.83,
+      "atr_pct_percentile_250": 83.2,
       "percentile_window": 250,
-      "regime": "normal",
+      "regime": "highvol",
       "intraday": {
         "price": 1.98267,
         "range_today": 0.0028,
         "range_vs_adr": 0.257,
-        "spike_flag": false,
-        "updated_at": "2026-10-29T07:07:13+09:00"
-      },
-      "events": {
-        "in_event_window": false,
-        "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-10-29T22:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Main Refinancing Rate",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-10-29T10:15:00+09:00",
-            "window_end_jst": "2026-10-30T00:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-29T22:15:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-10-29T10:15:00+09:00",
-            "window_end_jst": "2026-10-30T00:15:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-29T22:45:00+09:00",
-            "currency": "EUR",
-            "impact": "High",
-            "title": "ECB Press Conference",
-            "types": [
-              "ecb"
-            ],
-            "window_start_jst": "2026-10-29T10:45:00+09:00",
-            "window_end_jst": "2026-10-30T00:45:00+09:00",
-            "gating": true
-          }
-        ]
-      },
-      "flags": {
-        "no_new_grid": false,
-        "halt_all_new": false,
-        "reasons": []
-      }
-    },
-    "EURCAD": {
-      "data_ok": true,
-      "session_date": "2026-10-27",
-      "close": 1.56468,
-      "atr14": 0.00767,
-      "atr_pct": 0.49,
-      "adr20": 0.00836,
-      "rv20": 4.12,
-      "atr_pct_percentile_250": 87.2,
-      "percentile_window": 250,
-      "regime": "highvol",
-      "intraday": {
-        "price": 1.56055,
-        "range_today": 0.00171,
-        "range_vs_adr": 0.205,
         "spike_flag": false,
         "updated_at": "2026-10-29T07:07:13+09:00"
       },
@@ -949,6 +885,72 @@
         "reasons": [
           "regime:highvol"
         ]
+      }
+    },
+    "EURCAD": {
+      "data_ok": true,
+      "session_date": "2026-10-28",
+      "close": 1.561,
+      "atr14": 0.00745,
+      "atr_pct": 0.478,
+      "adr20": 0.00834,
+      "rv20": 3.95,
+      "atr_pct_percentile_250": 79.6,
+      "percentile_window": 250,
+      "regime": "caution",
+      "intraday": {
+        "price": 1.56055,
+        "range_today": 0.00171,
+        "range_vs_adr": 0.205,
+        "spike_flag": false,
+        "updated_at": "2026-10-29T07:07:13+09:00"
+      },
+      "events": {
+        "in_event_window": false,
+        "active": [],
+        "next_48h": [
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Main Refinancing Rate",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:15:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:15:00+09:00",
+            "window_end_jst": "2026-10-30T00:15:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-29T22:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:45:00+09:00",
+            "window_end_jst": "2026-10-30T00:45:00+09:00",
+            "gating": true
+          }
+        ]
+      },
+      "flags": {
+        "no_new_grid": false,
+        "halt_all_new": false,
+        "reasons": []
       }
     }
   }
