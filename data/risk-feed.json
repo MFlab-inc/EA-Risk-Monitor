@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-28T10:22:41+09:00",
-    "generated_intraday": "2026-10-28T10:37:13+09:00",
-    "generated_calendar": "2026-10-28T10:37:13+09:00",
+    "generated_intraday": "2026-10-28T10:54:13+09:00",
+    "generated_calendar": "2026-10-28T10:54:13+09:00",
     "session_date": "2026-10-27",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 102.37,
-      "change": 0.05,
-      "change_pct": 0.05
+      "value": 102.41,
+      "change": 0.09,
+      "change_pct": 0.09
     },
     "us10y": {
       "value": 4.993,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.118,
+        "price": 210.106,
         "range_today": 0.362,
         "range_vs_adr": 0.275,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -239,11 +239,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.99028,
-        "range_today": 0.00362,
-        "range_vs_adr": 0.636,
+        "price": 0.99038,
+        "range_today": 0.00429,
+        "range_vs_adr": 0.754,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -258,6 +258,39 @@
             ],
             "window_start_jst": "2026-10-27T21:15:00+09:00",
             "window_end_jst": "2026-10-28T11:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Monetary Policy Report",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Rate Statement",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Overnight Rate",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -357,7 +390,10 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:RBA Gov Bullock Speaks"
+          "event:RBA Gov Bullock Speaks",
+          "event:BOC Monetary Policy Report",
+          "event:BOC Rate Statement",
+          "event:Overnight Rate"
         ]
       }
     },
@@ -373,11 +409,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83627,
+        "price": 0.8363,
         "range_today": 0.00065,
         "range_vs_adr": 0.195,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -449,11 +485,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11263,
-        "range_today": 0.00157,
-        "range_vs_adr": 0.229,
+        "price": 1.11221,
+        "range_today": 0.00166,
+        "range_vs_adr": 0.242,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -609,15 +645,48 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.40579,
-        "range_today": 0.00186,
-        "range_vs_adr": 0.278,
+        "price": 1.40629,
+        "range_today": 0.00216,
+        "range_vs_adr": 0.323,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Monetary Policy Report",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Rate Statement",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Overnight Rate",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          },
           {
             "time_jst": "2026-10-29T03:00:00+09:00",
             "currency": "USD",
@@ -775,6 +844,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:BOC Monetary Policy Report",
+          "event:BOC Rate Statement",
+          "event:Overnight Rate",
           "event:Federal Funds Rate",
           "event:FOMC Statement",
           "event:FOMC Press Conference"
@@ -793,11 +865,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.927,
+        "price": 157.981,
         "range_today": 0.246,
         "range_vs_adr": 0.283,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -918,11 +990,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4053.61,
-        "range_today": 17.67,
-        "range_vs_adr": 0.259,
+        "price": 4049.12,
+        "range_today": 21.42,
+        "range_vs_adr": 0.315,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1042,11 +1114,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.2558,
+        "price": 1.25422,
         "range_today": 0.02456,
         "range_vs_adr": 3.79,
         "spike_flag": true,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1201,11 +1273,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70444,
+        "price": 0.70428,
         "range_today": 0.00279,
         "range_vs_adr": 0.62,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1379,11 +1451,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.57939,
-        "range_today": 0.00636,
-        "range_vs_adr": 0.62,
+        "price": 1.57924,
+        "range_today": 0.00671,
+        "range_vs_adr": 0.655,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1501,11 +1573,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.98358,
+        "price": 1.98047,
         "range_today": 0.03437,
         "range_vs_adr": 3.156,
         "spike_flag": true,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1642,15 +1714,49 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56409,
+        "price": 1.56405,
         "range_today": 0.00198,
         "range_vs_adr": 0.237,
         "spike_flag": false,
-        "updated_at": "2026-10-28T10:37:13+09:00"
+        "updated_at": "2026-10-28T10:54:13+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Monetary Policy Report",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "BOC Rate Statement",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-28T22:45:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Overnight Rate",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-10-28T10:45:00+09:00",
+            "window_end_jst": "2026-10-29T00:45:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-10-28T22:45:00+09:00",
@@ -1754,7 +1860,10 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "regime:highvol"
+          "regime:highvol",
+          "event:BOC Monetary Policy Report",
+          "event:BOC Rate Statement",
+          "event:Overnight Rate"
         ]
       }
     }
