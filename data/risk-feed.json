@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-28T10:22:41+09:00",
-    "generated_intraday": "2026-10-29T01:27:12+09:00",
-    "generated_calendar": "2026-10-29T01:27:12+09:00",
+    "generated_intraday": "2026-10-29T01:32:13+09:00",
+    "generated_calendar": "2026-10-29T01:32:13+09:00",
     "session_date": "2026-10-27",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 102.27,
-      "change": -0.05,
+      "value": 102.28,
+      "change": -0.04,
       "change_pct": -0.04
     },
     "us10y": {
-      "value": 5.036,
-      "change": 0.043,
-      "change_pct": 0.86
+      "value": 5.04,
+      "change": 0.047,
+      "change_pct": 0.94
     },
     "vix": {
-      "value": 17.3,
-      "change": -0.22,
-      "change_pct": -1.26
+      "value": 17.34,
+      "change": -0.18,
+      "change_pct": -1.03
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.594,
-        "range_today": 1.067,
-        "range_vs_adr": 0.81,
+        "price": 210.628,
+        "range_today": 1.069,
+        "range_vs_adr": 0.812,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -277,40 +277,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98834,
+        "price": 0.98826,
         "range_today": 0.00429,
         "range_vs_adr": 0.754,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T01:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T01:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-30T11:30:00+09:00",
             "currency": "JPY",
@@ -362,11 +338,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOC Press Conference"
-        ]
+        "reasons": []
       }
     },
     "EURGBP": {
@@ -385,7 +359,7 @@
         "range_today": 0.00211,
         "range_vs_adr": 0.634,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -447,11 +421,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11454,
-        "range_today": 0.00333,
-        "range_vs_adr": 0.485,
+        "price": 1.11481,
+        "range_today": 0.00356,
+        "range_vs_adr": 0.519,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -607,26 +581,15 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.40367,
+        "price": 1.40356,
         "range_today": 0.00443,
         "range_vs_adr": 0.662,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T01:30:00+09:00"
-          },
           {
             "time_jst": "2026-10-29T03:00:00+09:00",
             "currency": "USD",
@@ -662,30 +625,6 @@
           }
         ],
         "next_48h": [
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T01:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T00:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-29T03:00:00+09:00",
             "currency": "USD",
@@ -748,7 +687,6 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:BOC Press Conference",
           "event:Federal Funds Rate",
           "event:FOMC Statement",
           "event:FOMC Press Conference"
@@ -767,11 +705,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.24,
+        "price": 158.219,
         "range_today": 0.598,
         "range_vs_adr": 0.688,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -940,11 +878,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4039.26,
+        "price": 4040.37,
         "range_today": 42.16,
         "range_vs_adr": 0.619,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1064,11 +1002,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.25258,
+        "price": 1.25229,
         "range_today": 0.02456,
         "range_vs_adr": 3.79,
         "spike_flag": true,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1095,11 +1033,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70406,
+        "price": 0.70414,
         "range_today": 0.0028,
         "range_vs_adr": 0.622,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1267,11 +1205,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.58291,
+        "price": 1.58326,
         "range_today": 0.00671,
         "range_vs_adr": 0.655,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1333,11 +1271,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.98271,
+        "price": 1.98269,
         "range_today": 0.03437,
         "range_vs_adr": 3.156,
         "spike_flag": true,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1401,52 +1339,16 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56448,
+        "price": 1.56462,
         "range_today": 0.00384,
         "range_vs_adr": 0.459,
         "spike_flag": false,
-        "updated_at": "2026-10-29T01:27:12+09:00"
+        "updated_at": "2026-10-29T01:32:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T01:30:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "CAD",
-            "impact": "High",
-            "title": "BOC Press Conference",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T01:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-28T23:30:00+09:00",
-            "currency": "USD",
-            "impact": "Low",
-            "title": "Crude Oil Inventories",
-            "types": [
-              "oil"
-            ],
-            "window_start_jst": "2026-10-28T11:30:00+09:00",
-            "window_end_jst": "2026-10-29T00:30:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-10-29T22:15:00+09:00",
             "currency": "EUR",
@@ -1489,8 +1391,7 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "regime:highvol",
-          "event:BOC Press Conference"
+          "regime:highvol"
         ]
       }
     }
