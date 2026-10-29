@@ -1,9 +1,9 @@
 {
   "meta": {
     "schema_version": "1.0",
-    "generated_daily": "2026-10-29T07:20:27+09:00",
+    "generated_daily": "2026-10-29T10:48:11+09:00",
     "generated_intraday": "2026-10-29T10:37:13+09:00",
-    "generated_calendar": "2026-10-29T10:37:13+09:00",
+    "generated_calendar": "2026-10-29T10:48:11+09:00",
     "session_date": "2026-10-28",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 102.13,
-      "change": -0.07,
-      "change_pct": -0.06
+      "value": 102.17,
+      "change": -0.02,
+      "change_pct": -0.02
     },
     "us10y": {
       "value": 5.045,
@@ -377,6 +377,17 @@
             ],
             "window_start_jst": "2026-10-29T10:15:00+09:00",
             "window_end_jst": "2026-10-30T00:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T22:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:45:00+09:00",
+            "window_end_jst": "2026-10-30T00:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -443,7 +454,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     },
@@ -822,6 +834,17 @@
             ],
             "window_start_jst": "2026-10-29T10:15:00+09:00",
             "window_end_jst": "2026-10-30T00:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T22:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:45:00+09:00",
+            "window_end_jst": "2026-10-30T00:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -868,7 +891,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     },
@@ -914,6 +938,17 @@
             ],
             "window_start_jst": "2026-10-29T10:15:00+09:00",
             "window_end_jst": "2026-10-30T00:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T22:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:45:00+09:00",
+            "window_end_jst": "2026-10-30T00:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -961,7 +996,8 @@
         "reasons": [
           "regime:highvol",
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     },
@@ -1007,6 +1043,17 @@
             ],
             "window_start_jst": "2026-10-29T10:15:00+09:00",
             "window_end_jst": "2026-10-30T00:15:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-29T22:45:00+09:00",
+            "currency": "EUR",
+            "impact": "High",
+            "title": "ECB Press Conference",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-10-29T10:45:00+09:00",
+            "window_end_jst": "2026-10-30T00:45:00+09:00"
           }
         ],
         "next_48h": [
@@ -1053,7 +1100,8 @@
         "halt_all_new": false,
         "reasons": [
           "event:Main Refinancing Rate",
-          "event:Monetary Policy Statement"
+          "event:Monetary Policy Statement",
+          "event:ECB Press Conference"
         ]
       }
     }
