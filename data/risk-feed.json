@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-30T10:57:43+09:00",
-    "generated_intraday": "2026-10-30T12:37:13+09:00",
-    "generated_calendar": "2026-10-30T12:37:13+09:00",
+    "generated_intraday": "2026-10-30T12:54:13+09:00",
+    "generated_calendar": "2026-10-30T12:54:13+09:00",
     "session_date": "2026-10-29",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.73,
-      "change": -0.31,
-      "change_pct": -0.3
+      "value": 101.78,
+      "change": -0.26,
+      "change_pct": -0.26
     },
     "us10y": {
       "value": 4.989,
@@ -105,47 +105,47 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.742,
+        "price": 210.839,
         "range_today": 0.645,
         "range_vs_adr": 0.53,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00"
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
           },
           {
             "time_jst": "2026-10-30T14:30:00+09:00",
@@ -161,39 +161,39 @@
         ],
         "next_48h": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00",
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
             "gating": true
           },
           {
@@ -214,9 +214,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:BOJ Outlook Report",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
-          "event:BOJ Outlook Report",
           "event:BOJ Press Conference"
         ]
       }
@@ -233,47 +233,47 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98396,
+        "price": 0.98346,
         "range_today": 0.00352,
         "range_vs_adr": 0.633,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00"
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
           },
           {
             "time_jst": "2026-10-30T14:30:00+09:00",
@@ -289,39 +289,39 @@
         ],
         "next_48h": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00",
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
             "gating": true
           },
           {
@@ -342,9 +342,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:BOJ Outlook Report",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
-          "event:BOJ Outlook Report",
           "event:BOJ Press Conference"
         ]
       }
@@ -361,11 +361,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.8357,
+        "price": 0.83564,
         "range_today": 0.00151,
         "range_vs_adr": 0.473,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -390,11 +390,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11925,
+        "price": 1.11885,
         "range_today": 0.00545,
         "range_vs_adr": 0.826,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -419,11 +419,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.3972,
+        "price": 1.39749,
         "range_today": 0.00354,
         "range_vs_adr": 0.528,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -448,47 +448,47 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.355,
+        "price": 157.466,
         "range_today": 0.835,
         "range_vs_adr": 1.027,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00"
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
           },
           {
             "time_jst": "2026-10-30T14:30:00+09:00",
@@ -504,39 +504,39 @@
         ],
         "next_48h": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00",
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
             "gating": true
           },
           {
@@ -557,13 +557,13 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:BOJ Outlook Report",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
-          "event:BOJ Outlook Report",
           "event:BOJ Press Conference",
+          "hold:boj_window:BOJ Outlook Report",
           "hold:boj_window:BOJ Policy Rate",
           "hold:boj_window:Monetary Policy Statement",
-          "hold:boj_window:BOJ Outlook Report",
           "hold:boj_window:BOJ Press Conference"
         ],
         "vr_hold_check": true
@@ -581,11 +581,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3994.27,
-        "range_today": 38.23,
-        "range_vs_adr": 0.564,
+        "price": 3992.52,
+        "range_today": 39.1,
+        "range_vs_adr": 0.577,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -610,11 +610,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.2487,
+        "price": 1.2482,
         "range_today": 0.00356,
         "range_vs_adr": 0.497,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -641,47 +641,47 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70426,
-        "range_today": 0.00244,
-        "range_vs_adr": 0.551,
+        "price": 0.70374,
+        "range_today": 0.00247,
+        "range_vs_adr": 0.558,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": true,
         "active": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00"
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00"
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00"
           },
           {
             "time_jst": "2026-10-30T14:30:00+09:00",
@@ -697,39 +697,39 @@
         ],
         "next_48h": [
           {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Policy Rate",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:30:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "Monetary Policy Statement",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-10-29T11:30:00+09:00",
-            "window_end_jst": "2026-10-30T13:30:00+09:00",
-            "gating": true
-          },
-          {
-            "time_jst": "2026-10-30T11:31:00+09:00",
+            "time_jst": "2026-10-30T12:02:00+09:00",
             "currency": "JPY",
             "impact": "High",
             "title": "BOJ Outlook Report",
             "types": [
               "boj"
             ],
-            "window_start_jst": "2026-10-29T11:31:00+09:00",
-            "window_end_jst": "2026-10-30T13:31:00+09:00",
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "BOJ Policy Rate",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-10-30T12:02:00+09:00",
+            "currency": "JPY",
+            "impact": "High",
+            "title": "Monetary Policy Statement",
+            "types": [
+              "boj"
+            ],
+            "window_start_jst": "2026-10-29T12:02:00+09:00",
+            "window_end_jst": "2026-10-30T14:02:00+09:00",
             "gating": true
           },
           {
@@ -750,9 +750,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
+          "event:BOJ Outlook Report",
           "event:BOJ Policy Rate",
           "event:Monetary Policy Statement",
-          "event:BOJ Outlook Report",
           "event:BOJ Press Conference"
         ]
       }
@@ -769,11 +769,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.5892,
+        "price": 1.58987,
         "range_today": 0.00958,
         "range_vs_adr": 0.961,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -798,11 +798,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.98415,
+        "price": 1.98454,
         "range_today": 0.00911,
         "range_vs_adr": 0.77,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -827,11 +827,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.56378,
+        "price": 1.56357,
         "range_today": 0.0043,
         "range_vs_adr": 0.544,
         "spike_flag": false,
-        "updated_at": "2026-10-30T12:37:13+09:00"
+        "updated_at": "2026-10-30T12:54:13+09:00"
       },
       "events": {
         "in_event_window": false,
