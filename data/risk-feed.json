@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-10-31T10:35:33+09:00",
-    "generated_intraday": "2026-10-31T05:59:10+09:00",
-    "generated_calendar": "2026-10-31T10:35:33+09:00",
+    "generated_intraday": "2026-11-02T07:04:11+09:00",
+    "generated_calendar": "2026-11-02T07:04:11+09:00",
     "session_date": "2026-10-30",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.96,
-      "change": -0.08,
-      "change_pct": -0.07
+      "value": 101.88,
+      "change": -0.16,
+      "change_pct": -0.16
     },
     "us10y": {
       "value": 4.929,
@@ -105,16 +105,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.967,
-        "range_today": 0.158,
-        "range_vs_adr": 0.13,
+        "price": 210.877,
+        "range_today": 0.466,
+        "range_vs_adr": 0.389,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-04T00:16:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Congressional Elections",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -134,16 +145,77 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.98295,
-        "range_today": 0.00126,
-        "range_vs_adr": 0.227,
+        "price": 0.98237,
+        "range_today": 0.00331,
+        "range_vs_adr": 0.62,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T13:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Press Conference",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T01:30:00+09:00",
+            "window_end_jst": "2026-11-03T15:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-04T01:00:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-11-03T13:00:00+09:00",
+            "window_end_jst": "2026-11-04T03:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -163,11 +235,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.83348,
-        "range_today": 0.00049,
-        "range_vs_adr": 0.154,
+        "price": 0.83359,
+        "range_today": 0.00067,
+        "range_vs_adr": 0.207,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -193,15 +265,26 @@
       "regime": "caution",
       "intraday": {
         "price": 1.11613,
-        "range_today": 0.00097,
-        "range_vs_adr": 0.147,
+        "range_today": 0.00087,
+        "range_vs_adr": 0.13,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-04T00:16:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Congressional Elections",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -221,16 +304,39 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.39791,
-        "range_today": 0.00184,
-        "range_vs_adr": 0.274,
+        "price": 1.39703,
+        "range_today": 0.00404,
+        "range_vs_adr": 0.602,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-04T00:16:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Congressional Elections",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-04T01:00:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-11-03T13:00:00+09:00",
+            "window_end_jst": "2026-11-04T03:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -250,24 +356,33 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.567,
-        "range_today": 0.131,
-        "range_vs_adr": 0.162,
+        "price": 157.498,
+        "range_today": 0.363,
+        "range_vs_adr": 0.453,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-04T00:16:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Congressional Elections",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "hold:weekend_approach"
-        ],
-        "vr_hold_check": true
+        "reasons": [],
+        "vr_hold_check": false
       }
     },
     "XAUUSD": {
@@ -282,16 +397,27 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3875.04,
-        "range_today": 15.2,
-        "range_vs_adr": 0.224,
+        "price": 3875.35,
+        "range_today": 0.62,
+        "range_vs_adr": 0.009,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-04T00:16:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Congressional Elections",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -311,16 +437,85 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.24889,
-        "range_today": 0.00116,
-        "range_vs_adr": 0.162,
+        "price": 1.24848,
+        "range_today": 0.00294,
+        "range_vs_adr": 0.409,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T13:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Press Conference",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T01:30:00+09:00",
+            "window_end_jst": "2026-11-03T15:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-04T06:45:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Employment Change q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-04T06:45:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
@@ -342,16 +537,75 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70319,
-        "range_today": 0.00061,
-        "range_vs_adr": 0.138,
+        "price": 0.70323,
+        "range_today": 0.00091,
+        "range_vs_adr": 0.214,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T13:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Press Conference",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T01:30:00+09:00",
+            "window_end_jst": "2026-11-03T15:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-04T00:16:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Congressional Elections",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -371,16 +625,65 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.58723,
-        "range_today": 0.00212,
-        "range_vs_adr": 0.213,
+        "price": 1.5871,
+        "range_today": 0.00228,
+        "range_vs_adr": 0.229,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-03T13:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Press Conference",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T01:30:00+09:00",
+            "window_end_jst": "2026-11-03T15:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -400,16 +703,37 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.98196,
-        "range_today": 0.00163,
-        "range_vs_adr": 0.138,
+        "price": 1.98163,
+        "range_today": 0.00323,
+        "range_vs_adr": 0.275,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-04T06:45:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Employment Change q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-04T06:45:00+09:00",
+            "currency": "NZD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -429,16 +753,29 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56021,
-        "range_today": 0.00214,
-        "range_vs_adr": 0.271,
+        "price": 1.55924,
+        "range_today": 0.00447,
+        "range_vs_adr": 0.556,
         "spike_flag": false,
-        "updated_at": "2026-10-31T05:59:10+09:00"
+        "updated_at": "2026-11-02T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-04T01:00:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-11-03T13:00:00+09:00",
+            "window_end_jst": "2026-11-04T03:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
