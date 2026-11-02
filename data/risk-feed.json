@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-02T07:20:29+09:00",
-    "generated_intraday": "2026-11-03T00:27:14+09:00",
-    "generated_calendar": "2026-11-03T00:27:14+09:00",
+    "generated_intraday": "2026-11-03T00:32:13+09:00",
+    "generated_calendar": "2026-11-03T00:32:13+09:00",
     "session_date": "2026-10-30",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -79,17 +79,17 @@
     "dxy": {
       "value": 101.64,
       "change": -0.24,
-      "change_pct": -0.24
+      "change_pct": -0.23
     },
     "us10y": {
-      "value": 4.884,
-      "change": -0.045,
-      "change_pct": -0.91
+      "value": 4.896,
+      "change": -0.033,
+      "change_pct": -0.67
     },
     "vix": {
-      "value": 18.81,
-      "change": -0.61,
-      "change_pct": -3.14
+      "value": 18.24,
+      "change": -1.18,
+      "change_pct": -6.08
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 211.819,
+        "price": 211.719,
         "range_today": 1.323,
         "range_vs_adr": 1.104,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -145,15 +145,49 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.97955,
+        "price": 0.97958,
         "range_today": 0.00652,
         "range_vs_adr": 1.221,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-11-03T12:30:00+09:00",
@@ -218,9 +252,13 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Cash Rate",
+          "event:RBA Monetary Policy Statement",
+          "event:RBA Rate Statement"
+        ]
       }
     },
     "EURGBP": {
@@ -235,11 +273,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.8349,
+        "price": 0.8347,
         "range_today": 0.00328,
         "range_vs_adr": 1.012,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -264,11 +302,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.12079,
+        "price": 1.12036,
         "range_today": 0.00854,
         "range_vs_adr": 1.28,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -304,11 +342,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.39589,
+        "price": 1.39604,
         "range_today": 0.00484,
         "range_vs_adr": 0.721,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -335,6 +373,18 @@
             "window_start_jst": "2026-11-03T13:00:00+09:00",
             "window_end_jst": "2026-11-04T03:00:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-05T00:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-11-04T12:30:00+09:00",
+            "window_end_jst": "2026-11-05T01:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -356,11 +406,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 157.779,
+        "price": 157.762,
         "range_today": 0.565,
         "range_vs_adr": 0.705,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -397,11 +447,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3957.25,
+        "price": 3954.06,
         "range_today": 101.63,
         "range_vs_adr": 1.437,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -437,15 +487,49 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.2456,
+        "price": 1.24613,
         "range_today": 0.0075,
         "range_vs_adr": 1.043,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-11-03T12:30:00+09:00",
@@ -521,7 +605,10 @@
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
-          "regime:extreme"
+          "regime:extreme",
+          "event:Cash Rate",
+          "event:RBA Monetary Policy Statement",
+          "event:RBA Rate Statement"
         ]
       }
     },
@@ -537,15 +624,49 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.70178,
+        "price": 0.70174,
         "range_today": 0.00385,
         "range_vs_adr": 0.904,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-11-03T12:30:00+09:00",
@@ -608,9 +729,13 @@
         ]
       },
       "flags": {
-        "no_new_grid": false,
+        "no_new_grid": true,
         "halt_all_new": false,
-        "reasons": []
+        "reasons": [
+          "event:Cash Rate",
+          "event:RBA Monetary Policy Statement",
+          "event:RBA Rate Statement"
+        ]
       }
     },
     "EURAUD": {
@@ -625,15 +750,49 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.59714,
+        "price": 1.59641,
         "range_today": 0.01584,
         "range_vs_adr": 1.589,
         "spike_flag": true,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
-        "in_event_window": false,
-        "active": [],
+        "in_event_window": true,
+        "active": [
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "Cash Rate",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Monetary Policy Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-03T12:30:00+09:00",
+            "currency": "AUD",
+            "impact": "High",
+            "title": "RBA Rate Statement",
+            "types": [
+              "rba"
+            ],
+            "window_start_jst": "2026-11-03T00:30:00+09:00",
+            "window_end_jst": "2026-11-03T14:30:00+09:00"
+          }
+        ],
         "next_48h": [
           {
             "time_jst": "2026-11-03T12:30:00+09:00",
@@ -689,7 +848,10 @@
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
-          "spike:range_vs_adr"
+          "spike:range_vs_adr",
+          "event:Cash Rate",
+          "event:RBA Monetary Policy Statement",
+          "event:RBA Rate Statement"
         ]
       }
     },
@@ -705,11 +867,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.98934,
+        "price": 1.98964,
         "range_today": 0.01606,
         "range_vs_adr": 1.366,
         "spike_flag": false,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -755,11 +917,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56444,
+        "price": 1.56396,
         "range_today": 0.01278,
         "range_vs_adr": 1.59,
         "spike_flag": true,
-        "updated_at": "2026-11-03T00:27:14+09:00"
+        "updated_at": "2026-11-03T00:32:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -775,6 +937,18 @@
             ],
             "window_start_jst": "2026-11-03T13:00:00+09:00",
             "window_end_jst": "2026-11-04T03:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-05T00:30:00+09:00",
+            "currency": "USD",
+            "impact": "Low",
+            "title": "Crude Oil Inventories",
+            "types": [
+              "oil"
+            ],
+            "window_start_jst": "2026-11-04T12:30:00+09:00",
+            "window_end_jst": "2026-11-05T01:30:00+09:00",
             "gating": true
           }
         ]
