@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-04T07:20:30+09:00",
-    "generated_intraday": "2026-11-04T08:43:42+09:00",
-    "generated_calendar": "2026-11-04T08:43:42+09:00",
+    "generated_intraday": "2026-11-04T08:54:12+09:00",
+    "generated_calendar": "2026-11-04T08:54:12+09:00",
     "session_date": "2026-11-03",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 212.877,
+        "price": 212.861,
         "range_today": 0.248,
         "range_vs_adr": 0.204,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -195,11 +195,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.97581,
+        "price": 0.97579,
         "range_today": 0.00149,
         "range_vs_adr": 0.268,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -237,11 +237,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83449,
+        "price": 0.83421,
         "range_today": 0.00121,
         "range_vs_adr": 0.382,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -339,11 +339,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11941,
-        "range_today": 0.00151,
-        "range_vs_adr": 0.237,
+        "price": 1.12054,
+        "range_today": 0.00212,
+        "range_vs_adr": 0.333,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -381,11 +381,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.40115,
-        "range_today": 0.00108,
-        "range_vs_adr": 0.168,
+        "price": 1.40025,
+        "range_today": 0.00123,
+        "range_vs_adr": 0.192,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -435,11 +435,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.691,
-        "range_today": 0.145,
-        "range_vs_adr": 0.179,
+        "price": 158.458,
+        "range_today": 0.307,
+        "range_vs_adr": 0.377,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -465,11 +465,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3928.11,
-        "range_today": 16.8,
-        "range_vs_adr": 0.229,
+        "price": 3935.35,
+        "range_today": 18.18,
+        "range_vs_adr": 0.248,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -494,37 +494,16 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.24548,
+        "price": 1.24541,
         "range_today": 0.00852,
         "range_vs_adr": 1.202,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-04T06:45:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Employment Change q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-11-04T06:45:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          }
-        ]
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": true,
@@ -546,11 +525,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69644,
+        "price": 0.69681,
         "range_today": 0.00103,
         "range_vs_adr": 0.238,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -575,11 +554,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.60747,
-        "range_today": 0.0031,
-        "range_vs_adr": 0.304,
+        "price": 1.6081,
+        "range_today": 0.00372,
+        "range_vs_adr": 0.364,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -617,36 +596,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 2.00212,
+        "price": 2.00287,
         "range_today": 0.0104,
         "range_vs_adr": 0.853,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-11-04T06:45:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Employment Change q/q",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
-          {
-            "time_jst": "2026-11-04T06:45:00+09:00",
-            "currency": "NZD",
-            "impact": "High",
-            "title": "Unemployment Rate",
-            "types": [],
-            "window_start_jst": null,
-            "window_end_jst": null,
-            "gating": false
-          },
           {
             "time_jst": "2026-11-06T03:00:00+09:00",
             "currency": "EUR",
@@ -679,11 +638,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56842,
-        "range_today": 0.0024,
-        "range_vs_adr": 0.294,
+        "price": 1.56913,
+        "range_today": 0.00264,
+        "range_vs_adr": 0.324,
         "spike_flag": false,
-        "updated_at": "2026-11-04T08:43:42+09:00"
+        "updated_at": "2026-11-04T08:54:12+09:00"
       },
       "events": {
         "in_event_window": false,
