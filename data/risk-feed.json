@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-03T12:28:03+09:00",
-    "generated_intraday": "2026-11-04T02:59:18+09:00",
-    "generated_calendar": "2026-11-04T02:59:18+09:00",
+    "generated_intraday": "2026-11-04T03:04:21+09:00",
+    "generated_calendar": "2026-11-04T03:04:21+09:00",
     "session_date": "2026-11-02",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.8,
-      "change": 0.05,
-      "change_pct": 0.05
+      "value": 101.81,
+      "change": 0.06,
+      "change_pct": 0.06
     },
     "us10y": {
       "value": 4.954,
@@ -87,9 +87,9 @@
       "change_pct": 1.23
     },
     "vix": {
-      "value": 20.94,
-      "change": -0.21,
-      "change_pct": -0.99
+      "value": 20.77,
+      "change": -0.38,
+      "change_pct": -1.8
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 212.717,
+        "price": 212.7,
         "range_today": 1.242,
         "range_vs_adr": 1.025,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -195,40 +195,16 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.9755,
+        "price": 0.97538,
         "range_today": 0.00732,
         "range_vs_adr": 1.363,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-04T01:00:00+09:00",
-            "currency": "CAD",
-            "impact": "Medium",
-            "title": "BOC Gov Macklem Speaks",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-11-03T13:00:00+09:00",
-            "window_end_jst": "2026-11-04T03:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-11-04T01:00:00+09:00",
-            "currency": "CAD",
-            "impact": "Medium",
-            "title": "BOC Gov Macklem Speaks",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-11-03T13:00:00+09:00",
-            "window_end_jst": "2026-11-04T03:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-11-06T00:30:00+09:00",
             "currency": "CAD",
@@ -244,11 +220,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOC Gov Macklem Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURGBP": {
@@ -263,11 +237,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.83419,
+        "price": 0.83423,
         "range_today": 0.00201,
         "range_vs_adr": 0.636,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -332,6 +306,18 @@
             "window_start_jst": "2026-11-05T15:30:00+09:00",
             "window_end_jst": "2026-11-05T22:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T03:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-05T21:00:00+09:00",
+            "window_end_jst": "2026-11-06T04:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -353,16 +339,29 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11955,
+        "price": 1.11953,
         "range_today": 0.00314,
         "range_vs_adr": 0.476,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-06T03:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-05T15:00:00+09:00",
+            "window_end_jst": "2026-11-06T05:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -382,40 +381,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.39929,
+        "price": 1.39934,
         "range_today": 0.00544,
         "range_vs_adr": 0.833,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-04T01:00:00+09:00",
-            "currency": "CAD",
-            "impact": "Medium",
-            "title": "BOC Gov Macklem Speaks",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-11-03T13:00:00+09:00",
-            "window_end_jst": "2026-11-04T03:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-11-04T01:00:00+09:00",
-            "currency": "CAD",
-            "impact": "Medium",
-            "title": "BOC Gov Macklem Speaks",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-11-03T13:00:00+09:00",
-            "window_end_jst": "2026-11-04T03:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-11-05T00:30:00+09:00",
             "currency": "USD",
@@ -443,11 +418,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOC Gov Macklem Speaks"
-        ]
+        "reasons": []
       }
     },
     "USDJPY": {
@@ -462,11 +435,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.497,
+        "price": 158.5,
         "range_today": 0.854,
         "range_vs_adr": 1.086,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -492,11 +465,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3933.55,
+        "price": 3932.29,
         "range_today": 72.99,
         "range_vs_adr": 0.992,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -521,11 +494,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.24118,
+        "price": 1.2414,
         "range_today": 0.00878,
         "range_vs_adr": 1.269,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -573,11 +546,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.69713,
+        "price": 0.69705,
         "range_today": 0.0043,
         "range_vs_adr": 1.012,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -602,16 +575,29 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.60585,
+        "price": 1.60608,
         "range_today": 0.01068,
         "range_vs_adr": 1.066,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-06T03:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-05T15:00:00+09:00",
+            "window_end_jst": "2026-11-06T05:00:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -631,11 +617,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.99323,
+        "price": 1.99378,
         "range_today": 0.01045,
         "range_vs_adr": 0.868,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -660,6 +646,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-11-06T03:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-05T15:00:00+09:00",
+            "window_end_jst": "2026-11-06T05:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -683,40 +681,16 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56658,
+        "price": 1.56659,
         "range_today": 0.00803,
         "range_vs_adr": 0.986,
         "spike_flag": false,
-        "updated_at": "2026-11-04T02:59:18+09:00"
+        "updated_at": "2026-11-04T03:04:21+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-04T01:00:00+09:00",
-            "currency": "CAD",
-            "impact": "Medium",
-            "title": "BOC Gov Macklem Speaks",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-11-03T13:00:00+09:00",
-            "window_end_jst": "2026-11-04T03:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-11-04T01:00:00+09:00",
-            "currency": "CAD",
-            "impact": "Medium",
-            "title": "BOC Gov Macklem Speaks",
-            "types": [
-              "boc"
-            ],
-            "window_start_jst": "2026-11-03T13:00:00+09:00",
-            "window_end_jst": "2026-11-04T03:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-11-05T00:30:00+09:00",
             "currency": "USD",
@@ -740,6 +714,18 @@
             "window_start_jst": "2026-11-05T12:30:00+09:00",
             "window_end_jst": "2026-11-06T02:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T03:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-05T15:00:00+09:00",
+            "window_end_jst": "2026-11-06T05:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -747,8 +733,7 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "regime:highvol",
-          "event:BOC Gov Macklem Speaks"
+          "regime:highvol"
         ]
       }
     }
