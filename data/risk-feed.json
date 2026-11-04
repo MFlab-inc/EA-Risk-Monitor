@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-04T11:20:21+09:00",
-    "generated_intraday": "2026-11-04T22:27:12+09:00",
-    "generated_calendar": "2026-11-04T22:27:12+09:00",
+    "generated_intraday": "2026-11-04T22:32:11+09:00",
+    "generated_calendar": "2026-11-04T22:32:11+09:00",
     "session_date": "2026-11-03",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.28,
-      "change": -0.59,
-      "change_pct": -0.58
+      "value": 101.26,
+      "change": -0.61,
+      "change_pct": -0.6
     },
     "us10y": {
       "value": 4.952,
@@ -87,9 +87,9 @@
       "change_pct": 1.19
     },
     "vix": {
-      "value": 18.52,
-      "change": -2.31,
-      "change_pct": -11.09
+      "value": 18.47,
+      "change": -2.36,
+      "change_pct": -11.33
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 213.638,
+        "price": 213.658,
         "range_today": 1.638,
         "range_vs_adr": 1.346,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -174,6 +174,42 @@
             "window_start_jst": "2026-11-05T09:30:00+09:00",
             "window_end_jst": "2026-11-05T23:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -195,11 +231,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.97782,
+        "price": 0.97775,
         "range_today": 0.00827,
         "range_vs_adr": 1.487,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -216,6 +252,30 @@
             "window_start_jst": "2026-11-05T12:30:00+09:00",
             "window_end_jst": "2026-11-06T02:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
@@ -237,11 +297,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83473,
+        "price": 0.83478,
         "range_today": 0.00241,
         "range_vs_adr": 0.76,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -339,11 +399,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.1265,
+        "price": 1.12668,
         "range_today": 0.00867,
         "range_vs_adr": 1.363,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -359,6 +419,42 @@
             ],
             "window_start_jst": "2026-11-05T15:00:00+09:00",
             "window_end_jst": "2026-11-06T05:00:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
             "gating": true
           }
         ]
@@ -381,11 +477,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.39353,
+        "price": 1.39339,
         "range_today": 0.00832,
         "range_vs_adr": 1.298,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -426,6 +522,66 @@
             "window_start_jst": "2026-11-05T12:30:00+09:00",
             "window_end_jst": "2026-11-06T02:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -449,16 +605,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.288,
+        "price": 158.301,
         "range_today": 1.334,
         "range_vs_adr": 1.641,
         "spike_flag": true,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
@@ -481,16 +674,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4037.29,
+        "price": 4038.32,
         "range_today": 132.89,
         "range_vs_adr": 1.815,
         "spike_flag": true,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
@@ -512,11 +742,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.24468,
+        "price": 1.24427,
         "range_today": 0.00852,
         "range_vs_adr": 1.202,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -543,16 +773,53 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.7017,
+        "price": 0.70171,
         "range_today": 0.00674,
         "range_vs_adr": 1.557,
         "spike_flag": true,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Average Hourly Earnings m/m",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Non-Farm Employment Change",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "us_jobs"
+            ],
+            "window_start_jst": "2026-11-06T10:30:00+09:00",
+            "window_end_jst": "2026-11-06T23:30:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
@@ -574,11 +841,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.6054,
+        "price": 1.60562,
         "range_today": 0.01479,
         "range_vs_adr": 1.449,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -616,11 +883,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.99853,
+        "price": 1.99785,
         "range_today": 0.01729,
         "range_vs_adr": 1.418,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -658,11 +925,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.56976,
+        "price": 1.5699,
         "range_today": 0.00503,
         "range_vs_adr": 0.616,
         "spike_flag": false,
-        "updated_at": "2026-11-04T22:27:12+09:00"
+        "updated_at": "2026-11-04T22:32:11+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -715,6 +982,30 @@
             "window_start_jst": "2026-11-05T15:00:00+09:00",
             "window_end_jst": "2026-11-06T05:00:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Employment Change",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-06T22:30:00+09:00",
+            "currency": "CAD",
+            "impact": "High",
+            "title": "Unemployment Rate",
+            "types": [
+              "ca_jobs"
+            ],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
