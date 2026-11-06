@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-06T11:26:29+09:00",
-    "generated_intraday": "2026-11-07T02:59:10+09:00",
-    "generated_calendar": "2026-11-07T02:59:10+09:00",
+    "generated_intraday": "2026-11-07T03:04:13+09:00",
+    "generated_calendar": "2026-11-07T03:04:13+09:00",
     "session_date": "2026-11-05",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 102.21,
-      "change": 0.66,
-      "change_pct": 0.65
+      "value": 102.24,
+      "change": 0.69,
+      "change_pct": 0.68
     },
     "us10y": {
       "value": 4.835,
@@ -87,9 +87,9 @@
       "change_pct": -0.04
     },
     "vix": {
-      "value": 25.56,
-      "change": -2.62,
-      "change_pct": -9.3
+      "value": 25.95,
+      "change": -2.23,
+      "change_pct": -7.91
     }
   },
   "pairs": {
@@ -105,48 +105,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 211.266,
-        "range_today": 1.256,
-        "range_vs_adr": 1.019,
+        "price": 211.227,
+        "range_today": 1.259,
+        "range_vs_adr": 1.021,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOJ Gov Ueda Speaks"
-        ]
+        "reasons": []
       }
     },
     "AUDCAD": {
@@ -161,48 +134,21 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.96927,
+        "price": 0.96917,
         "range_today": 0.00864,
         "range_vs_adr": 1.43,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:BOJ Gov Ueda Speaks"
-        ]
+        "reasons": []
       }
     },
     "EURGBP": {
@@ -217,11 +163,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83466,
+        "price": 0.83463,
         "range_today": 0.0029,
         "range_vs_adr": 0.915,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -246,11 +192,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.11443,
+        "price": 1.1147,
         "range_today": 0.01027,
         "range_vs_adr": 1.612,
         "spike_flag": true,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -277,11 +223,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.41276,
-        "range_today": 0.0131,
-        "range_vs_adr": 2.025,
+        "price": 1.41258,
+        "range_today": 0.01315,
+        "range_vs_adr": 2.032,
         "spike_flag": true,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -308,50 +254,23 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.231,
+        "price": 158.181,
         "range_today": 1.343,
         "range_vs_adr": 1.569,
         "spike_flag": true,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
           "spike:range_vs_adr",
-          "event:BOJ Gov Ueda Speaks",
-          "hold:weekend_approach",
-          "hold:boj_window:BOJ Gov Ueda Speaks"
+          "hold:weekend_approach"
         ],
         "vr_hold_check": true
       }
@@ -368,11 +287,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4059.3,
+        "price": 4062.39,
         "range_today": 87.23,
         "range_vs_adr": 1.118,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -397,11 +316,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.23812,
+        "price": 1.23806,
         "range_today": 0.00772,
         "range_vs_adr": 1.01,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -439,48 +358,22 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.68611,
+        "price": 0.68612,
         "range_today": 0.0092,
         "range_vs_adr": 1.957,
         "spike_flag": true,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-07T01:00:00+09:00",
-            "currency": "JPY",
-            "impact": "High",
-            "title": "BOJ Gov Ueda Speaks",
-            "types": [
-              "boj"
-            ],
-            "window_start_jst": "2026-11-06T01:00:00+09:00",
-            "window_end_jst": "2026-11-07T03:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
         "no_new_grid": true,
         "halt_all_new": true,
         "reasons": [
-          "spike:range_vs_adr",
-          "event:BOJ Gov Ueda Speaks"
+          "spike:range_vs_adr"
         ]
       }
     },
@@ -496,11 +389,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.62431,
+        "price": 1.62463,
         "range_today": 0.01374,
         "range_vs_adr": 1.204,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -525,11 +418,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 2.01101,
+        "price": 2.01125,
         "range_today": 0.01426,
         "range_vs_adr": 1.096,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -567,11 +460,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.57438,
+        "price": 1.57457,
         "range_today": 0.00776,
         "range_vs_adr": 0.962,
         "spike_flag": false,
-        "updated_at": "2026-11-07T02:59:10+09:00"
+        "updated_at": "2026-11-07T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
