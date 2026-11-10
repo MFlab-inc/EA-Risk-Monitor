@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-10T07:20:27+09:00",
-    "generated_intraday": "2026-11-10T10:27:11+09:00",
-    "generated_calendar": "2026-11-10T10:27:11+09:00",
+    "generated_intraday": "2026-11-10T10:32:12+09:00",
+    "generated_calendar": "2026-11-10T10:32:12+09:00",
     "session_date": "2026-11-09",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 101.66,
-      "change": -0.64,
-      "change_pct": -0.62
+      "value": 101.67,
+      "change": -0.63,
+      "change_pct": -0.61
     },
     "us10y": {
       "value": 4.864,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 212.44,
+        "price": 212.464,
         "range_today": 0.492,
         "range_vs_adr": 0.391,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -185,11 +185,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.97747,
+        "price": 0.97778,
         "range_today": 0.00245,
         "range_vs_adr": 0.388,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -214,11 +214,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83486,
+        "price": 0.83494,
         "range_today": 0.0005,
         "range_vs_adr": 0.16,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -256,11 +256,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.12238,
-        "range_today": 0.00098,
-        "range_vs_adr": 0.145,
+        "price": 1.12267,
+        "range_today": 0.00108,
+        "range_vs_adr": 0.16,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -275,6 +275,28 @@
             ],
             "window_start_jst": "2026-11-09T18:00:00+09:00",
             "window_end_jst": "2026-11-10T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -333,7 +355,9 @@
         "halt_all_new": false,
         "reasons": [
           "regime:highvol",
-          "event:FOMC Member Waller Speaks"
+          "event:FOMC Member Waller Speaks",
+          "event:Core CPI m/m",
+          "event:CPI m/m"
         ]
       }
     },
@@ -349,11 +373,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.41204,
+        "price": 1.41188,
         "range_today": 0.00192,
         "range_vs_adr": 0.284,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -430,11 +454,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.009,
+        "price": 158.011,
         "range_today": 0.396,
         "range_vs_adr": 0.441,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -449,6 +473,28 @@
             ],
             "window_start_jst": "2026-11-09T18:00:00+09:00",
             "window_end_jst": "2026-11-10T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -494,7 +540,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Waller Speaks"
+          "event:FOMC Member Waller Speaks",
+          "event:Core CPI m/m",
+          "event:CPI m/m"
         ],
         "vr_hold_check": false
       }
@@ -511,11 +559,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 4133.78,
+        "price": 4141.35,
         "range_today": 28.71,
         "range_vs_adr": 0.361,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -530,6 +578,28 @@
             ],
             "window_start_jst": "2026-11-09T18:00:00+09:00",
             "window_end_jst": "2026-11-10T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -575,7 +645,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Waller Speaks"
+          "event:FOMC Member Waller Speaks",
+          "event:Core CPI m/m",
+          "event:CPI m/m"
         ]
       }
     },
@@ -591,11 +663,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.22782,
-        "range_today": 0.00365,
-        "range_vs_adr": 0.447,
+        "price": 1.22763,
+        "range_today": 0.00394,
+        "range_vs_adr": 0.483,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -622,11 +694,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.69223,
+        "price": 0.69257,
         "range_today": 0.00173,
         "range_vs_adr": 0.337,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -641,6 +713,28 @@
             ],
             "window_start_jst": "2026-11-09T18:00:00+09:00",
             "window_end_jst": "2026-11-10T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-10T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "CPI m/m",
+            "types": [
+              "us_cpi"
+            ],
+            "window_start_jst": "2026-11-10T10:30:00+09:00",
+            "window_end_jst": "2026-11-10T23:30:00+09:00"
           }
         ],
         "next_48h": [
@@ -686,7 +780,9 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:FOMC Member Waller Speaks"
+          "event:FOMC Member Waller Speaks",
+          "event:Core CPI m/m",
+          "event:CPI m/m"
         ]
       }
     },
@@ -702,11 +798,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.62143,
+        "price": 1.62103,
         "range_today": 0.00392,
         "range_vs_adr": 0.331,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -744,11 +840,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.99093,
-        "range_today": 0.005,
-        "range_vs_adr": 0.363,
+        "price": 1.98984,
+        "range_today": 0.00568,
+        "range_vs_adr": 0.413,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -788,11 +884,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.5849,
+        "price": 1.58504,
         "range_today": 0.00191,
         "range_vs_adr": 0.227,
         "spike_flag": false,
-        "updated_at": "2026-11-10T10:27:11+09:00"
+        "updated_at": "2026-11-10T10:32:12+09:00"
       },
       "events": {
         "in_event_window": false,
