@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-16T07:20:28+09:00",
-    "generated_intraday": "2026-11-16T17:59:10+09:00",
-    "generated_calendar": "2026-11-16T17:59:10+09:00",
+    "generated_intraday": "2026-11-16T18:04:12+09:00",
+    "generated_calendar": "2026-11-16T18:04:12+09:00",
     "session_date": "2026-11-13",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 103.38,
-      "change": -0.03,
-      "change_pct": -0.03
+      "value": 103.36,
+      "change": -0.05,
+      "change_pct": -0.04
     },
     "us10y": {
       "value": 5.154,
@@ -87,9 +87,9 @@
       "change_pct": 1
     },
     "vix": {
-      "value": 19.88,
-      "change": 0.58,
-      "change_pct": 3.01
+      "value": 19.9,
+      "change": 0.6,
+      "change_pct": 3.11
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.79,
+        "price": 210.777,
         "range_today": 1.259,
         "range_vs_adr": 1.061,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -217,11 +217,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.96556,
+        "price": 0.96535,
         "range_today": 0.0055,
         "range_vs_adr": 0.859,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -289,11 +289,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83418,
+        "price": 0.83395,
         "range_today": 0.00132,
         "range_vs_adr": 0.439,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -322,6 +322,18 @@
             "window_start_jst": "2026-11-18T10:30:00+09:00",
             "window_end_jst": "2026-11-18T17:30:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-18T18:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB Financial Stability Review",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T12:00:00+09:00",
+            "window_end_jst": "2026-11-18T19:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -343,11 +355,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.10258,
+        "price": 1.10282,
         "range_today": 0.00225,
         "range_vs_adr": 0.336,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -396,6 +408,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-11-18T18:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB Financial Stability Review",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T06:00:00+09:00",
+            "window_end_jst": "2026-11-18T20:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -420,11 +444,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.42792,
+        "price": 1.42769,
         "range_today": 0.00299,
         "range_vs_adr": 0.453,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -527,11 +551,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.453,
+        "price": 159.392,
         "range_today": 0.77,
         "range_vs_adr": 0.839,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -604,11 +628,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3861.79,
+        "price": 3862.59,
         "range_today": 67.56,
         "range_vs_adr": 0.779,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -680,11 +704,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.22447,
+        "price": 1.22442,
         "range_today": 0.00516,
         "range_vs_adr": 0.669,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -734,11 +758,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.67622,
+        "price": 0.67623,
         "range_today": 0.0042,
         "range_vs_adr": 0.832,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -822,11 +846,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.6306,
+        "price": 1.63095,
         "range_today": 0.00952,
         "range_vs_adr": 0.852,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -842,6 +866,18 @@
             ],
             "window_start_jst": "2026-11-16T19:50:00+09:00",
             "window_end_jst": "2026-11-17T09:50:00+09:00",
+            "gating": true
+          },
+          {
+            "time_jst": "2026-11-18T18:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB Financial Stability Review",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T06:00:00+09:00",
+            "window_end_jst": "2026-11-18T20:00:00+09:00",
             "gating": true
           }
         ]
@@ -864,11 +900,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.99642,
+        "price": 1.99705,
         "range_today": 0.00904,
         "range_vs_adr": 0.692,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -883,6 +919,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-11-18T18:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB Financial Stability Review",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T06:00:00+09:00",
+            "window_end_jst": "2026-11-18T20:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -904,11 +952,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.57438,
-        "range_today": 0.0038,
-        "range_vs_adr": 0.443,
+        "price": 1.57452,
+        "range_today": 0.00402,
+        "range_vs_adr": 0.469,
         "spike_flag": false,
-        "updated_at": "2026-11-16T17:59:10+09:00"
+        "updated_at": "2026-11-16T18:04:12+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -943,6 +991,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-11-18T18:00:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB Financial Stability Review",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T06:00:00+09:00",
+            "window_end_jst": "2026-11-18T20:00:00+09:00",
+            "gating": true
           }
         ]
       },
