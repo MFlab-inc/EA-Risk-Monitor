@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-16T07:20:28+09:00",
-    "generated_intraday": "2026-11-17T02:59:12+09:00",
-    "generated_calendar": "2026-11-17T02:59:12+09:00",
+    "generated_intraday": "2026-11-17T03:04:13+09:00",
+    "generated_calendar": "2026-11-17T03:04:13+09:00",
     "session_date": "2026-11-13",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,19 +77,19 @@
   },
   "market": {
     "dxy": {
-      "value": 103.54,
-      "change": 0.13,
-      "change_pct": 0.13
+      "value": 103.55,
+      "change": 0.14,
+      "change_pct": 0.14
     },
     "us10y": {
-      "value": 5.139,
-      "change": -0.015,
-      "change_pct": -0.29
+      "value": 5.133,
+      "change": -0.021,
+      "change_pct": -0.41
     },
     "vix": {
-      "value": 21.74,
-      "change": 2.44,
-      "change_pct": 12.64
+      "value": 21.84,
+      "change": 2.54,
+      "change_pct": 13.16
     }
   },
   "pairs": {
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.425,
+        "price": 210.375,
         "range_today": 1.353,
         "range_vs_adr": 1.141,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -229,11 +229,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.9646,
+        "price": 0.96444,
         "range_today": 0.0055,
         "range_vs_adr": 0.859,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -285,11 +285,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83437,
+        "price": 0.83415,
         "range_today": 0.00147,
         "range_vs_adr": 0.488,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -375,11 +375,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.10044,
+        "price": 1.10036,
         "range_today": 0.0034,
         "range_vs_adr": 0.507,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -476,11 +476,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.42978,
+        "price": 1.42986,
         "range_today": 0.00605,
         "range_vs_adr": 0.917,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -565,11 +565,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.55,
+        "price": 159.481,
         "range_today": 0.77,
         "range_vs_adr": 0.839,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -642,11 +642,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3855.74,
+        "price": 3853.12,
         "range_today": 67.56,
         "range_vs_adr": 0.779,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -718,11 +718,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.22507,
+        "price": 1.22491,
         "range_today": 0.00516,
         "range_vs_adr": 0.669,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -761,6 +761,18 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-11-19T03:00:00+09:00",
+            "currency": "NZD",
+            "impact": "Medium",
+            "title": "RBNZ Gov Breman Speaks",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-11-18T15:00:00+09:00",
+            "window_end_jst": "2026-11-19T05:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -785,11 +797,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.67469,
+        "price": 0.67452,
         "range_today": 0.00499,
         "range_vs_adr": 0.988,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -885,11 +897,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.63106,
+        "price": 1.63142,
         "range_today": 0.0098,
         "range_vs_adr": 0.877,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -965,11 +977,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.99805,
+        "price": 1.99816,
         "range_today": 0.01219,
         "range_vs_adr": 0.933,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -1008,6 +1020,18 @@
             "window_start_jst": "2026-11-18T11:25:00+09:00",
             "window_end_jst": "2026-11-19T01:25:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-19T03:00:00+09:00",
+            "currency": "NZD",
+            "impact": "Medium",
+            "title": "RBNZ Gov Breman Speaks",
+            "types": [
+              "rbnz"
+            ],
+            "window_start_jst": "2026-11-18T15:00:00+09:00",
+            "window_end_jst": "2026-11-19T05:00:00+09:00",
+            "gating": true
           }
         ]
       },
@@ -1029,11 +1053,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.57336,
+        "price": 1.57329,
         "range_today": 0.00489,
         "range_vs_adr": 0.57,
         "spike_flag": false,
-        "updated_at": "2026-11-17T02:59:12+09:00"
+        "updated_at": "2026-11-17T03:04:13+09:00"
       },
       "events": {
         "in_event_window": false,
