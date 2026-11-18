@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-18T12:42:26+09:00",
-    "generated_intraday": "2026-11-19T05:59:09+09:00",
-    "generated_calendar": "2026-11-19T05:59:09+09:00",
+    "generated_intraday": "2026-11-19T06:04:10+09:00",
+    "generated_calendar": "2026-11-19T06:04:10+09:00",
     "session_date": "2026-11-17",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 103.79,
-      "change": 0.3,
-      "change_pct": 0.29
+      "value": 103.78,
+      "change": 0.29,
+      "change_pct": 0.28
     },
     "us10y": {
       "value": 5.066,
@@ -87,9 +87,9 @@
       "change_pct": -0.73
     },
     "vix": {
-      "value": 24.56,
-      "change": -0.9,
-      "change_pct": -3.53
+      "value": 24.63,
+      "change": -0.83,
+      "change_pct": -3.26
     }
   },
   "pairs": {
@@ -105,48 +105,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 209.495,
+        "price": 209.501,
         "range_today": 0.126,
         "range_vs_adr": 0.104,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:FOMC Meeting Minutes"
-        ]
+        "reasons": []
       }
     },
     "AUDCAD": {
@@ -161,11 +134,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.96219,
+        "price": 0.96201,
         "range_today": 0.00058,
         "range_vs_adr": 0.09,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -211,11 +184,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83475,
+        "price": 0.83459,
         "range_today": 0.0004,
         "range_vs_adr": 0.147,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -265,40 +238,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.09772,
+        "price": 1.09757,
         "range_today": 0.0013,
         "range_vs_adr": 0.199,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-11-19T22:30:00+09:00",
             "currency": "EUR",
@@ -326,11 +275,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:FOMC Meeting Minutes"
-        ]
+        "reasons": []
       }
     },
     "USDCAD": {
@@ -345,48 +292,21 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.43249,
+        "price": 1.43252,
         "range_today": 0.00109,
         "range_vs_adr": 0.171,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:FOMC Meeting Minutes"
-        ]
+        "reasons": []
       }
     },
     "USDJPY": {
@@ -401,48 +321,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.304,
+        "price": 159.295,
         "range_today": 0.107,
         "range_vs_adr": 0.117,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:FOMC Meeting Minutes"
-        ],
+        "reasons": [],
         "vr_hold_check": false
       }
     },
@@ -458,48 +351,21 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3729.2,
+        "price": 3725.56,
         "range_today": 12.23,
         "range_vs_adr": 0.139,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00"
-          }
-        ],
-        "next_48h": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00",
-            "gating": true
-          }
-        ]
+        "in_event_window": false,
+        "active": [],
+        "next_48h": []
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:FOMC Meeting Minutes"
-        ]
+        "reasons": []
       }
     },
     "AUDNZD": {
@@ -514,11 +380,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.22292,
+        "price": 1.22281,
         "range_today": 0.0005,
         "range_vs_adr": 0.065,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -566,40 +432,16 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.67168,
-        "range_today": 0.00064,
-        "range_vs_adr": 0.127,
+        "price": 0.67157,
+        "range_today": 0.00065,
+        "range_vs_adr": 0.129,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
-        "in_event_window": true,
-        "active": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00"
-          }
-        ],
+        "in_event_window": false,
+        "active": [],
         "next_48h": [
-          {
-            "time_jst": "2026-11-19T04:00:00+09:00",
-            "currency": "USD",
-            "impact": "High",
-            "title": "FOMC Meeting Minutes",
-            "types": [
-              "fomc"
-            ],
-            "window_start_jst": "2026-11-18T04:00:00+09:00",
-            "window_end_jst": "2026-11-19T06:00:00+09:00",
-            "gating": true
-          },
           {
             "time_jst": "2026-11-19T09:30:00+09:00",
             "currency": "AUD",
@@ -623,11 +465,9 @@
         ]
       },
       "flags": {
-        "no_new_grid": true,
+        "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "event:FOMC Meeting Minutes"
-        ]
+        "reasons": []
       }
     },
     "EURAUD": {
@@ -642,11 +482,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.63424,
+        "price": 1.63438,
         "range_today": 0.00137,
         "range_vs_adr": 0.125,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -716,11 +556,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 1.9986,
+        "price": 1.99851,
         "range_today": 0.00151,
         "range_vs_adr": 0.118,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -770,11 +610,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.5724,
+        "price": 1.57229,
         "range_today": 0.00165,
         "range_vs_adr": 0.205,
         "spike_flag": false,
-        "updated_at": "2026-11-19T05:59:09+09:00"
+        "updated_at": "2026-11-19T06:04:10+09:00"
       },
       "events": {
         "in_event_window": false,
