@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-18T07:20:29+09:00",
-    "generated_intraday": "2026-11-18T11:22:10+09:00",
-    "generated_calendar": "2026-11-18T11:22:10+09:00",
+    "generated_intraday": "2026-11-18T11:27:09+09:00",
+    "generated_calendar": "2026-11-18T11:27:09+09:00",
     "session_date": "2026-11-17",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -83,9 +83,9 @@
   },
   "market": {
     "dxy": {
-      "value": 103.62,
-      "change": 0.07,
-      "change_pct": 0.07
+      "value": 103.61,
+      "change": 0.06,
+      "change_pct": 0.06
     },
     "us10y": {
       "value": 5.103,
@@ -111,11 +111,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 210.581,
+        "price": 210.603,
         "range_today": 0.328,
         "range_vs_adr": 0.27,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -227,11 +227,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.96227,
+        "price": 0.9623,
         "range_today": 0.00261,
         "range_vs_adr": 0.407,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -277,11 +277,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83255,
+        "price": 0.83254,
         "range_today": 0.00138,
         "range_vs_adr": 0.507,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -393,11 +393,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.09954,
+        "price": 1.09939,
         "range_today": 0.0029,
         "range_vs_adr": 0.445,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -412,6 +412,17 @@
             ],
             "window_start_jst": "2026-11-18T06:00:00+09:00",
             "window_end_jst": "2026-11-18T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-18T23:25:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T11:25:00+09:00",
+            "window_end_jst": "2026-11-19T01:25:00+09:00"
           },
           {
             "time_jst": "2026-11-19T04:00:00+09:00",
@@ -481,6 +492,7 @@
         "halt_all_new": false,
         "reasons": [
           "event:ECB Financial Stability Review",
+          "event:ECB President Lagarde Speaks",
           "event:FOMC Meeting Minutes"
         ]
       }
@@ -497,11 +509,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.43047,
+        "price": 1.43068,
         "range_today": 0.00348,
         "range_vs_adr": 0.547,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -565,11 +577,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.446,
+        "price": 159.472,
         "range_today": 0.344,
         "range_vs_adr": 0.377,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -622,11 +634,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 3801.21,
+        "price": 3800.3,
         "range_today": 68.11,
         "range_vs_adr": 0.774,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -678,11 +690,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.224,
+        "price": 1.22393,
         "range_today": 0.00388,
         "range_vs_adr": 0.509,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -742,11 +754,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.67269,
+        "price": 0.67263,
         "range_today": 0.00196,
         "range_vs_adr": 0.382,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -818,11 +830,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.63446,
+        "price": 1.63452,
         "range_today": 0.00569,
         "range_vs_adr": 0.52,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -837,6 +849,17 @@
             ],
             "window_start_jst": "2026-11-18T06:00:00+09:00",
             "window_end_jst": "2026-11-18T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-18T23:25:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T11:25:00+09:00",
+            "window_end_jst": "2026-11-19T01:25:00+09:00"
           }
         ],
         "next_48h": [
@@ -902,7 +925,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ECB Financial Stability Review"
+          "event:ECB Financial Stability Review",
+          "event:ECB President Lagarde Speaks"
         ]
       }
     },
@@ -918,11 +942,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 2.00056,
+        "price": 2.00063,
         "range_today": 0.00821,
         "range_vs_adr": 0.638,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -937,6 +961,17 @@
             ],
             "window_start_jst": "2026-11-18T06:00:00+09:00",
             "window_end_jst": "2026-11-18T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-18T23:25:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T11:25:00+09:00",
+            "window_end_jst": "2026-11-19T01:25:00+09:00"
           }
         ],
         "next_48h": [
@@ -994,7 +1029,8 @@
         "no_new_grid": true,
         "halt_all_new": false,
         "reasons": [
-          "event:ECB Financial Stability Review"
+          "event:ECB Financial Stability Review",
+          "event:ECB President Lagarde Speaks"
         ]
       }
     },
@@ -1010,11 +1046,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 1.57289,
+        "price": 1.57292,
         "range_today": 0.00292,
         "range_vs_adr": 0.359,
         "spike_flag": false,
-        "updated_at": "2026-11-18T11:22:10+09:00"
+        "updated_at": "2026-11-18T11:27:09+09:00"
       },
       "events": {
         "in_event_window": true,
@@ -1029,6 +1065,17 @@
             ],
             "window_start_jst": "2026-11-18T06:00:00+09:00",
             "window_end_jst": "2026-11-18T20:00:00+09:00"
+          },
+          {
+            "time_jst": "2026-11-18T23:25:00+09:00",
+            "currency": "EUR",
+            "impact": "Medium",
+            "title": "ECB President Lagarde Speaks",
+            "types": [
+              "ecb"
+            ],
+            "window_start_jst": "2026-11-18T11:25:00+09:00",
+            "window_end_jst": "2026-11-19T01:25:00+09:00"
           }
         ],
         "next_48h": [
@@ -1087,7 +1134,8 @@
         "halt_all_new": false,
         "reasons": [
           "regime:highvol",
-          "event:ECB Financial Stability Review"
+          "event:ECB Financial Stability Review",
+          "event:ECB President Lagarde Speaks"
         ]
       }
     }
