@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-21T12:13:17+09:00",
-    "generated_intraday": "2026-11-21T06:59:10+09:00",
-    "generated_calendar": "2026-11-21T12:13:17+09:00",
+    "generated_intraday": "2026-11-23T07:04:11+09:00",
+    "generated_calendar": "2026-11-23T07:04:11+09:00",
     "session_date": "2026-11-20",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 103.84,
-      "change": -0.06,
-      "change_pct": -0.06
+      "value": 103.81,
+      "change": -0.09,
+      "change_pct": -0.09
     },
     "us10y": {
       "value": 4.912,
@@ -105,11 +105,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 207.471,
-        "range_today": 0.198,
-        "range_vs_adr": 0.163,
+        "price": 207.583,
+        "range_today": 0.35,
+        "range_vs_adr": 0.28,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -134,16 +134,29 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 0.94962,
-        "range_today": 0.00196,
-        "range_vs_adr": 0.295,
+        "price": 0.94933,
+        "range_today": 0.00181,
+        "range_vs_adr": 0.263,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-25T02:25:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-11-24T14:25:00+09:00",
+            "window_end_jst": "2026-11-25T04:25:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": true,
@@ -165,11 +178,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83813,
-        "range_today": 0.00043,
-        "range_vs_adr": 0.155,
+        "price": 0.83802,
+        "range_today": 0.00187,
+        "range_vs_adr": 0.663,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -194,11 +207,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.09665,
-        "range_today": 0.00095,
-        "range_vs_adr": 0.144,
+        "price": 1.09677,
+        "range_today": 0.00277,
+        "range_vs_adr": 0.419,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -223,16 +236,29 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.4351,
-        "range_today": 0.0026,
-        "range_vs_adr": 0.396,
+        "price": 1.4339,
+        "range_today": 0.00112,
+        "range_vs_adr": 0.17,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-25T02:25:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-11-24T14:25:00+09:00",
+            "window_end_jst": "2026-11-25T04:25:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -252,11 +278,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 158.561,
-        "range_today": 0.21,
-        "range_vs_adr": 0.242,
+        "price": 158.587,
+        "range_today": 0.245,
+        "range_vs_adr": 0.278,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -266,10 +292,8 @@
       "flags": {
         "no_new_grid": false,
         "halt_all_new": false,
-        "reasons": [
-          "hold:weekend_approach"
-        ],
-        "vr_hold_check": true
+        "reasons": [],
+        "vr_hold_check": false
       }
     },
     "XAUUSD": {
@@ -284,11 +308,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 3532.84,
-        "range_today": 29.62,
-        "range_vs_adr": 0.323,
+        "price": 3532.93,
+        "range_today": 0.39,
+        "range_vs_adr": 0.004,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -313,11 +337,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.21004,
-        "range_today": 0.00188,
-        "range_vs_adr": 0.231,
+        "price": 1.21026,
+        "range_today": 0.00524,
+        "range_vs_adr": 0.637,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -344,11 +368,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.66182,
-        "range_today": 0.0012,
-        "range_vs_adr": 0.229,
+        "price": 0.66208,
+        "range_today": 0.00119,
+        "range_vs_adr": 0.22,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -373,11 +397,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.65702,
-        "range_today": 0.00282,
-        "range_vs_adr": 0.253,
+        "price": 1.65687,
+        "range_today": 0.00447,
+        "range_vs_adr": 0.394,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -402,11 +426,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00515,
-        "range_today": 0.00353,
-        "range_vs_adr": 0.274,
+        "price": 2.0049,
+        "range_today": 0.01166,
+        "range_vs_adr": 0.91,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -431,16 +455,29 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.57372,
-        "range_today": 0.0019,
-        "range_vs_adr": 0.243,
+        "price": 1.57271,
+        "range_today": 0.00308,
+        "range_vs_adr": 0.399,
         "spike_flag": false,
-        "updated_at": "2026-11-21T06:59:10+09:00"
+        "updated_at": "2026-11-23T07:04:11+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-25T02:25:00+09:00",
+            "currency": "CAD",
+            "impact": "Medium",
+            "title": "BOC Gov Macklem Speaks",
+            "types": [
+              "boc"
+            ],
+            "window_start_jst": "2026-11-24T14:25:00+09:00",
+            "window_end_jst": "2026-11-25T04:25:00+09:00",
+            "gating": true
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
