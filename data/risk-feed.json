@@ -2,8 +2,8 @@
   "meta": {
     "schema_version": "1.0",
     "generated_daily": "2026-11-23T07:20:26+09:00",
-    "generated_intraday": "2026-11-23T22:27:11+09:00",
-    "generated_calendar": "2026-11-23T22:27:11+09:00",
+    "generated_intraday": "2026-11-23T22:32:17+09:00",
+    "generated_calendar": "2026-11-23T22:32:17+09:00",
     "session_date": "2026-11-20",
     "source": "twelvedata / yahoo(sentiment) / forexfactory(calendar)",
     "thresholds": {
@@ -77,9 +77,9 @@
   },
   "market": {
     "dxy": {
-      "value": 104.1,
-      "change": 0.29,
-      "change_pct": 0.27
+      "value": 104.02,
+      "change": 0.21,
+      "change_pct": 0.2
     },
     "us10y": {
       "value": 4.912,
@@ -87,9 +87,9 @@
       "change_pct": -2.77
     },
     "vix": {
-      "value": 30.92,
-      "change": -4.97,
-      "change_pct": -13.85
+      "value": 30.9,
+      "change": -4.99,
+      "change_pct": -13.9
     }
   },
   "pairs": {
@@ -105,16 +105,37 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 208.046,
+        "price": 207.964,
         "range_today": 1.861,
         "range_vs_adr": 1.488,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core PCE Price Index m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Prelim GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -134,11 +155,11 @@
       "percentile_window": 250,
       "regime": "highvol",
       "intraday": {
-        "price": 0.95024,
+        "price": 0.94989,
         "range_today": 0.00471,
         "range_vs_adr": 0.686,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -208,11 +229,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 0.83686,
+        "price": 0.83691,
         "range_today": 0.00354,
         "range_vs_adr": 1.255,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -237,16 +258,37 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.0945,
+        "price": 1.09448,
         "range_today": 0.00749,
         "range_vs_adr": 1.133,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core PCE Price Index m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Prelim GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -266,11 +308,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.43582,
+        "price": 1.43597,
         "range_today": 0.00559,
         "range_vs_adr": 0.85,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -287,6 +329,26 @@
             "window_start_jst": "2026-11-24T14:25:00+09:00",
             "window_end_jst": "2026-11-25T04:25:00+09:00",
             "gating": true
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core PCE Price Index m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Prelim GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
@@ -308,16 +370,37 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 159.076,
+        "price": 159.032,
         "range_today": 0.724,
         "range_vs_adr": 0.819,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core PCE Price Index m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Prelim GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -338,16 +421,37 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 3627.54,
+        "price": 3626.75,
         "range_today": 115.01,
         "range_vs_adr": 1.183,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
         "active": [],
-        "next_48h": []
+        "next_48h": [
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core PCE Price Index m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Prelim GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          }
+        ]
       },
       "flags": {
         "no_new_grid": false,
@@ -367,11 +471,11 @@
       "percentile_window": 250,
       "regime": "extreme",
       "intraday": {
-        "price": 1.21427,
+        "price": 1.21399,
         "range_today": 0.00884,
         "range_vs_adr": 1.075,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -429,11 +533,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 0.66182,
+        "price": 0.66146,
         "range_today": 0.00461,
         "range_vs_adr": 0.852,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -468,6 +572,26 @@
             "window_start_jst": null,
             "window_end_jst": null,
             "gating": false
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Core PCE Price Index m/m",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
+          },
+          {
+            "time_jst": "2026-11-25T22:30:00+09:00",
+            "currency": "USD",
+            "impact": "High",
+            "title": "Prelim GDP q/q",
+            "types": [],
+            "window_start_jst": null,
+            "window_end_jst": null,
+            "gating": false
           }
         ]
       },
@@ -489,11 +613,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.65366,
+        "price": 1.65452,
         "range_today": 0.01021,
         "range_vs_adr": 0.9,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -549,11 +673,11 @@
       "percentile_window": 250,
       "regime": "normal",
       "intraday": {
-        "price": 2.00798,
+        "price": 2.00872,
         "range_today": 0.01345,
         "range_vs_adr": 1.049,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
@@ -578,11 +702,11 @@
       "percentile_window": 250,
       "regime": "caution",
       "intraday": {
-        "price": 1.57141,
+        "price": 1.57168,
         "range_today": 0.00633,
         "range_vs_adr": 0.82,
         "spike_flag": false,
-        "updated_at": "2026-11-23T22:27:11+09:00"
+        "updated_at": "2026-11-23T22:32:17+09:00"
       },
       "events": {
         "in_event_window": false,
